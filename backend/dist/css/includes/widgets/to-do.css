@@ -1,0 +1,58 @@
+/*******************/
+/*To do widgets*/
+/*******************/
+/* line 6, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li {
+  border: 0px;
+  margin-bottom: 0px;
+  padding: 20px 15px 15px 0px;
+}
+/* line 10, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li .custom-checkbox {
+  width: 100%;
+}
+/* line 12, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li .custom-checkbox label {
+  font-weight: 400;
+  width: 100%;
+}
+/* line 16, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li .custom-checkbox label span:first-child {
+  width: 70%;
+  display: inline-block;
+  line-height: 25px;
+}
+/* line 24, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li:last-child {
+  border-bottom: 0px;
+}
+/* line 27, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li .assignedto {
+  padding: 0px 0 0 30px;
+  margin: 0px;
+}
+/* line 30, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li .assignedto li {
+  list-style: none;
+  padding: 0px;
+  display: inline-block;
+  border: 0px;
+  margin-right: 2px;
+}
+/* line 36, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li .assignedto li img {
+  width: 30px;
+  border-radius: 100%;
+}
+/* line 42, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li .item-date {
+  padding-left: 30px;
+  font-size: 12px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+/* line 51, ../../../scss/includes/widgets/to-do.scss */
+.list-task .task-done span {
+  text-decoration: line-through;
+}

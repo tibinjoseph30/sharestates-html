@@ -1,0 +1,533 @@
+/* line 1, ../../scss/includes/sprite.scss */
+.icons {
+  display: inline-block;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+/* line 10, ../../scss/includes/sprite.scss */
+.icons > img {
+  object-fit: none;
+  object-position: 0 0;
+  width: 32px;
+  height: 32px;
+}
+/* line 16, ../../scss/includes/sprite.scss */
+.icons > img.bg-active_insti_investor {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -10px -10px;
+}
+/* line 20, ../../scss/includes/sprite.scss */
+.icons > img.bg-active_individual_investor {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -62px -10px;
+}
+/* line 24, ../../scss/includes/sprite.scss */
+.icons > img.bg-active_for_investor {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -10px -62px;
+}
+/* line 28, ../../scss/includes/sprite.scss */
+.icons > img.bg-borrowers_icon {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -62px -62px;
+}
+/* line 32, ../../scss/includes/sprite.scss */
+.icons > img.bg-warehouse_icon {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -114px -10px;
+}
+/* line 36, ../../scss/includes/sprite.scss */
+.icons > img.bg-vendor_icon {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -114px -62px;
+}
+/* line 40, ../../scss/includes/sprite.scss */
+.icons > img.bg-total_investor {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -10px -114px;
+}
+/* line 44, ../../scss/includes/sprite.scss */
+.icons > img.bg-investor_icon {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -62px -114px;
+}
+/* line 48, ../../scss/includes/sprite.scss */
+.icons > img.bg-investor_brokers_icon {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -114px -114px;
+}
+/* line 52, ../../scss/includes/sprite.scss */
+.icons > img.bg-active_investors {
+  width: 32px;
+  height: 27px;
+  background: url("css_sprites.png") -478px -215px;
+}
+/* line 56, ../../scss/includes/sprite.scss */
+.icons > img.bg-calander {
+  width: 32px;
+  height: 29px;
+  object-position: -478px -166px;
+}
+/* line 60, ../../scss/includes/sprite.scss */
+.icons > img.bg-icon_hand_3 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -166px -10px;
+}
+/* line 64, ../../scss/includes/sprite.scss */
+.icons > img.bg-new_icon_1 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -166px -62px;
+}
+/* line 68, ../../scss/includes/sprite.scss */
+.icons > img.bg-new_icon_2 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -166px -114px;
+}
+/* line 72, ../../scss/includes/sprite.scss */
+.icons > img.bg-new_icon_3 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -10px -166px;
+}
+/* line 76, ../../scss/includes/sprite.scss */
+.icons > img.bg-new_icon_4 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -62px -166px;
+}
+/* line 80, ../../scss/includes/sprite.scss */
+.icons > img.bg-new_icon_5 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -114px -166px;
+}
+/* line 84, ../../scss/includes/sprite.scss */
+.icons > img.bg-new_icon_6 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -166px -166px;
+}
+/* line 88, ../../scss/includes/sprite.scss */
+.icons > img.bg-new_icon_7 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -218px -10px;
+}
+/* line 92, ../../scss/includes/sprite.scss */
+.icons > img.bg-new_icon_8 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -218px -62px;
+}
+/* line 96, ../../scss/includes/sprite.scss */
+.icons > img.bg-icon_hand_1 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -218px -114px;
+}
+/* line 100, ../../scss/includes/sprite.scss */
+.icons > img.bg-icon_hand_2 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -218px -166px;
+}
+/* line 104, ../../scss/includes/sprite.scss */
+.icons > img.bg-borrowers1_icon {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -10px -218px;
+}
+/* line 108, ../../scss/includes/sprite.scss */
+.icons > img.bg-borrowers2_icon {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -62px -218px;
+}
+/* line 112, ../../scss/includes/sprite.scss */
+.icons > img.bg-inactive_investors {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -114px -218px;
+}
+/* line 116, ../../scss/includes/sprite.scss */
+.icons > img.bg-loans {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -166px -218px;
+}
+/* line 120, ../../scss/includes/sprite.scss */
+.icons > img.bg-actions_delete {
+  width: 32px;
+  height: 32px;
+  object-position: -218px -218px;
+}
+/* line 124, ../../scss/includes/sprite.scss */
+.icons > img.bg-actions_download {
+  width: 32px;
+  height: 32px;
+  object-position: -270px -10px;
+}
+/* line 128, ../../scss/includes/sprite.scss */
+.icons > img.bg-actions_log {
+  width: 32px;
+  height: 32px;
+  object-position: -268px -62px;
+}
+/* line 132, ../../scss/includes/sprite.scss */
+.icons > img.bg-actions_ST {
+  width: 32px;
+  height: 32px;
+  object-position: -270px -114px;
+}
+/* line 136, ../../scss/includes/sprite.scss */
+.icons > img.bg-actions_TS {
+  width: 32px;
+  height: 32px;
+  object-position: -270px -166px;
+}
+/* line 140, ../../scss/includes/sprite.scss */
+.icons > img.bg-actions_view {
+  width: 32px;
+  height: 32px;
+  object-position: -270px -218px;
+}
+/* line 144, ../../scss/includes/sprite.scss */
+.icons > img.bg-add_pipeline {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -10px -270px;
+}
+/* line 148, ../../scss/includes/sprite.scss */
+.icons > img.bg-addendum {
+  width: 32px;
+  height: 32px;
+  object-position: -62px -270px;
+}
+/* line 152, ../../scss/includes/sprite.scss */
+.icons > img.bg-appraisal {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -114px -270px;
+}
+/* line 156, ../../scss/includes/sprite.scss */
+.icons > img.bg-appraisal_application {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -166px -270px;
+}
+/* line 160, ../../scss/includes/sprite.scss */
+.icons > img.bg-appraisal_invoice {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -218px -270px;
+}
+/* line 164, ../../scss/includes/sprite.scss */
+.icons > img.bg-approved_plans {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -270px -270px;
+}
+/* line 168, ../../scss/includes/sprite.scss */
+.icons > img.bg-bg_check {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -322px -10px;
+}
+/* line 172, ../../scss/includes/sprite.scss */
+.icons > img.bg-article {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -322px -62px;
+}
+/* line 176, ../../scss/includes/sprite.scss */
+.icons > img.bg-borrower_identity {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -322px -114px;
+}
+/* line 180, ../../scss/includes/sprite.scss */
+.icons > img.bg-borrower_record {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -322px -166px;
+}
+/* line 184, ../../scss/includes/sprite.scss */
+.icons > img.bg-bridge_loans {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -322px -218px;
+}
+/* line 188, ../../scss/includes/sprite.scss */
+.icons > img.bg-collapse {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -322px -270px;
+}
+/* line 192, ../../scss/includes/sprite.scss */
+.icons > img.bg-credit_card_authorization {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -10px -322px;
+}
+/* line 196, ../../scss/includes/sprite.scss */
+.icons > img.bg-credit_card_deposit {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -62px -322px;
+}
+/* line 200, ../../scss/includes/sprite.scss */
+.icons > img.bg-credit_report {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -114px -322px;
+}
+/* line 204, ../../scss/includes/sprite.scss */
+.icons > img.bg-executed_termsheet {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -166px -322px;
+}
+/* line 208, ../../scss/includes/sprite.scss */
+.icons > img.bg-filing_receipt {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -218px -322px;
+}
+/* line 212, ../../scss/includes/sprite.scss */
+.icons > img.bg-filter_doc_1 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -270px -322px;
+}
+/* line 216, ../../scss/includes/sprite.scss */
+.icons > img.bg-disclosure_sheet {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -322px -322px;
+}
+/* line 220, ../../scss/includes/sprite.scss */
+.icons > img.bg-expand {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -374px -10px;
+}
+/* line 224, ../../scss/includes/sprite.scss */
+.icons > img.bg-filter_doc_2 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -374px -62px;
+}
+/* line 228, ../../scss/includes/sprite.scss */
+.icons > img.bg-filter_doc_3 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -374px -114px;
+}
+/* line 232, ../../scss/includes/sprite.scss */
+.icons > img.bg-filter_doc_4 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -374px -166px;
+}
+/* line 236, ../../scss/includes/sprite.scss */
+.icons > img.bg-filter_doc_5 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -374px -218px;
+}
+/* line 240, ../../scss/includes/sprite.scss */
+.icons > img.bg-filter_doc_6 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -374px -270px;
+}
+/* line 244, ../../scss/includes/sprite.scss */
+.icons > img.bg-filter_doc_7 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -374px -322px;
+}
+/* line 248, ../../scss/includes/sprite.scss */
+.icons > img.bg-filter_doc_8 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -10px -374px;
+}
+/* line 252, ../../scss/includes/sprite.scss */
+.icons > img.bg-general_authorization {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -62px -374px;
+}
+/* line 256, ../../scss/includes/sprite.scss */
+.icons > img.bg-hazard_insurance {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -114px -374px;
+}
+/* line 260, ../../scss/includes/sprite.scss */
+.icons > img.bg-hazard_insurance1 {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -166px -374px;
+}
+/* line 264, ../../scss/includes/sprite.scss */
+.icons > img.bg-jumbo_bridge_loans {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -218px -374px;
+}
+/* line 268, ../../scss/includes/sprite.scss */
+.icons > img.bg-left_nav_loan_pipeline {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -270px -374px;
+}
+/* line 272, ../../scss/includes/sprite.scss */
+.icons > img.bg-lender_policy {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -322px -374px;
+}
+/* line 276, ../../scss/includes/sprite.scss */
+.icons > img.bg-midterm_loans {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -374px -374px;
+}
+/* line 280, ../../scss/includes/sprite.scss */
+.icons > img.bg-npl {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -426px -10px;
+}
+/* line 284, ../../scss/includes/sprite.scss */
+.icons > img.bg-owner_policy {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -426px -62px;
+}
+/* line 288, ../../scss/includes/sprite.scss */
+.icons > img.bg-portfolio_midterm {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -426px -114px;
+}
+/* line 292, ../../scss/includes/sprite.scss */
+.icons > img.bg-preliminary {
+  width: 32px;
+  height: 32px;
+  object-position: -426px -166px;
+}
+/* line 297, ../../scss/includes/sprite.scss */
+.icons > img.bg-proof_funds {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -426px -218px;
+}
+/* line 301, ../../scss/includes/sprite.scss */
+.icons > img.bg-purchase_contract {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -426px -270px;
+}
+/* line 305, ../../scss/includes/sprite.scss */
+.icons > img.bg-rehab_budget {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -426px -322px;
+}
+/* line 309, ../../scss/includes/sprite.scss */
+.icons > img.bg-seller_entity_docs {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -426px -374px;
+}
+/* line 313, ../../scss/includes/sprite.scss */
+.icons > img.bg-residential_long_term {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -10px -426px;
+}
+/* line 317, ../../scss/includes/sprite.scss */
+.icons > img.bg-settlement_insurance {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -62px -426px;
+}
+/* line 321, ../../scss/includes/sprite.scss */
+.icons > img.bg-share_line {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -114px -426px;
+}
+/* line 325, ../../scss/includes/sprite.scss */
+.icons > img.bg-survey {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -166px -426px;
+}
+/* line 329, ../../scss/includes/sprite.scss */
+.icons > img.bg-survey_invoice {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -218px -426px;
+}
+/* line 333, ../../scss/includes/sprite.scss */
+.icons > img.bg-termsheet {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -270px -426px;
+}
+/* line 337, ../../scss/includes/sprite.scss */
+.icons > img.bg-title_abstract {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -322px -426px;
+}
+/* line 341, ../../scss/includes/sprite.scss */
+.icons > img.bg-title_application {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -374px -426px;
+}
+/* line 345, ../../scss/includes/sprite.scss */
+.icons > img.bg-ach_form {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -426px -426px;
+}
+/* line 349, ../../scss/includes/sprite.scss */
+.icons > img.bg-total_loans {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -478px -10px;
+}
+/* line 353, ../../scss/includes/sprite.scss */
+.icons > img.bg-title_policy {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -478px -62px;
+}
+/* line 357, ../../scss/includes/sprite.scss */
+.icons > img.bg-title_report {
+  width: 32px;
+  height: 32px;
+  background: url("css_sprites.png") -478px -114px;
+}

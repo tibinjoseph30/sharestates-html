@@ -1,0 +1,120 @@
+/*
+
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*******************
+Contact app Page
+******************/
+/*left-aside-column*/
+/* line 17, ../../../scss/includes/pages/contact-app-page.scss */
+.contact-page-aside {
+  position: relative;
+}
+
+/* line 21, ../../../scss/includes/pages/contact-app-page.scss */
+.left-aside {
+  position: absolute;
+  border-right: 1px solid #e9ecef;
+  padding: 20px;
+  width: 250px;
+  height: 100%;
+}
+
+/* line 30, ../../../scss/includes/pages/contact-app-page.scss */
+.right-aside {
+  padding: 20px;
+  margin-left: 250px;
+}
+
+/* line 36, ../../../scss/includes/pages/contact-app-page.scss */
+.contact-list td {
+  vertical-align: middle;
+  padding: 25px 10px;
+}
+/* line 39, ../../../scss/includes/pages/contact-app-page.scss */
+.contact-list td img {
+  width: 30px;
+}
+
+/* line 45, ../../../scss/includes/pages/contact-app-page.scss */
+.list-style-none {
+  margin: 0px;
+  padding: 0px;
+}
+/* line 48, ../../../scss/includes/pages/contact-app-page.scss */
+.list-style-none li {
+  list-style: none;
+  margin: 0px;
+}
+/* line 51, ../../../scss/includes/pages/contact-app-page.scss */
+.list-style-none li.box-label a {
+  font-weight: 500;
+}
+/* line 54, ../../../scss/includes/pages/contact-app-page.scss */
+.list-style-none li.divider {
+  margin: 10px 0;
+  height: 1px;
+  background: #e9ecef;
+}
+/* line 59, ../../../scss/includes/pages/contact-app-page.scss */
+.list-style-none li a {
+  padding: 15px 10px;
+  display: block;
+  color: #212529;
+}
+/* line 63, ../../../scss/includes/pages/contact-app-page.scss */
+.list-style-none li a:hover {
+  color: #009efb;
+}
+/* line 66, ../../../scss/includes/pages/contact-app-page.scss */
+.list-style-none li a span {
+  float: right;
+}
+
+/* line 73, ../../../scss/includes/pages/contact-app-page.scss */
+.social-profile {
+  text-align: center;
+  background: rgba(7, 10, 43, 0.8);
+}
+
+/* line 81, ../../../scss/includes/pages/contact-app-page.scss */
+.profile-tab li a.nav-link,
+.customtab li a.nav-link {
+  border: 0px;
+  padding: 15px 20px;
+  color: #212529;
+}
+/* line 85, ../../../scss/includes/pages/contact-app-page.scss */
+.profile-tab li a.nav-link.active,
+.customtab li a.nav-link.active {
+  border-bottom: 2px solid #009efb;
+  color: #009efb;
+}
+/* line 89, ../../../scss/includes/pages/contact-app-page.scss */
+.profile-tab li a.nav-link:hover,
+.customtab li a.nav-link:hover {
+  color: #009efb;
+}

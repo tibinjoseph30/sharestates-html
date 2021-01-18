@@ -1,0 +1,70 @@
+/*
+
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*******************
+Email inbox Page
+******************/
+/* line 14, ../../../scss/includes/pages/inbox.scss */
+.inbox-panel .list-group .list-group-item {
+  border: 0px;
+  border-radius: 0px;
+  border-left: 3px solid transparent;
+}
+/* line 18, ../../../scss/includes/pages/inbox.scss */
+.inbox-panel .list-group .list-group-item a {
+  color: #212529;
+}
+/* line 21, ../../../scss/includes/pages/inbox.scss */
+.inbox-panel .list-group .list-group-item.active, .inbox-panel .list-group .list-group-item:hover {
+  background: #e9ecef;
+  border-left: 3px solid #009efb;
+}
+
+/* line 33, ../../../scss/includes/pages/inbox.scss */
+.inbox-center .unread td {
+  font-weight: 400;
+}
+/* line 36, ../../../scss/includes/pages/inbox.scss */
+.inbox-center td {
+  vertical-align: middle;
+  white-space: nowrap;
+}
+/* line 43, ../../../scss/includes/pages/inbox.scss */
+.inbox-center a {
+  color: #212529;
+  padding: 2px 0 3px 0;
+  overflow: hidden;
+  vertical-align: middle;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+}
+/* line 52, ../../../scss/includes/pages/inbox.scss */
+.inbox-center .checkbox {
+  margin-top: -13px;
+  height: 20px;
+}

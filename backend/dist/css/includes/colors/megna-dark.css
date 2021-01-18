@@ -1,0 +1,64 @@
+/* line 2, ../../../scss/includes/colors/megna-dark.scss */
+.skin-megna-dark {
+  /*Theme Colors*/
+}
+/* line 12, ../../../scss/includes/colors/megna-dark.scss */
+.skin-megna-dark .topbar {
+  background: #01c0c8;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #01c0c8 0%, #1f72a2 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #01c0c8 0%, #1f72a2 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #01c0c8 0%, #1f72a2 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+/* line 25, ../../../scss/includes/colors/megna-dark.scss */
+.skin-megna-dark .sidebar-nav ul li a.active, .skin-megna-dark .sidebar-nav ul li a:hover {
+  color: #01c0c8;
+}
+/* line 28, ../../../scss/includes/colors/megna-dark.scss */
+.skin-megna-dark .sidebar-nav ul li a.active i, .skin-megna-dark .sidebar-nav ul li a:hover i {
+  color: #01c0c8;
+}
+/* line 34, ../../../scss/includes/colors/megna-dark.scss */
+.skin-megna-dark .sidebar-nav > ul > li.selected > a {
+  color: #01c0c8;
+  border-left: 3px solid #01c0c8;
+}
+/* line 37, ../../../scss/includes/colors/megna-dark.scss */
+.skin-megna-dark .sidebar-nav > ul > li.selected > a i {
+  color: #01c0c8;
+}
+/* line 45, ../../../scss/includes/colors/megna-dark.scss */
+.skin-megna-dark .page-titles .breadcrumb .breadcrumb-item.active {
+  color: #01c0c8;
+}
+/* line 52, ../../../scss/includes/colors/megna-dark.scss */
+.skin-megna-dark .topbar .top-navbar .navbar-header .navbar-brand .dark-logo {
+  display: none;
+}
+/* line 55, ../../../scss/includes/colors/megna-dark.scss */
+.skin-megna-dark .topbar .top-navbar .navbar-header .navbar-brand .light-logo {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 60, ../../../scss/includes/colors/megna-dark.scss */
+.skin-megna-dark .left-sidebar {
+  background: #272c33;
+}
+/* line 63, ../../../scss/includes/colors/megna-dark.scss */
+.skin-megna-dark .left-sidebar .user-pro-body a.link {
+  color: #798699;
+}
+/* line 67, ../../../scss/includes/colors/megna-dark.scss */
+.skin-megna-dark .left-sidebar .nav-text-box {
+  border-color: transparent;
+  background: rgba(0, 0, 0, 0.3);
+}
+@media (min-width: 768px) {
+  /* line 73, ../../../scss/includes/colors/megna-dark.scss */
+  .skin-megna-dark.mini-sidebar .sidebar-nav #sidebarnav > li > ul, .skin-megna-dark.mini-sidebar .sidebar-nav #sidebarnav > li:hover > a {
+    background: #1f2023;
+  }
+}

@@ -1,0 +1,31 @@
+/* line 1, ../../../scss/includes/pages/register3.scss */
+#wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 6, ../../../scss/includes/pages/register3.scss */
+.register-box {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 2%;
+}
+/* line 10, ../../../scss/includes/pages/register3.scss */
+.register-box a {
+  display: block;
+}
+
+/* line 15, ../../../scss/includes/pages/register3.scss */
+.step-register {
+  position: absolute;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  /* line 21, ../../../scss/includes/pages/register3.scss */
+  #msform fieldset,
+  .login-register,
+  .step-register {
+    position: relative;
+  }
+}

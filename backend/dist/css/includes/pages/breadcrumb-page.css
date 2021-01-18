@@ -1,0 +1,49 @@
+/*
+
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*============================================================== 
+Breadcrumb
+============================================================== */
+/* line 13, ../../../scss/includes/pages/breadcrumb-page.scss */
+.bc-colored .breadcrumb-item,
+.bc-colored .breadcrumb-item a {
+  color: #fff;
+}
+/* line 16, ../../../scss/includes/pages/breadcrumb-page.scss */
+.bc-colored .breadcrumb-item.active,
+.bc-colored .breadcrumb-item a.active {
+  opacity: 0.7;
+}
+/* line 20, ../../../scss/includes/pages/breadcrumb-page.scss */
+.bc-colored .breadcrumb-item + .breadcrumb-item::before {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* line 25, ../../../scss/includes/pages/breadcrumb-page.scss */
+.breadcrumb {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,64 @@
+/* line 2, ../../../scss/includes/colors/purple-dark.scss */
+.skin-purple-dark {
+  /*Theme Colors*/
+}
+/* line 12, ../../../scss/includes/colors/purple-dark.scss */
+.skin-purple-dark .topbar {
+  background: #7460ee;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #533fd0 0%, #840fb5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #533fd0 0%, #840fb5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #533fd0 0%, #840fb5 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+/* line 25, ../../../scss/includes/colors/purple-dark.scss */
+.skin-purple-dark .sidebar-nav ul li a.active, .skin-purple-dark .sidebar-nav ul li a:hover {
+  color: #7460ee;
+}
+/* line 28, ../../../scss/includes/colors/purple-dark.scss */
+.skin-purple-dark .sidebar-nav ul li a.active i, .skin-purple-dark .sidebar-nav ul li a:hover i {
+  color: #7460ee;
+}
+/* line 34, ../../../scss/includes/colors/purple-dark.scss */
+.skin-purple-dark .sidebar-nav > ul > li.selected > a {
+  color: #7460ee;
+  border-left: 3px solid #7460ee;
+}
+/* line 37, ../../../scss/includes/colors/purple-dark.scss */
+.skin-purple-dark .sidebar-nav > ul > li.selected > a i {
+  color: #7460ee;
+}
+/* line 45, ../../../scss/includes/colors/purple-dark.scss */
+.skin-purple-dark .page-titles .breadcrumb .breadcrumb-item.active {
+  color: #7460ee;
+}
+/* line 52, ../../../scss/includes/colors/purple-dark.scss */
+.skin-purple-dark .topbar .top-navbar .navbar-header .navbar-brand .dark-logo {
+  display: none;
+}
+/* line 55, ../../../scss/includes/colors/purple-dark.scss */
+.skin-purple-dark .topbar .top-navbar .navbar-header .navbar-brand .light-logo {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 60, ../../../scss/includes/colors/purple-dark.scss */
+.skin-purple-dark .left-sidebar {
+  background: #272c33;
+}
+/* line 63, ../../../scss/includes/colors/purple-dark.scss */
+.skin-purple-dark .left-sidebar .user-pro-body a.link {
+  color: #798699;
+}
+/* line 67, ../../../scss/includes/colors/purple-dark.scss */
+.skin-purple-dark .left-sidebar .nav-text-box {
+  border-color: transparent;
+  background: rgba(0, 0, 0, 0.3);
+}
+@media (min-width: 768px) {
+  /* line 73, ../../../scss/includes/colors/purple-dark.scss */
+  .skin-purple-dark.mini-sidebar .sidebar-nav #sidebarnav > li > ul, .skin-purple-dark.mini-sidebar .sidebar-nav #sidebarnav > li:hover > a {
+    background: #1f2023;
+  }
+}

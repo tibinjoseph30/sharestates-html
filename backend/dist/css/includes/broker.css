@@ -1,0 +1,154 @@
+/* line 1, ../../scss/includes/broker.scss */
+.text-rose {
+  color: #d900b3;
+}
+
+/* line 5, ../../scss/includes/broker.scss */
+.text-dark-rose {
+  color: #b42ce6;
+}
+
+/* line 9, ../../scss/includes/broker.scss */
+.text-intigo {
+  color: #1317cf;
+}
+
+/* line 13, ../../scss/includes/broker.scss */
+.text-knight-blue {
+  color: #00a8ff !important;
+}
+
+/* line 17, ../../scss/includes/broker.scss */
+.text-knight-green {
+  color: #46e3b9 !important;
+}
+
+/* line 25, ../../scss/includes/broker.scss */
+.broker-portfolio .radio-button .form-group .icheck-list {
+  width: 100%;
+}
+/* line 31, ../../scss/includes/broker.scss */
+.broker-portfolio .button-reset {
+  background: #8193a9;
+  border-color: #8193a9;
+  height: 30px;
+  padding-top: 3px;
+}
+/* line 38, ../../scss/includes/broker.scss */
+.broker-portfolio .brd-right {
+  position: absolute;
+  top: 20px;
+  left: 30%;
+}
+@media (max-width: 992px) {
+  /* line 38, ../../scss/includes/broker.scss */
+  .broker-portfolio .brd-right {
+    left: 44%;
+  }
+}
+/* line 48, ../../scss/includes/broker.scss */
+.broker-portfolio .brd-left {
+  border-left: 1px solid #dedede;
+  position: absolute;
+  top: 20px;
+  left: 64%;
+  height: 124px;
+}
+@media (max-width: 992px) {
+  /* line 48, ../../scss/includes/broker.scss */
+  .broker-portfolio .brd-left {
+    display: none;
+  }
+}
+/* line 61, ../../scss/includes/broker.scss */
+.broker-portfolio .font-size h2 {
+  font-size: 26px;
+}
+/* line 65, ../../scss/includes/broker.scss */
+.broker-portfolio .font-size h5 {
+  font-size: 15px;
+  color: #2e5788;
+}
+/* line 70, ../../scss/includes/broker.scss */
+.broker-portfolio .font-size .volume {
+  font-weight: 600;
+}
+/* line 75, ../../scss/includes/broker.scss */
+.broker-portfolio .font-size .small-cards img {
+  width: 32px;
+}
+/* line 81, ../../scss/includes/broker.scss */
+.broker-portfolio .width-90 {
+  width: 90px;
+}
+@media (max-width: 1299px) {
+  /* line 81, ../../scss/includes/broker.scss */
+  .broker-portfolio .width-90 {
+    width: 60px;
+  }
+}
+@media (max-width: 992px) {
+  /* line 81, ../../scss/includes/broker.scss */
+  .broker-portfolio .width-90 {
+    width: 100%;
+  }
+}
+/* line 94, ../../scss/includes/broker.scss */
+.broker-portfolio .Routing h5 {
+  font-weight: 600;
+}
+/* line 100, ../../scss/includes/broker.scss */
+.broker-portfolio .Term-Sheet h6 {
+  font-size: 14px;
+}
+/* line 105, ../../scss/includes/broker.scss */
+.broker-portfolio .Term-Sheet .term-color {
+  background: #ededed;
+  padding: 3px 9px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+/* line 113, ../../scss/includes/broker.scss */
+.broker-portfolio .Term-Sheet .font-term-sheet h6 {
+  font-size: 11px;
+  color: #2d5687;
+}
+/* line 119, ../../scss/includes/broker.scss */
+.broker-portfolio .Term-Sheet .bg-gray {
+  background-color: #f2f4f6;
+}
+/* line 123, ../../scss/includes/broker.scss */
+.broker-portfolio .Term-Sheet .same-height {
+  min-height: 232px;
+}
+/* line 132, ../../scss/includes/broker.scss */
+.broker-portfolio .tab-color .customtab li a.nav-link.active {
+  color: #f59522 !important;
+  border-color: #f59522 !important;
+}
+/* line 145, ../../scss/includes/broker.scss */
+.broker-portfolio .table-bordered tbody tr td:first-child {
+  border-left: 2px solid #fff;
+}
+/* line 149, ../../scss/includes/broker.scss */
+.broker-portfolio .table-bordered tbody tr td:last-child {
+  border-right: 2px solid #fff;
+  white-space: pre;
+}
+/* line 159, ../../scss/includes/broker.scss */
+.broker-portfolio .table-bordered thead tr:first-child {
+  border-left: 2px solid #fff;
+}
+/* line 163, ../../scss/includes/broker.scss */
+.broker-portfolio .table-bordered thead tr:last-child {
+  border-right: 2px solid #fff;
+}
+/* line 170, ../../scss/includes/broker.scss */
+.broker-portfolio .no-padding {
+  overflow: hidden;
+}
+/* line 174, ../../scss/includes/broker.scss */
+.broker-portfolio .shadow-bg {
+  box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.3);
+  border: 1px solid #c1c1c12e;
+}

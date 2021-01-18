@@ -1,0 +1,45 @@
+/* line 2, ../../../scss/includes/colors/red.scss */
+.skin-red {
+  /*Theme Colors*/
+}
+/* line 8, ../../../scss/includes/colors/red.scss */
+.skin-red .topbar {
+  background: #f62d51;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #f62d51 0%, #660fb5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #f62d51 0%, #660fb5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #f62d51 0%, #660fb5 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+/* line 19, ../../../scss/includes/colors/red.scss */
+.skin-red .topbar .top-navbar .navbar-header .navbar-brand .dark-logo {
+  display: none;
+}
+/* line 22, ../../../scss/includes/colors/red.scss */
+.skin-red .topbar .top-navbar .navbar-header .navbar-brand .light-logo {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 30, ../../../scss/includes/colors/red.scss */
+.skin-red .sidebar-nav ul li a.active, .skin-red .sidebar-nav ul li a:hover {
+  color: #f62d51;
+}
+/* line 33, ../../../scss/includes/colors/red.scss */
+.skin-red .sidebar-nav ul li a.active i, .skin-red .sidebar-nav ul li a:hover i {
+  color: #f62d51;
+}
+/* line 39, ../../../scss/includes/colors/red.scss */
+.skin-red .sidebar-nav > ul > li.selected > a {
+  color: #f62d51;
+  border-left: 3px solid #f62d51;
+}
+/* line 42, ../../../scss/includes/colors/red.scss */
+.skin-red .sidebar-nav > ul > li.selected > a i {
+  color: #f62d51;
+}
+/* line 50, ../../../scss/includes/colors/red.scss */
+.skin-red .page-titles .breadcrumb .breadcrumb-item.active {
+  color: #f62d51;
+}

@@ -1,0 +1,45 @@
+/* line 2, ../../../scss/includes/colors/purple.scss */
+.skin-purple {
+  /*Theme Colors*/
+}
+/* line 8, ../../../scss/includes/colors/purple.scss */
+.skin-purple .topbar {
+  background: #7460ee;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #533fd0 0%, #840fb5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #533fd0 0%, #840fb5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #533fd0 0%, #840fb5 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+/* line 19, ../../../scss/includes/colors/purple.scss */
+.skin-purple .topbar .top-navbar .navbar-header .navbar-brand .dark-logo {
+  display: none;
+}
+/* line 22, ../../../scss/includes/colors/purple.scss */
+.skin-purple .topbar .top-navbar .navbar-header .navbar-brand .light-logo {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 30, ../../../scss/includes/colors/purple.scss */
+.skin-purple .sidebar-nav ul li a.active, .skin-purple .sidebar-nav ul li a:hover {
+  color: #7460ee;
+}
+/* line 33, ../../../scss/includes/colors/purple.scss */
+.skin-purple .sidebar-nav ul li a.active i, .skin-purple .sidebar-nav ul li a:hover i {
+  color: #7460ee;
+}
+/* line 39, ../../../scss/includes/colors/purple.scss */
+.skin-purple .sidebar-nav > ul > li.selected > a {
+  color: #7460ee;
+  border-left: 3px solid #7460ee;
+}
+/* line 42, ../../../scss/includes/colors/purple.scss */
+.skin-purple .sidebar-nav > ul > li.selected > a i {
+  color: #7460ee;
+}
+/* line 50, ../../../scss/includes/colors/purple.scss */
+.skin-purple .page-titles .breadcrumb .breadcrumb-item.active {
+  color: #7460ee;
+}

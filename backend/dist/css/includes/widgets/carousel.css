@@ -1,0 +1,23 @@
+/*******************/
+/*Vertical carousel*/
+/*******************/
+/* line 5, ../../../scss/includes/widgets/carousel.scss */
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 11, ../../../scss/includes/widgets/carousel.scss */
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100% 0);
+}
+
+/* line 17, ../../../scss/includes/widgets/carousel.scss */
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+}

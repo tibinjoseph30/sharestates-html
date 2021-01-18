@@ -1,0 +1,19 @@
+/*contact widgets*/
+/* line 2, ../../../scss/includes/widgets/contact.scss */
+.contact-box {
+  position: relative;
+}
+/* line 4, ../../../scss/includes/widgets/contact.scss */
+.contact-box .add-ct-btn {
+  position: absolute;
+  right: 4px;
+  top: -46px;
+}
+/* line 10, ../../../scss/includes/widgets/contact.scss */
+.contact-box .contact-widget > a {
+  padding: 15px 10px;
+}
+/* line 12, ../../../scss/includes/widgets/contact.scss */
+.contact-box .contact-widget > a .user-img {
+  margin-bottom: 0px !important;
+}

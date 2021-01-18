@@ -1,0 +1,113 @@
+/*
+
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*******************
+Form icheck
+******************/
+/* line 12, ../../../scss/includes/pages/form-icheck.scss */
+.icolors,
+.icheck-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* line 19, ../../../scss/includes/pages/form-icheck.scss */
+.icolors > li {
+  padding: 0;
+  margin: 2px;
+  float: left;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background: #343a40;
+  text-align: center;
+}
+
+/* line 30, ../../../scss/includes/pages/form-icheck.scss */
+.icolors > li.active:after {
+  content: "\2713 ";
+  color: #fff;
+  line-height: 30px;
+}
+
+/* line 36, ../../../scss/includes/pages/form-icheck.scss */
+.icolors > li:first-child {
+  margin-left: 0;
+}
+
+/* line 40, ../../../scss/includes/pages/form-icheck.scss */
+.icolors > li.orange {
+  background: #F59522;
+}
+
+/* line 44, ../../../scss/includes/pages/form-icheck.scss */
+.icolors > li.yellow {
+  background: #ff9c00;
+}
+
+/* line 48, ../../../scss/includes/pages/form-icheck.scss */
+.icolors > li.info {
+  background: #1969cb;
+}
+
+/* line 52, ../../../scss/includes/pages/form-icheck.scss */
+.icolors > li.green {
+  background: #30e356;
+}
+
+/* line 56, ../../../scss/includes/pages/form-icheck.scss */
+.icolors > li.red {
+  background: #f62d51;
+}
+
+/* line 60, ../../../scss/includes/pages/form-icheck.scss */
+.icolors > li.purple {
+  background: #b972da;
+}
+
+/* line 64, ../../../scss/includes/pages/form-icheck.scss */
+.icolors > li.blue {
+  background: #00ccf1;
+}
+
+/* line 68, ../../../scss/includes/pages/form-icheck.scss */
+.icheck-list {
+  float: left;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+/* line 74, ../../../scss/includes/pages/form-icheck.scss */
+.icheck-list li {
+  padding-bottom: 5px;
+}
+
+/* line 78, ../../../scss/includes/pages/form-icheck.scss */
+.icheck-list li label {
+  padding-left: 10px;
+}

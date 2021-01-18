@@ -1,0 +1,165 @@
+/*******************
+Fixed -sidebar
+******************/
+/* line 7, ../../../scss/includes/core/theme-settings.scss */
+.fixed-sidebar .left-sidebar, .fixed-sidebar .navbar-header {
+  position: fixed;
+}
+/* line 10, ../../../scss/includes/core/theme-settings.scss */
+.fixed-sidebar .navbar-collapse {
+  margin-left: 220px;
+}
+/* line 14, ../../../scss/includes/core/theme-settings.scss */
+.fixed-sidebar.nav-lock .navbar-collapse, .fixed-sidebar.nav-lock .footer {
+  margin-left: 70px;
+}
+
+@media (max-width: 767px) {
+  /* line 22, ../../../scss/includes/core/theme-settings.scss */
+  .fixed-sidebar.mini-sidebar .navbar-header {
+    position: relative;
+  }
+  /* line 25, ../../../scss/includes/core/theme-settings.scss */
+  .fixed-sidebar.mini-sidebar .navbar-collapse {
+    margin-left: 0px;
+  }
+}
+/*******************
+Fixed -Header
+******************/
+/* line 34, ../../../scss/includes/core/theme-settings.scss */
+.fixed-header .topbar {
+  position: fixed;
+  width: 100%;
+}
+/* line 38, ../../../scss/includes/core/theme-settings.scss */
+.fixed-header .page-wrapper {
+  padding-top: 67px;
+}
+
+/* line 43, ../../../scss/includes/core/theme-settings.scss */
+.fixed-layout .left-sidebar, .fixed-layout .topbar {
+  position: fixed;
+}
+/* line 46, ../../../scss/includes/core/theme-settings.scss */
+.fixed-layout .topbar {
+  width: 100%;
+}
+/* line 49, ../../../scss/includes/core/theme-settings.scss */
+.fixed-layout .page-wrapper {
+  padding-top: 67px;
+}
+
+/*******************
+Boxed
+******************/
+/* line 57, ../../../scss/includes/core/theme-settings.scss */
+.boxed #main-wrapper {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+/* line 63, ../../../scss/includes/core/theme-settings.scss */
+.boxed #main-wrapper .sidebar-footer {
+  position: absolute;
+}
+/* line 66, ../../../scss/includes/core/theme-settings.scss */
+.boxed #main-wrapper .topbar {
+  max-width: 1300px;
+}
+/* line 69, ../../../scss/includes/core/theme-settings.scss */
+.boxed #main-wrapper .footer {
+  display: none;
+}
+
+/* line 73, ../../../scss/includes/core/theme-settings.scss */
+.boxed.fixed-layout .left-sidebar {
+  position: absolute;
+}
+
+/*******************
+Single Column
+******************/
+/* line 80, ../../../scss/includes/core/theme-settings.scss */
+.single-column .left-sidebar {
+  display: none;
+}
+/* line 83, ../../../scss/includes/core/theme-settings.scss */
+.single-column .page-wrapper {
+  margin-left: 0px !important;
+}
+
+/*******************
+Mini sidebar
+******************/
+@media (min-width: 769px) {
+  /* line 91, ../../../scss/includes/core/theme-settings.scss */
+  .left-sidebar {
+    margin-top: 66px;
+  }
+  /* line 93, ../../../scss/includes/core/theme-settings.scss */
+  .left-sidebar:hover {
+    left: 0px;
+  }
+
+  /* line 97, ../../../scss/includes/core/theme-settings.scss */
+  .nav-text-box {
+    display: none !important;
+  }
+
+  /* line 100, ../../../scss/includes/core/theme-settings.scss */
+  .navbar-header {
+    flex-shrink: 0;
+    min-width: 70px;
+  }
+  /* line 103, ../../../scss/includes/core/theme-settings.scss */
+  .navbar-header .navbar-brand {
+    padding-top: 0px;
+  }
+
+  /* line 108, ../../../scss/includes/core/theme-settings.scss */
+  .lock-nav .left-sidebar {
+    left: 0px;
+    width: 220px;
+  }
+  /* line 112, ../../../scss/includes/core/theme-settings.scss */
+  .lock-nav .page-wrapper, .lock-nav .footer {
+    margin-left: 220px;
+  }
+  /* line 116, ../../../scss/includes/core/theme-settings.scss */
+  .lock-nav .topbar .navbar-header {
+    margin-left: 0px;
+    min-width: 220px;
+  }
+  /* line 119, ../../../scss/includes/core/theme-settings.scss */
+  .lock-nav .topbar .navbar-header .navbar-brand span {
+    display: inline-block;
+  }
+}
+@media (max-width: 768px) {
+  /* line 128, ../../../scss/includes/core/theme-settings.scss */
+  .show-sidebar .left-sidebar {
+    left: 0px;
+  }
+
+  /* line 132, ../../../scss/includes/core/theme-settings.scss */
+  .left-sidebar {
+    left: -260px;
+  }
+}
+/*******************
+Logo center
+******************/
+/* line 141, ../../../scss/includes/core/theme-settings.scss */
+.logo-center .top-navbar .navbar-header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+/* line 146, ../../../scss/includes/core/theme-settings.scss */
+.logo-center .top-navbar .navbar-header a {
+  justify-content: center;
+}

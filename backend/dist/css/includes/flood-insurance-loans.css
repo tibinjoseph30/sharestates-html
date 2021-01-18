@@ -1,0 +1,210 @@
+/* line 3, ../../scss/includes/flood-insurance-loans.scss */
+.flood-insurance .owl-carousel .owl-stage-outer {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+/* line 7, ../../scss/includes/flood-insurance-loans.scss */
+.flood-insurance .owl-carousel .owl-stage-outer .owl-item img {
+  width: auto !important;
+}
+/* line 10, ../../scss/includes/flood-insurance-loans.scss */
+.flood-insurance .owl-carousel .owl-stage-outer .owl-item .item {
+  min-width: 180px;
+}
+/* line 12, ../../scss/includes/flood-insurance-loans.scss */
+.flood-insurance .owl-carousel .owl-stage-outer .owl-item .item .slide-item {
+  text-align: left;
+  height: 227px;
+}
+/* line 16, ../../scss/includes/flood-insurance-loans.scss */
+.flood-insurance .owl-carousel .owl-stage-outer .owl-item .item .slide-item .ls-bg:hover {
+  height: 233px;
+  background: #d543ae33;
+  border: 6px solid #fff;
+  position: relative;
+  top: -7px;
+  transition-duration: 0.2s;
+}
+/* line 25, ../../scss/includes/flood-insurance-loans.scss */
+.flood-insurance .owl-carousel .owl-stage-outer .owl-item .item .slide-item h4 {
+  color: #2e5788;
+  font-size: 14px;
+  font-weight: bold;
+  min-height: 30px;
+}
+/* line 31, ../../scss/includes/flood-insurance-loans.scss */
+.flood-insurance .owl-carousel .owl-stage-outer .owl-item .item .slide-item h1 {
+  color: #d543ad;
+  font-size: 28px;
+  font-weight: bold;
+}
+/* line 36, ../../scss/includes/flood-insurance-loans.scss */
+.flood-insurance .owl-carousel .owl-stage-outer .owl-item .item .slide-item .status-wrap {
+  display: block;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* line 39, ../../scss/includes/flood-insurance-loans.scss */
+.flood-insurance .owl-carousel .owl-stage-outer .owl-item .item .slide-item .status-wrap ul {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: table;
+}
+/* line 44, ../../scss/includes/flood-insurance-loans.scss */
+.flood-insurance .owl-carousel .owl-stage-outer .owl-item .item .slide-item .status-wrap ul li {
+  list-style: none;
+  text-align: left;
+  display: table-cell;
+  width: 50%;
+}
+/* line 49, ../../scss/includes/flood-insurance-loans.scss */
+.flood-insurance .owl-carousel .owl-stage-outer .owl-item .item .slide-item .status-wrap ul li h4 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+/* line 52, ../../scss/includes/flood-insurance-loans.scss */
+.flood-insurance .owl-carousel .owl-stage-outer .owl-item .item .slide-item .status-wrap ul li h4 span {
+  display: block;
+  min-height: 30px;
+}
+/* line 57, ../../scss/includes/flood-insurance-loans.scss */
+.flood-insurance .owl-carousel .owl-stage-outer .owl-item .item .slide-item .status-wrap ul li .number {
+  font-size: 22px;
+}
+/* line 60, ../../scss/includes/flood-insurance-loans.scss */
+.flood-insurance .owl-carousel .owl-stage-outer .owl-item .item .slide-item .status-wrap ul li .status {
+  font-weight: 500;
+}
+/* line 63, ../../scss/includes/flood-insurance-loans.scss */
+.flood-insurance .owl-carousel .owl-stage-outer .owl-item .item .slide-item .status-wrap ul li:last-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* line 75, ../../scss/includes/flood-insurance-loans.scss */
+.brown-hazard {
+  color: #d55b43 !important;
+}
+
+/* line 78, ../../scss/includes/flood-insurance-loans.scss */
+.brown-Flood {
+  color: #a13535 !important;
+}
+
+/* line 81, ../../scss/includes/flood-insurance-loans.scss */
+.yelow-flood {
+  color: #bbc306 !important;
+}
+
+/* line 84, ../../scss/includes/flood-insurance-loans.scss */
+.light-brown-flood {
+  color: #c7871b !important;
+}
+
+/* line 87, ../../scss/includes/flood-insurance-loans.scss */
+.orange-flood {
+  color: #ff9500 !important;
+}
+
+/* line 90, ../../scss/includes/flood-insurance-loans.scss */
+.red-flood {
+  color: #ff0000 !important;
+}
+
+/* line 93, ../../scss/includes/flood-insurance-loans.scss */
+.grape-color {
+  color: #b50357 !important;
+}
+
+/* line 96, ../../scss/includes/flood-insurance-loans.scss */
+.sky-blue {
+  color: #077df4 !important;
+}
+
+/* line 99, ../../scss/includes/flood-insurance-loans.scss */
+.primary-blue {
+  color: #2c5787 !important;
+}
+
+/* line 104, ../../scss/includes/flood-insurance-loans.scss */
+.light-yellow:hover {
+  background: #bbc30652 !important;
+}
+
+/* line 109, ../../scss/includes/flood-insurance-loans.scss */
+.light-brown:hover {
+  background: #c7881b59 !important;
+}
+
+/* line 114, ../../scss/includes/flood-insurance-loans.scss */
+.orange-flood-light:hover {
+  background: #ff95005b !important;
+}
+
+/* line 119, ../../scss/includes/flood-insurance-loans.scss */
+.red-flood-light:hover {
+  background: #ff00003f !important;
+}
+
+/* line 124, ../../scss/includes/flood-insurance-loans.scss */
+.grape-flood-light:hover {
+  background: #b5035642 !important;
+}
+
+/* line 129, ../../scss/includes/flood-insurance-loans.scss */
+.sky-flood-light:hover {
+  background: #077ef44d !important;
+}
+
+/* line 134, ../../scss/includes/flood-insurance-loans.scss */
+.primary-flood-light:hover {
+  background: rgba(7, 126, 244, 0.171) !important;
+}
+
+/* line 139, ../../scss/includes/flood-insurance-loans.scss */
+.primary-green-light:hover {
+  background: #4ad5784f !important;
+}
+
+/* line 143, ../../scss/includes/flood-insurance-loans.scss */
+.bgc-purple {
+  background: rgba(171, 86, 202, 0.34);
+}
+
+/* line 146, ../../scss/includes/flood-insurance-loans.scss */
+.circle-radies {
+  font-size: 8px;
+  padding: 3px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+/* line 153, ../../scss/includes/flood-insurance-loans.scss */
+.cancel-policy .modal-header {
+  background: #fff;
+  color: #375c8a;
+}
+/* line 156, ../../scss/includes/flood-insurance-loans.scss */
+.cancel-policy .modal-header .modal-title {
+  font-weight: bold;
+}
+/* line 159, ../../scss/includes/flood-insurance-loans.scss */
+.cancel-policy .modal-header .close {
+  position: relative;
+  top: 22px;
+  right: 18px;
+  font-size: 13px;
+  border: 1px solid #beddfd;
+  padding: 2px 4px;
+  border-radius: 50%;
+  color: #aebed0;
+}
+
+/* line 173, ../../scss/includes/flood-insurance-loans.scss */
+.hazard-border .hazard-border-right::after {
+  content: "";
+  border-right: 1px solid #dee2e6;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 47%;
+}

@@ -1,0 +1,1228 @@
+/*
+Template Name: Admin Template
+Author: Wrappixel
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*
+Template Name: Admin Template
+Author: Wrappixel
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*******************
+/*User mail widgets*/
+/*******************/
+/* line 15, ../../../scss/includes/widgets/topbar-mail.scss */
+.topbar .top-navbar .mailbox {
+  width: 300px;
+}
+/* line 17, ../../../scss/includes/widgets/topbar-mail.scss */
+.topbar .top-navbar .mailbox ul {
+  padding: 0px;
+}
+/* line 19, ../../../scss/includes/widgets/topbar-mail.scss */
+.topbar .top-navbar .mailbox ul li {
+  list-style: none;
+}
+
+/* line 29, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox ul li .drop-title {
+  font-weight: 500;
+  padding: 11px 20px 15px;
+  border-bottom: 1px solid #e9ecef;
+  border-radius: 0.25rem 0.25rem 0 0;
+  position: relative;
+}
+/* line 35, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox ul li .drop-title:after {
+  content: "";
+  position: absolute;
+  background: url(../../../assets/images/background/img5.png) no-repeat;
+  opacity: 0.2;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+/* line 47, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox ul li h5 {
+  color: #212529;
+}
+/* line 50, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox ul li .nav-link {
+  border-top: 1px solid #e9ecef;
+  padding-top: 15px;
+  color: #212529;
+}
+/* line 54, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox ul li .nav-link:hover {
+  color: #009efb;
+}
+/* line 59, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox .message-center {
+  height: 317px;
+  overflow: auto;
+  position: relative;
+}
+/* line 63, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox .message-center a {
+  border-bottom: 1px solid #e9ecef;
+  display: block;
+  text-decoration: none;
+  padding: 9px 15px;
+}
+/* line 68, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox .message-center a:hover {
+  background: #e9ecef;
+}
+/* line 71, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox .message-center a div {
+  white-space: normal;
+}
+/* line 74, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox .message-center a .user-img {
+  width: 40px;
+  position: relative;
+  display: inline-block;
+  margin: 0 10px 15px 0;
+}
+/* line 79, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox .message-center a .user-img img {
+  width: 100%;
+}
+/* line 82, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox .message-center a .user-img .profile-status {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  left: 30px;
+  position: absolute;
+  top: 1px;
+  width: 10px;
+}
+/* line 92, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox .message-center a .user-img .online {
+  background: #4ad578;
+}
+/* line 95, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox .message-center a .user-img .busy {
+  background: #d15b5c;
+}
+/* line 98, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox .message-center a .user-img .away {
+  background: #ff0000;
+}
+/* line 101, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox .message-center a .user-img .offline {
+  background: #ff0000;
+}
+/* line 105, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox .message-center a .mail-contnet {
+  display: inline-block;
+  width: 75%;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+/* line 110, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox .message-center a .mail-contnet h5 {
+  margin: 5px 0px 0;
+}
+/* line 114, ../../../scss/includes/widgets/topbar-mail.scss */
+html body .navbar-dark .mailbox .message-center a .mail-contnet .mail-desc,
+html body .navbar-dark .mailbox .message-center a .mail-contnet .time {
+  font-size: 12px;
+  display: block;
+  margin: 1px 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #adb5bd;
+  white-space: nowrap;
+}
+
+/*******************/
+/*Weather*/
+/*******************/
+/* line 5, ../../../scss/includes/widgets/weather-widget.scss */
+.city-weather-days {
+  margin: 0px;
+}
+/* line 7, ../../../scss/includes/widgets/weather-widget.scss */
+.city-weather-days li {
+  text-align: center;
+  padding: 15px 0;
+}
+/* line 10, ../../../scss/includes/widgets/weather-widget.scss */
+.city-weather-days li span {
+  display: block;
+  padding: 10px 0 0;
+  color: #adb5bd;
+}
+/* line 15, ../../../scss/includes/widgets/weather-widget.scss */
+.city-weather-days li i {
+  display: block;
+  font-size: 20px;
+  color: #009efb;
+}
+/* line 20, ../../../scss/includes/widgets/weather-widget.scss */
+.city-weather-days li h3 {
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+/*Weather small*/
+/* line 29, ../../../scss/includes/widgets/weather-widget.scss */
+.weather-small h1 {
+  line-height: 30px;
+}
+/* line 32, ../../../scss/includes/widgets/weather-widget.scss */
+.weather-small sup {
+  font-size: 60%;
+}
+
+/*******************/
+/*Comment widgets*/
+/*******************/
+/* line 5, ../../../scss/includes/widgets/comment.scss */
+.comment-widgets {
+  position: relative;
+  margin-bottom: 10px;
+}
+/* line 8, ../../../scss/includes/widgets/comment.scss */
+.comment-widgets .comment-row {
+  border-bottom: 1px solid transparent;
+  padding: 14px;
+}
+/* line 11, ../../../scss/includes/widgets/comment.scss */
+.comment-widgets .comment-row:last-child {
+  border-bottom: 0px;
+}
+/* line 14, ../../../scss/includes/widgets/comment.scss */
+.comment-widgets .comment-row:hover, .comment-widgets .comment-row.active {
+  background: #f8f9fa;
+}
+
+/* line 21, ../../../scss/includes/widgets/comment.scss */
+.comment-text {
+  padding: 14px 15px 14px 20px;
+  width: 80%;
+}
+/* line 26, ../../../scss/includes/widgets/comment.scss */
+.comment-text:hover .comment-footer .action-icons, .comment-text.active .comment-footer .action-icons {
+  visibility: visible;
+}
+/* line 30, ../../../scss/includes/widgets/comment.scss */
+.comment-text p {
+  max-height: 65px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 39, ../../../scss/includes/widgets/comment.scss */
+.comment-footer .action-icons {
+  visibility: hidden;
+}
+/* line 41, ../../../scss/includes/widgets/comment.scss */
+.comment-footer .action-icons a {
+  padding-left: 7px;
+  vertical-align: middle;
+  color: #adb5bd;
+}
+/* line 45, ../../../scss/includes/widgets/comment.scss */
+.comment-footer .action-icons a:hover, .comment-footer .action-icons a.active {
+  color: #ccc;
+}
+
+/*******************/
+/*To do widgets*/
+/*******************/
+/* line 6, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li {
+  border: 0px;
+  margin-bottom: 0px;
+  padding: 20px 15px 15px 0px;
+}
+/* line 10, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li .custom-checkbox {
+  width: 100%;
+}
+/* line 12, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li .custom-checkbox label {
+  font-weight: 400;
+  width: 100%;
+}
+/* line 16, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li .custom-checkbox label span:first-child {
+  width: 70%;
+  display: inline-block;
+  line-height: 25px;
+}
+/* line 24, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li:last-child {
+  border-bottom: 0px;
+}
+/* line 27, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li .assignedto {
+  padding: 0px 0 0 30px;
+  margin: 0px;
+}
+/* line 30, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li .assignedto li {
+  list-style: none;
+  padding: 0px;
+  display: inline-block;
+  border: 0px;
+  margin-right: 2px;
+}
+/* line 36, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li .assignedto li img {
+  width: 30px;
+  border-radius: 100%;
+}
+/* line 42, ../../../scss/includes/widgets/to-do.scss */
+.todo-list li .item-date {
+  padding-left: 30px;
+  font-size: 12px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+/* line 51, ../../../scss/includes/widgets/to-do.scss */
+.list-task .task-done span {
+  text-decoration: line-through;
+}
+
+/*******************/
+/*Chat widget*/
+/*******************/
+/* line 5, ../../../scss/includes/widgets/chat-widget.scss */
+.chat-list {
+  margin: 0px;
+  padding: 0px;
+}
+/* line 8, ../../../scss/includes/widgets/chat-widget.scss */
+.chat-list li {
+  list-style: none;
+  margin-top: 30px;
+}
+/* line 11, ../../../scss/includes/widgets/chat-widget.scss */
+.chat-list li .chat-img {
+  display: inline-block;
+  width: 45px;
+  vertical-align: top;
+}
+/* line 15, ../../../scss/includes/widgets/chat-widget.scss */
+.chat-list li .chat-img img {
+  width: 45px;
+  border-radius: 100%;
+}
+/* line 20, ../../../scss/includes/widgets/chat-widget.scss */
+.chat-list li .chat-content {
+  width: calc(100% - 50px);
+  display: inline-block;
+  padding-left: 15px;
+}
+/* line 27, ../../../scss/includes/widgets/chat-widget.scss */
+.chat-list li .chat-content .box {
+  display: inline-block;
+  color: #343a40;
+  background: #f8f9fa;
+}
+/* line 34, ../../../scss/includes/widgets/chat-widget.scss */
+.chat-list li .chat-time {
+  display: block;
+  font-size: 10px;
+  color: #adb5bd;
+  margin: 5px 0 15px 65px;
+}
+/* line 41, ../../../scss/includes/widgets/chat-widget.scss */
+.chat-list li.odd .chat-content {
+  text-align: right;
+  width: calc(100% - 0px);
+}
+/* line 45, ../../../scss/includes/widgets/chat-widget.scss */
+.chat-list li.odd .chat-time {
+  text-align: right;
+}
+/* line 48, ../../../scss/includes/widgets/chat-widget.scss */
+.chat-list li.odd .box {
+  clear: both;
+  color: #fff;
+  background: #009efb;
+}
+/* line 54, ../../../scss/includes/widgets/chat-widget.scss */
+.chat-list li.odd + .odd {
+  margin-top: 0px;
+}
+/* line 57, ../../../scss/includes/widgets/chat-widget.scss */
+.chat-list li.reverse {
+  text-align: right;
+}
+/* line 59, ../../../scss/includes/widgets/chat-widget.scss */
+.chat-list li.reverse .chat-time {
+  text-align: left;
+}
+/* line 62, ../../../scss/includes/widgets/chat-widget.scss */
+.chat-list li.reverse .chat-content {
+  padding-left: 0px;
+  padding-right: 15px;
+}
+
+/*******************/
+/*Chat widget*/
+/*******************/
+/*******************/
+/*Calendar widget*/
+/*******************/
+/* line 5, ../../../scss/includes/widgets/calendar.scss */
+.calendar {
+  float: left;
+  margin-bottom: 0px;
+}
+
+/* line 10, ../../../scss/includes/widgets/calendar.scss */
+.fc-view {
+  margin-top: 30px;
+}
+
+/* line 15, ../../../scss/includes/widgets/calendar.scss */
+.none-border .modal-footer {
+  border-top: none;
+}
+
+/* line 20, ../../../scss/includes/widgets/calendar.scss */
+.fc-toolbar {
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+/* line 23, ../../../scss/includes/widgets/calendar.scss */
+.fc-toolbar h2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+/* line 31, ../../../scss/includes/widgets/calendar.scss */
+.fc-day {
+  background: #fff;
+}
+
+/* line 35, ../../../scss/includes/widgets/calendar.scss */
+.fc-toolbar .fc-state-active,
+.fc-toolbar .ui-state-active,
+.fc-toolbar button:focus,
+.fc-toolbar button:hover,
+.fc-toolbar .ui-state-hover {
+  z-index: 0;
+}
+
+/* line 43, ../../../scss/includes/widgets/calendar.scss */
+.fc-widget-header {
+  border: 0px !important;
+}
+
+/* line 47, ../../../scss/includes/widgets/calendar.scss */
+.fc-widget-content {
+  border-color: rgba(120, 130, 140, 0.13) !important;
+}
+
+/* line 52, ../../../scss/includes/widgets/calendar.scss */
+.fc th.fc-widget-header {
+  color: #212529;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  padding: 7px 0px;
+  text-transform: uppercase;
+}
+/* line 60, ../../../scss/includes/widgets/calendar.scss */
+.fc th.fc-sun,
+.fc th.fc-tue,
+.fc th.fc-thu,
+.fc th.fc-sat {
+  background: #e9ecef;
+}
+/* line 66, ../../../scss/includes/widgets/calendar.scss */
+.fc th.fc-mon,
+.fc th.fc-wed,
+.fc th.fc-fri {
+  background: #e9ecef;
+}
+
+/* line 73, ../../../scss/includes/widgets/calendar.scss */
+.fc-view {
+  margin-top: 0px;
+}
+
+/* line 77, ../../../scss/includes/widgets/calendar.scss */
+.fc-toolbar {
+  margin: 0px;
+  padding: 24px 0px;
+}
+
+/* line 82, ../../../scss/includes/widgets/calendar.scss */
+.fc-button {
+  background: #fff;
+  border: 1px solid #e9ecef;
+  color: #212529;
+  text-transform: capitalize;
+}
+/* line 87, ../../../scss/includes/widgets/calendar.scss */
+.fc-button:hover {
+  background: #e9ecef;
+  opacity: 0.8;
+}
+
+/* line 93, ../../../scss/includes/widgets/calendar.scss */
+.fc-text-arrow {
+  font-family: inherit;
+  font-size: 16px;
+}
+
+/* line 98, ../../../scss/includes/widgets/calendar.scss */
+.fc-state-hover {
+  background: #f8f9fa;
+}
+
+/* line 102, ../../../scss/includes/widgets/calendar.scss */
+.fc-unthemed .fc-today {
+  border: 1px solid #d15b5c;
+  background: #e9ecef !important;
+}
+
+/* line 107, ../../../scss/includes/widgets/calendar.scss */
+.fc-state-highlight {
+  background: #f0f0f0;
+}
+
+/* line 111, ../../../scss/includes/widgets/calendar.scss */
+.fc-cell-overlay {
+  background: #f0f0f0;
+}
+
+/* line 116, ../../../scss/includes/widgets/calendar.scss */
+.fc-unthemed .fc-today {
+  background: #fff;
+}
+
+/* line 121, ../../../scss/includes/widgets/calendar.scss */
+.fc-event {
+  border-radius: 0px;
+  border: none;
+  cursor: move;
+  color: #fff !important;
+  font-size: 13px;
+  margin: 1px -1px 0 -1px;
+  padding: 5px 5px;
+  text-align: center;
+  background: #ccc;
+}
+
+/* line 133, ../../../scss/includes/widgets/calendar.scss */
+.calendar-event {
+  cursor: move;
+  margin: 10px 5px 0 0;
+  padding: 6px 10px;
+  display: inline-block;
+  color: #fff;
+  min-width: 140px;
+  text-align: center;
+  background: #ccc;
+}
+/* line 142, ../../../scss/includes/widgets/calendar.scss */
+.calendar-event a {
+  float: right;
+  opacity: 0.6;
+  font-size: 10px;
+  margin: 4px 0 0 10px;
+  color: #fff;
+}
+
+/* line 153, ../../../scss/includes/widgets/calendar.scss */
+.fc-basic-view td.fc-week-number span {
+  padding-right: 5px;
+}
+/* line 157, ../../../scss/includes/widgets/calendar.scss */
+.fc-basic-view .fc-day-number {
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+/*******************/
+/*Steam line widget*/
+/*******************/
+/* line 4, ../../../scss/includes/widgets/steamline.scss */
+.steamline {
+  position: relative;
+  border-left: 1px solid #e9ecef;
+  margin-left: 20px;
+}
+/* line 8, ../../../scss/includes/widgets/steamline.scss */
+.steamline .sl-left {
+  float: left;
+  margin-left: -20px;
+  z-index: 1;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  height: 40px;
+  border-radius: 100%;
+  color: #fff;
+  margin-right: 15px;
+}
+/* line 20, ../../../scss/includes/widgets/steamline.scss */
+.steamline .sl-left img {
+  max-width: 40px;
+}
+
+/* line 26, ../../../scss/includes/widgets/steamline.scss */
+.steamline .sl-right {
+  padding-left: 50px;
+}
+/* line 28, ../../../scss/includes/widgets/steamline.scss */
+.steamline .sl-right .desc,
+.steamline .sl-right .inline-photos {
+  margin-bottom: 21px;
+}
+
+/* line 35, ../../../scss/includes/widgets/steamline.scss */
+.steamline .sl-item {
+  border-bottom: 1px solid #e9ecef;
+  margin: 20px 0;
+}
+
+/* line 40, ../../../scss/includes/widgets/steamline.scss */
+.sl-date {
+  font-size: 10px;
+  color: #adb5bd;
+}
+
+/* line 45, ../../../scss/includes/widgets/steamline.scss */
+.time-item {
+  border-color: #e9ecef;
+  padding-bottom: 1px;
+  position: relative;
+}
+/* line 49, ../../../scss/includes/widgets/steamline.scss */
+.time-item:before {
+  content: " ";
+  display: table;
+}
+/* line 53, ../../../scss/includes/widgets/steamline.scss */
+.time-item:after {
+  background-color: #fff;
+  border-color: #e9ecef;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  bottom: 0;
+  content: '';
+  height: 14px;
+  left: 0;
+  margin-left: -8px;
+  position: absolute;
+  top: 5px;
+  width: 14px;
+}
+
+/* line 71, ../../../scss/includes/widgets/steamline.scss */
+.time-item-item:after {
+  content: " ";
+  display: table;
+}
+
+/* line 77, ../../../scss/includes/widgets/steamline.scss */
+.item-info {
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+/* line 80, ../../../scss/includes/widgets/steamline.scss */
+.item-info p {
+  margin-bottom: 10px !important;
+}
+
+/*******************/
+/*Feed widget*/
+/*******************/
+/* line 5, ../../../scss/includes/widgets/feed.scss */
+.feeds {
+  margin: 0px;
+  padding: 0px;
+}
+/* line 8, ../../../scss/includes/widgets/feed.scss */
+.feeds li {
+  list-style: none;
+  padding: 12px 15px;
+  display: block;
+}
+/* line 12, ../../../scss/includes/widgets/feed.scss */
+.feeds li:hover {
+  background: #f8f9fa;
+}
+/* line 15, ../../../scss/includes/widgets/feed.scss */
+.feeds li > div {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 100%;
+  color: #fff;
+}
+/* line 24, ../../../scss/includes/widgets/feed.scss */
+.feeds li > div i {
+  line-height: 40px;
+}
+/* line 28, ../../../scss/includes/widgets/feed.scss */
+.feeds li span {
+  float: right;
+  width: auto;
+  font-size: 12px;
+}
+
+/*******************/
+/*Vertical carousel*/
+/*******************/
+/* line 5, ../../../scss/includes/widgets/carousel.scss */
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 11, ../../../scss/includes/widgets/carousel.scss */
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100% 0);
+}
+
+/* line 17, ../../../scss/includes/widgets/carousel.scss */
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+}
+
+/*******************/
+/*social-widgets*/
+/*******************/
+/* line 6, ../../../scss/includes/widgets/social.scss */
+.social-widget .soc-header {
+  padding: 15px;
+  text-align: center;
+  font-size: 36px;
+  color: #fff;
+}
+/* line 11, ../../../scss/includes/widgets/social.scss */
+.social-widget .soc-header.box-facebook {
+  background: #3b5998;
+}
+/* line 14, ../../../scss/includes/widgets/social.scss */
+.social-widget .soc-header.box-twitter {
+  background: #00aced;
+}
+/* line 17, ../../../scss/includes/widgets/social.scss */
+.social-widget .soc-header.box-google {
+  background: #f86c6b;
+}
+/* line 20, ../../../scss/includes/widgets/social.scss */
+.social-widget .soc-header.box-linkedin {
+  background: #4875b4;
+}
+/* line 24, ../../../scss/includes/widgets/social.scss */
+.social-widget .soc-content {
+  display: flex;
+  text-align: center;
+}
+/* line 27, ../../../scss/includes/widgets/social.scss */
+.social-widget .soc-content div {
+  padding: 10px;
+}
+/* line 29, ../../../scss/includes/widgets/social.scss */
+.social-widget .soc-content div h3 {
+  margin-bottom: 0px;
+}
+
+/*******************/
+/*social-profile-first*/
+/*******************/
+/* line 5, ../../../scss/includes/widgets/profile.scss */
+.social-profile-first {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 96px;
+}
+/* line 12, ../../../scss/includes/widgets/profile.scss */
+.social-profile-first.bg-over {
+  background: rgba(56, 83, 161, 0.7);
+}
+/* line 15, ../../../scss/includes/widgets/profile.scss */
+.social-profile-first .middle {
+  vertical-align: middle;
+}
+
+/*******************/
+/*profile timeline widget*/
+/*******************/
+/* line 23, ../../../scss/includes/widgets/profile.scss */
+.profiletimeline {
+  position: relative;
+  padding-left: 40px;
+  margin-right: 10px;
+  border-left: 1px solid #e9ecef;
+  margin-left: 30px;
+}
+/* line 29, ../../../scss/includes/widgets/profile.scss */
+.profiletimeline .sl-left {
+  float: left;
+  margin-left: -60px;
+  z-index: 1;
+  margin-right: 15px;
+}
+/* line 34, ../../../scss/includes/widgets/profile.scss */
+.profiletimeline .sl-left img {
+  max-width: 40px;
+}
+
+/* line 39, ../../../scss/includes/widgets/profile.scss */
+.profiletimeline .sl-item {
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+/* line 44, ../../../scss/includes/widgets/profile.scss */
+.profiletimeline .sl-date {
+  font-size: 12px;
+  color: #adb5bd;
+}
+
+/* line 49, ../../../scss/includes/widgets/profile.scss */
+.profiletimeline .time-item {
+  border-color: #e9ecef;
+  padding-bottom: 1px;
+  position: relative;
+}
+/* line 53, ../../../scss/includes/widgets/profile.scss */
+.profiletimeline .time-item:before {
+  content: " ";
+  display: table;
+}
+/* line 57, ../../../scss/includes/widgets/profile.scss */
+.profiletimeline .time-item:after {
+  background-color: #fff;
+  border-color: #e9ecef;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  bottom: 0;
+  content: '';
+  height: 14px;
+  left: 0;
+  margin-left: -8px;
+  position: absolute;
+  top: 5px;
+  width: 14px;
+}
+
+/* line 75, ../../../scss/includes/widgets/profile.scss */
+.profiletimeline .time-item-item:after {
+  content: " ";
+  display: table;
+}
+
+/* line 81, ../../../scss/includes/widgets/profile.scss */
+.profiletimeline .item-info {
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+/* line 84, ../../../scss/includes/widgets/profile.scss */
+.profiletimeline .item-info p {
+  margin-bottom: 10px !important;
+}
+
+/*little-profile*/
+/* line 91, ../../../scss/includes/widgets/profile.scss */
+.little-profile .pro-img {
+  margin-bottom: 20px;
+}
+/* line 93, ../../../scss/includes/widgets/profile.scss */
+.little-profile .pro-img img {
+  width: 128px;
+  height: 128px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+}
+/* line 100, ../../../scss/includes/widgets/profile.scss */
+.little-profile .soc-pro a {
+  color: #adb5bd;
+}
+/* line 102, ../../../scss/includes/widgets/profile.scss */
+.little-profile .soc-pro a:hover {
+  color: #343a40;
+}
+
+/*******************
+/*States row*/
+/*******************/
+/* line 6, ../../../scss/includes/widgets/common-widget.scss */
+.stats-row {
+  margin-bottom: 20px;
+}
+/* line 8, ../../../scss/includes/widgets/common-widget.scss */
+.stats-row .stat-item {
+  display: inline-block;
+  padding-right: 15px;
+}
+/* line 11, ../../../scss/includes/widgets/common-widget.scss */
+.stats-row .stat-item + .stat-item {
+  padding-left: 15px;
+  border-left: 1px solid #e9ecef;
+}
+
+/*******************/
+/*Guage chart*/
+/*******************/
+/* line 22, ../../../scss/includes/widgets/common-widget.scss */
+.gaugejs-box {
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 27, ../../../scss/includes/widgets/common-widget.scss */
+.gaugejs-box canvas.gaugejs {
+  width: 100% !important;
+  height: auto !important;
+}
+
+/*******************/
+/*country-state*/
+/*******************/
+/* line 37, ../../../scss/includes/widgets/common-widget.scss */
+.country-state {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+/* line 41, ../../../scss/includes/widgets/common-widget.scss */
+.country-state li {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+/* line 45, ../../../scss/includes/widgets/common-widget.scss */
+.country-state h2 {
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+
+/*contact widgets*/
+/* line 2, ../../../scss/includes/widgets/contact.scss */
+.contact-box {
+  position: relative;
+}
+/* line 4, ../../../scss/includes/widgets/contact.scss */
+.contact-box .add-ct-btn {
+  position: absolute;
+  right: 4px;
+  top: -46px;
+}
+/* line 10, ../../../scss/includes/widgets/contact.scss */
+.contact-box .contact-widget > a {
+  padding: 15px 10px;
+}
+/* line 12, ../../../scss/includes/widgets/contact.scss */
+.contact-box .contact-widget > a .user-img {
+  margin-bottom: 0px !important;
+}
+
+/*Blog widgets*/
+/* line 3, ../../../scss/includes/widgets/blog.scss */
+.blog-widget {
+  margin-top: 30px;
+}
+/* line 5, ../../../scss/includes/widgets/blog.scss */
+.blog-widget .blog-image img {
+  border-radius: 0.25rem;
+  margin-top: -45px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/*******************/
+/*Msg box*/
+/*******************/
+/* line 4, ../../../scss/includes/widgets/msg-box.scss */
+.msg-item {
+  margin-bottom: 20px;
+}
+
+/* line 7, ../../../scss/includes/widgets/msg-box.scss */
+.msg-body {
+  background: #fff;
+  padding: 15px;
+  font-size: 14px;
+  position: relative;
+}
+/* line 12, ../../../scss/includes/widgets/msg-box.scss */
+.msg-body .dwn-aro {
+  width: 0;
+  position: absolute;
+  bottom: -8px;
+  height: 0;
+  left: 10px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #fff;
+}
+
+/* line 24, ../../../scss/includes/widgets/msg-box.scss */
+.m-pic img {
+  width: 40px;
+  border-radius: 100%;
+}
+
+/* line 31, ../../../scss/includes/widgets/msg-box.scss */
+.message-box ul li .drop-title {
+  font-weight: 500;
+  padding: 11px 20px 15px;
+  border-bottom: 1px solid #e9ecef;
+}
+/* line 36, ../../../scss/includes/widgets/msg-box.scss */
+.message-box ul li .nav-link {
+  border-top: 1px solid #e9ecef;
+  padding-top: 15px;
+}
+/* line 41, ../../../scss/includes/widgets/msg-box.scss */
+.message-box .message-widget {
+  position: relative;
+}
+/* line 43, ../../../scss/includes/widgets/msg-box.scss */
+.message-box .message-widget a {
+  border-bottom: 1px solid #e9ecef;
+  display: block;
+  text-decoration: none;
+  padding: 9px 15px;
+}
+/* line 48, ../../../scss/includes/widgets/msg-box.scss */
+.message-box .message-widget a:hover {
+  background: #e9ecef;
+}
+/* line 51, ../../../scss/includes/widgets/msg-box.scss */
+.message-box .message-widget a:last-child {
+  border-bottom: 0px;
+}
+/* line 54, ../../../scss/includes/widgets/msg-box.scss */
+.message-box .message-widget a div {
+  white-space: normal;
+}
+/* line 57, ../../../scss/includes/widgets/msg-box.scss */
+.message-box .message-widget a .user-img {
+  width: 45px;
+  position: relative;
+  display: inline-block;
+  margin: 0 10px 15px 0;
+}
+/* line 62, ../../../scss/includes/widgets/msg-box.scss */
+.message-box .message-widget a .user-img img {
+  width: 100%;
+}
+/* line 65, ../../../scss/includes/widgets/msg-box.scss */
+.message-box .message-widget a .user-img .profile-status {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  left: 33px;
+  position: absolute;
+  top: -1px;
+  width: 10px;
+}
+/* line 75, ../../../scss/includes/widgets/msg-box.scss */
+.message-box .message-widget a .user-img .online {
+  background: #4ad578;
+}
+/* line 78, ../../../scss/includes/widgets/msg-box.scss */
+.message-box .message-widget a .user-img .busy {
+  background: #d15b5c;
+}
+/* line 81, ../../../scss/includes/widgets/msg-box.scss */
+.message-box .message-widget a .user-img .away {
+  background: #ff0000;
+}
+/* line 84, ../../../scss/includes/widgets/msg-box.scss */
+.message-box .message-widget a .user-img .offline {
+  background: #ff0000;
+}
+/* line 88, ../../../scss/includes/widgets/msg-box.scss */
+.message-box .message-widget a .mail-contnet {
+  display: inline-block;
+  width: 70%;
+  vertical-align: middle;
+}
+/* line 92, ../../../scss/includes/widgets/msg-box.scss */
+.message-box .message-widget a .mail-contnet h5 {
+  margin: 5px 0px 0;
+  color: #212529;
+}
+/* line 96, ../../../scss/includes/widgets/msg-box.scss */
+.message-box .message-widget a .mail-contnet .mail-desc,
+.message-box .message-widget a .mail-contnet .time {
+  display: block;
+  margin: 1px 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #adb5bd;
+  white-space: nowrap;
+}
+/* line 106, ../../../scss/includes/widgets/msg-box.scss */
+.message-box .message-widget a .mail-contnet .time {
+  color: #212529;
+  font-size: 12px;
+}
+
+/*******************/
+/*Activity widgets*/
+/*******************/
+/* line 6, ../../../scss/includes/widgets/activity.scss */
+.activity-box .date-devider {
+  border-top: 2px solid #e9ecef;
+  position: relative;
+}
+/* line 9, ../../../scss/includes/widgets/activity.scss */
+.activity-box .date-devider span {
+  background: #e9ecef;
+  padding: 5px 15px;
+  border-radius: 60px;
+  font-size: 14px;
+  top: -15px;
+  position: relative;
+  margin-left: 20px;
+}
+/* line 19, ../../../scss/includes/widgets/activity.scss */
+.activity-box .activity-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+/* line 23, ../../../scss/includes/widgets/activity.scss */
+.activity-box .activity-item .image-list > a {
+  margin-left: -15px;
+  position: relative;
+  vertical-align: middle;
+}
+/* line 28, ../../../scss/includes/widgets/activity.scss */
+.activity-box .activity-item .image-list > a:first-child, .activity-box .activity-item .image-list > a:last-child {
+  margin-left: 0px;
+}
+/* line 31, ../../../scss/includes/widgets/activity.scss */
+.activity-box .activity-item .image-list > a:hover {
+  z-index: 10;
+}
+/* line 33, ../../../scss/includes/widgets/activity.scss */
+.activity-box .activity-item .image-list > a:hover img {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* line 2, ../../../scss/includes/widgets/news-slide.scss */
+.news-slide .overlaybg {
+  height: 380px;
+  overflow: hidden;
+  background-color: #343a40;
+}
+/* line 6, ../../../scss/includes/widgets/news-slide.scss */
+.news-slide .overlaybg img {
+  width: 100%;
+}
+
+/*============================================================== 
+widget-chart-page product review
+ ============================================================== */
+/* line 5, ../../../scss/includes/widgets/product-review.scss */
+.product-review {
+  margin: 0px;
+  padding: 25px;
+}
+/* line 8, ../../../scss/includes/widgets/product-review.scss */
+.product-review li {
+  display: block;
+  padding: 20px 0;
+  list-style: none;
+}
+/* line 12, ../../../scss/includes/widgets/product-review.scss */
+.product-review li .font,
+.product-review li span {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* line 20, ../../../scss/includes/widgets/product-review.scss */
+.social-profile {
+  text-align: center;
+  background: rgba(7, 10, 43, 0.8);
+}
+
+/* line 27, ../../../scss/includes/widgets/product-review.scss */
+.profile-tab li a.nav-link, .customtab li a.nav-link {
+  border: 0px;
+  padding: 15px 20px;
+  color: #212529;
+}
+/* line 31, ../../../scss/includes/widgets/product-review.scss */
+.profile-tab li a.nav-link.active, .customtab li a.nav-link.active {
+  border-bottom: 2px solid #009efb;
+  color: #009efb;
+}
+/* line 35, ../../../scss/includes/widgets/product-review.scss */
+.profile-tab li a.nav-link:hover, .customtab li a.nav-link:hover {
+  color: #009efb;
+}

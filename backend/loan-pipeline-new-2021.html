@@ -1,0 +1,2453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.ico">
+    <title>Sharestates - Crowd Funding Realestate Investments</title>
+    <!-- This page CSS -->
+    <!-- chartist CSS -->
+    <link href="../assets/node_modules/morrisjs/morris.css" rel="stylesheet">
+    <!--Toaster Popup message CSS -->
+    <link href="../assets/node_modules/toast-master/css/jquery.toast.css" rel="stylesheet">
+    <!--c3 plugins CSS -->
+    <link href="../assets/node_modules/c3-master/c3.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="dist/css/style.min.css" rel="stylesheet">
+    <link href="../assets/node_modules/icheck/skins/all.css" rel="stylesheet">
+    <link href="dist/css/pages/form-icheck.css" rel="stylesheet">
+    <link href="dist/css/slider/owl.carousel.min.css" rel="stylesheet">
+    <link href="dist/css/slider/owl.theme.default.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css">
+    <link href="dist/css/includes/pages/file-upload.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="dist/css/pages/loading-bar.css" />
+    <link href="dist/css/custom.css" rel="stylesheet">
+    <!-- Dashboard 1 Page CSS -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="ss-blue fixed-layout lock-nav tool-tip">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header">
+                    <a class="navbar-brand sm-up" href="index.html">
+                        <!--End Logo icon -->
+                        <span>
+                            <!-- dark Logo text -->
+                            <img src="../assets/images/logo.png" alt="homepage" class="dark-logo" />
+                            <!-- Light Logo text -->
+                            <img src="../assets/images/logo.png" class="light-logo" alt="homepage" />
+                        </span>
+                    </a>
+                    <a class="nav-link nav-lock waves-effect waves-light" href="javascript:void(0)"><i
+                            class="ti-menu"></i></a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav mr-auto">
+                        <!-- This is  -->
+                        <!-- ============================================================== -->
+                        <!-- Comment -->
+                        <!-- ============================================================== -->
+                        <li class="greetings d-flex align-items-center">
+                            <p class="m-b-0">Welcome back, <b>Admin</b></p>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Comment -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <div class="dropdown-menu mailbox animated bounceInDown" aria-labelledby="2">
+                                <span class="with-arrow"><span class="bg-danger"></span></span>
+                                <ul>
+                                    <li>
+                                        <div class="drop-title text-white bg-danger">
+                                            <h4 class="m-b-0 m-t-5">5 New</h4>
+                                            <span class="font-light">Messages</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="message-center">
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)">
+                                                <div class="user-img"> <img src="../assets/images/users/1.png"
+                                                        alt="user" class="img-circle"> <span
+                                                        class="profile-status online pull-right"></span> </div>
+                                                <div class="mail-contnet">
+                                                    <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my
+                                                        admin!</span> <span class="time">9:30 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)">
+                                                <div class="user-img"> <img src="../assets/images/users/2.png"
+                                                        alt="user" class="img-circle"> <span
+                                                        class="profile-status busy pull-right"></span> </div>
+                                                <div class="mail-contnet">
+                                                    <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See
+                                                        you at</span> <span class="time">9:10 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)">
+                                                <div class="user-img"> <img src="../assets/images/users/3.jpg"
+                                                        alt="user" class="img-circle"> <span
+                                                        class="profile-status away pull-right"></span> </div>
+                                                <div class="mail-contnet">
+                                                    <h5>Arijit Sing</h5> <span class="mail-desc">I am a singer!</span>
+                                                    <span class="time">9:08 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)">
+                                                <div class="user-img"> <img src="../assets/images/users/2.png"
+                                                        alt="user" class="img-circle"> <span
+                                                        class="profile-status offline pull-right"></span> </div>
+                                                <div class="mail-contnet">
+                                                    <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my
+                                                        admin!</span> <span class="time">9:02 AM</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link text-center link m-b-5" href="javascript:void(0);"> <b>See
+                                                all e-Mails</b> <i class="fa fa-angle-right"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                    </ul>
+                    <ul class="navbar-nav my-lg-0 log-rt-info">
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle h-100 d-flex align-items-center" data-toggle="dropdown">
+                                <div class="notification d-flex">
+                                    <i class="ti-bell"></i>
+                                    <div class="notification-count">5</div>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu mailbox animated bounceInDown dropdown-menu-right" aria-labelledby="2">
+                                <span class="with-arrow"><span class="bg-primary"></span></span>
+                                <ul>
+                                    <li>
+                                        <div class="drop-title text-white bg-primary">
+                                            <h4 class="m-b-0 m-t-5">5 New</h4>
+                                            <span class="font-light">Notifications</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="message-center">
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)">
+                                                <div class="mail-content">
+                                                    <h6>BC2020-0012772</h6> 
+                                                    <span class="mail-desc">Just see the my admin!</span> 
+                                                </div>
+                                            </a>
+                                            <a href="javascript:void(0)">
+                                                <div class="mail-content">
+                                                    <h6>BC2020-0012772</h6> 
+                                                    <span class="mail-desc">Just see the my admin!</span> 
+                                                </div>
+                                            </a>
+                                            <a href="javascript:void(0)">
+                                                <div class="mail-content">
+                                                    <h6>BC2020-0012772</h6> 
+                                                    <span class="mail-desc">Just see the my admin!</span> 
+                                                </div>
+                                            </a>
+                                            <a href="javascript:void(0)">
+                                                <div class="mail-content">
+                                                    <h6>BC2020-0012772</h6> 
+                                                    <span class="mail-desc">Just see the my admin!</span> 
+                                                </div>
+                                            </a>
+                                            <a href="javascript:void(0)">
+                                                <div class="mail-content">
+                                                    <h6>BC2020-0012772</h6> 
+                                                    <span class="mail-desc">Just see the my admin!</span> 
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link text-center m-b-5" href="javascript:void(0);"> <b>See all notifications</b><i class="fa fa-angle-right ml-2"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href=""
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="../assets/images/users/s2.png" alt="user" class="img-circle" width="30">
+                                <span class="m-l-10">Admin Name</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
+                                <span class="with-arrow"><span class="bg-primary"></span></span>
+                                <div class="d-flex no-block align-items-center p-15 bg-primary text-white m-b-10">
+                                    <div class=""><img src="../assets/images/users/2.png" alt="user" class="img-circle"
+                                            width="60"></div>
+                                    <div class="m-l-10">
+                                        <h4 class="m-b-0">Steave Jobs</h4>
+                                        <p class=" m-b-0">varun@gmail.com</p>
+                                    </div>
+                                </div>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-user m-r-5 m-l-5"></i>
+                                    My Profile</a>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-wallet m-r-5 m-l-5"></i>
+                                    My Balance</a>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-email m-r-5 m-l-5"></i>
+                                    Inbox</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="javascript:void(0)"><i
+                                        class="ti-settings m-r-5 m-l-5"></i> Account Setting</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="javascript:void(0)"><i
+                                        class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a>
+                                <div class="dropdown-divider"></div>
+                                <div class="p-l-30 p-10"><a href="javascript:void(0)"
+                                        class="btn btn-sm btn-success btn-rounded">View Profile</a></div>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <div class="d-flex no-block nav-text-box align-items-center">
+                <a class="nav-lock waves-effect waves-dark ml-auto hidden-md-down" href="javascript:void(0)"><i
+                        class="mdi mdi-toggle-switch"></i></a>
+                <a class="nav-toggler waves-effect waves-dark ml-auto hidden-sm-up" href="javascript:void(0)"><i
+                        class="ti-menu ti-close"></i></a>
+            </div>
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <div
+                            class="d-flex no-block align-items-center p-l-15 bg-transparent user-info text-white m-b-10">
+                            <div class="">
+                                <img src="../assets/images/users/1.png" alt="user" class="img-circle" width="60">
+                            </div>
+                            <div class="m-l-10 nav-item dropdown">
+                                <a class="nav-link dropdown-toggle waves-effect waves-dark" href=""
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin
+                                    Name</span></a>
+                                <div class="dropdown-menu user-dash animated bounceInDown">
+                                    <ul>
+                                        <li><a href="#">Account <i class="ti-user"></i></a></li>
+                                        <li><a href="#">Password <i class="ti-lock"></i></a></li>
+                                        <li><a href="#l">Log Out <i class="ti-power-off"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <li>
+                            <a class="waves-effect waves-dark" href="index.html">
+                                <i class="share-top_nav_home"></i>
+                                <span class="hide-menu">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)">
+                                <i class="share-administrators"></i>
+                                <span class="hide-menu">Users</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse hidden-menu">
+                                <li>
+                                    <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)"
+                                        aria-expanded="false">
+                                        <i class="share-administrators"></i>
+                                        <span class="hide-menu">Administrators</span>
+                                    </a>
+                                    <ul aria-expanded="false" class="collapse sub-hidden-menu">
+                                        <li><a href="administrators-list.html"><i
+                                                    class="share-administrators_list font24"></i> Administrators
+                                                List</a></li>
+                                        <li><a href="add_admin.html"><i class="share-add_administrator"></i> Add
+                                                Administrator</a></li>
+                                        <li><a href="admin_roles.html"><i class="share-administrators_roles"></i>
+                                                Roles</a></li>
+                                        <li><a href="manage-department.html"><i
+                                                    class="share-administrators_departments"></i> Departments</a></li>
+                                        <li><a href="#"><i class="share-administrators_blocked"></i> Blocked
+                                                Administrators</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)"
+                                aria-expanded="false">
+                                <i class="share-administrators"></i>
+                                <span class="hide-menu">Administrators</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="administrators-list.html"><i class="share-administrators_list font24"></i>
+                                        Administrators List</a></li>
+                                <li><a href="add_admin.html"><i class="share-add_administrator"></i> Add
+                                        Administrator</a></li>
+                                <li><a href="admin_roles.html"><i class="share-administrators_roles"></i> Roles</a></li>
+                                <li><a href="manage-department.html"><i class="share-administrators_departments"></i>
+                                        Departments</a></li>
+                                <li><a href="#"><i class="share-administrators_blocked"></i> Blocked Administrators</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="has-arrow waves-effect waves-dark" href="investor-dashboard.html"
+                                aria-expanded="false">
+                                <!-- <i class="share-top_nav_home"></i> -->
+                                <img class="icon-width" src="../assets/images/investor-icon.png">
+                                <span class="hide-menu">Investors</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="investor-list.html"><i
+                                            class="share-administrators_list font24"></i>Individual Investors</a></li>
+                                <li><a href="#"><i class="share-add_administrator"></i> Institutional Investors</a></li>
+                                <li><a href="#"><i class="share-administrators_roles"></i> Foreign Investors</a></li>
+                                <li><a href="investor_add_tab.html"><i class="share-administrators_departments"></i> Add
+                                        Investor</a></li>
+                                <li><a href="#"><i class="share-administrators_blocked"></i> Blocked Administrators</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="has-arrow waves-effect waves-dark" href="index.html" aria-expanded="false">
+                                <!-- <i class="share-top_nav_home"></i> -->
+                                <img class="icon-width" src="../assets/images/vendor-icon.png">
+                                <span class="hide-menu">Vendors</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="vendor-appraiser.html"><i class="share-administrators_list font24"></i>
+                                        Appraiser</a></li>
+                                <li><a href="vendor-bank-atrtorney.html"><i class="share-add_administrator"></i> Bank
+                                        Attorney</a></li>
+                                <li><a href="vendor-broker.html"><i class="share-administrators_roles"></i> Broker</a>
+                                </li>
+                                <li><a href="vendor-buyer-attorney.html"><i
+                                            class="share-administrators_departments"></i> Buyer Attorney</a></li>
+                                <li><a href="vendor-foreclosure-attorney.html"><i
+                                            class="share-administrators_blocked"></i> Foreclosure Attorney</a></li>
+                                <li><a href="vendor-seller-attorney.html"><i class="share-administrators_blocked"></i>
+                                        Seller Attorney</a></li>
+                                <li><a href="vendor-title-company.html"><i class="share-administrators_blocked"></i>
+                                        Title Company</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" aria-expanded="false">
+                                <!-- <i class="share-top_nav_home"></i> -->
+                                <img class="icon-width" src="../assets/images/borrowers-icon.png">
+                                <span class="hide-menu">Borrowers</span></a>
+                        </li>
+                        <li>
+                            <a href="#" aria-expanded="false">
+                                <!-- <i class="share-top_nav_home"></i> -->
+                                <img class="icon-width" src="../assets/images/investor-brokers-icon.png">
+                                <span class="hide-menu">Investor Brokers</span></a>
+                        </li>
+                        <li>
+                            <a href="#" aria-expanded="false">
+                                <!-- <i class="share-top_nav_home"></i> -->
+                                <img class="icon-width" src="../assets/images/warehouse-icon.png">
+                                <span class="hide-menu">Warehouse</span></a>
+                        </li>
+                        <li>
+                            <a class="has-arrow waves-effect waves-dark" href="loan-pipeline.html"
+                                aria-expanded="false">
+                                <!-- <i class="share-top_nav_home"></i> -->
+                                <img class="icon-width" src="../assets/images/loans.png">
+                                <span class="hide-menu">Loans</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="vendor-appraiser.html"><i class="share-administrators_list font24"></i>Loan
+                                        List</a></li>
+                                <li><a href="vendor-bank-atrtorney.html"><i class="share-add_administrator"></i>Loan
+                                        Draft List</a></li>
+                                <li><a href="loan-pipeline-new.html"><i class="share-administrators_roles"></i>Loan
+                                        Pipeline</a></li>
+                                <li><a href="vendor-buyer-attorney.html"><i
+                                            class="share-administrators_departments"></i>Weekly Tracker</a></li>
+                                <li><a href="vendor-foreclosure-attorney.html"><i
+                                            class="share-administrators_blocked"></i>Hit List</a></li>
+                                <li><a href="vendor-seller-attorney.html"><i
+                                            class="share-administrators_blocked"></i>Manage Updates</a></li>
+                                <li><a href="vendor-title-company.html"><i
+                                            class="share-administrators_blocked"></i>Shared Documents</a></li>
+                                <li><a href="vendor-title-company.html"><i
+                                            class="share-administrators_blocked"></i>Deleted Loans</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper pipeline-wrap">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <div class="row page-titles breadcrumb-outer m-t-0 m-b-0">
+                    <div class="col-md-12 text-right">
+                        <div class="d-flex">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><i class="mdi mdi-home-outline"></i> <a
+                                        href="javascript:void(0)">Home</a></li>
+                                <li class="breadcrumb-item"><a href="javascript:void(0)">Loans</a></li>
+                                <li class="breadcrumb-item"><a href="javascript:void(0)">Loan Pipeline</a></li>
+                                <li class="breadcrumb-item active">BC2018- 002456</li>
+                            </ol>
+                            <button type="submit" class="btn btn-outline-primary ml-auto">Back to Loans</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card trans-bg card-top radius">
+                            <div class="card-body p-0">
+                                <!--NAV TABS -->
+                                <ul class="nav nav-tabs customtab scrlTab shadow-bg owl-carousel owl-theme"
+                                    role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link px-3 active" data-toggle="tab" href="#LPDashboard" role="tab">
+                                            Dashboard
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#LPPocs" role="tab">
+                                            POCs
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#LPUnderwriting" role="tab">
+                                            Underwriting
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#LPBorrowerProfile" role="tab">
+                                            Borrower Profile
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#LPInsurance" role="tab">
+                                            Insurance
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#LPBroker" role="tab">
+                                            Broker
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#LPAppraiser" role="tab">
+                                            Appraiser
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#LPTitleCompany" role="tab">
+                                            Title Company
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#LPBankAttorney" role="tab">
+                                            Bank Attorney
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#LPSA" role="tab">
+                                            SA
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#LPSellerBuyersAttorney" role="tab">
+                                            Seller/Buyers Attorney
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#LPClosing" role="tab">
+                                            Closing
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#LPNotes" role="tab">
+                                            Notes
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#LPAllocateInvestors" role="tab">
+                                            Allocate Investors
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!--NAV TABS -->
+                            </div>
+                            <div class="card-body p-0 shadow-bg new-pipline-body pipeline-new-outer btrr-0 btlr-0">
+                                <div class="card trans-bg">
+                                    <div class="card-body p-0">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="LPDashboard" role="tabpanel">
+                                            <div class="card trans-bg fixed-block">
+                                                <div class="card-header no-box-shadow border-bottom">
+                                                    <div class="d-flex align-items-center">
+                                                        <h5 class="text-orange fw-500 mb-0">BC2021-0013088<span class="mx-1">-</span>344 Tully Road, San Jose, California 95111<span class="mx-2">|</span>Refinance</h5>
+                                                        <button class="btn btn-Orange ml-auto">Add Stipulations</button>
+                                                    </div>
+                                                </div>
+                                                <div class="card-body">
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-md-6 m-b-20">
+                                                            <div class="card card-default h-100 mb-0">
+                                                                <div class="card-header d-flex align-items-center  min-h-65">
+                                                                    <h5 class="fw-600">Loan Information</h5>
+                                                                    <img src="../assets/images/loan-pipeline/loan-information.png" alt="" class="ml-auto">
+                                                                </div>
+                                                                <div class="card-body">
+                                                                    <div class="d-flex flex-column justify-content-around h-100">
+                                                                        <div class="d-flex border-bottom pb-3">
+                                                                            <div class="w-50 border-right pr-3 pr-xl-4">
+                                                                                <h6 class="text-gray font-13">Loan Status:</h6>
+                                                                                <h6 class="fw-500 font-15">Term Sheet Bound</h6>
+                                                                            </div>
+                                                                            <div class="w-50 pl-3 pl-xl-4">
+                                                                                <h6 class="text-gray font-13">Loan program:</h6>
+                                                                                <h6 class="fw-500 font-15 text-rose">Bridge</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex border-bottom pb-3 pt-3">
+                                                                            <div class="w-50 border-right pr-3 pr-xl-4">
+                                                                                <h6 class="text-gray font-13">Lien position:</h6>
+                                                                                <h6 class="fw-500 font-15 text-cyan">First</h6>
+                                                                            </div>
+                                                                            <div class="w-50 pl-3 pl-xl-4">
+                                                                                <h6 class="text-gray font-13">Guarantor:</h6>
+                                                                                <h6 class="fw-500 font-15 text-blue">Mitchell</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex pt-3">
+                                                                            <div class="w-50 border-right pr-3 pr-xl-4">
+                                                                                <h6 class="text-gray font-13">Entity:</h6>
+                                                                                <h6 class="fw-500 font-15 text-blue">John Doe LLC</h6>
+                                                                            </div>
+                                                                            <div class="w-50 pl-3 pl-xl-4">
+                                                                                <h6 class="text-gray font-13">Broker:</h6>
+                                                                                <h6 class="fw-500 font-15 text-blue">William Smith</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-6 m-b-20">
+                                                            <div class="card card-default h-100 mb-0">
+                                                                <div class="card-header d-flex align-items-center min-h-65">
+                                                                    <h5 class="fw-600">Salient Facts</h5>
+                                                                    <img src="../assets/images/loan-pipeline/salient-facts.png" alt="" class="ml-auto">
+                                                                </div>
+                                                                <div class="card-body">
+                                                                    <div class="d-flex flex-column justify-content-around h-100">
+                                                                        <div class="d-flex border-bottom pb-3">
+                                                                            <div class="w-50 border-right pr-3 pr-xl-4">
+                                                                                <h6 class="text-gray font-13">Market Quality:</h6>
+                                                                                <h6 class="fw-500 font-15 text-green7">Urban</h6>
+                                                                            </div>
+                                                                            <div class="w-50 pl-3 pl-xl-4">
+                                                                                <h6 class="text-gray font-13">Occupancy:</h6>
+                                                                                <h6 class="fw-500 font-15">80%</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex border-bottom pb-3 pt-3">
+                                                                            <div class="w-50 border-right pr-3 pr-xl-4">
+                                                                                <h6 class="text-gray font-13">Square Footage:</h6>
+                                                                                <h6 class="fw-500 font-15">2000</h6>
+                                                                            </div>
+                                                                            <div class="w-50 pl-3 pl-xl-4">
+                                                                                <h6 class="text-gray font-13">Year Built:</h6>
+                                                                                <h6 class="fw-500 font-15">2005</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex pt-3">
+                                                                            <div class="w-50 border-right pr-3 pr-xl-4">
+                                                                                <h6 class="text-gray font-13">Beds:</h6>
+                                                                                <h6 class="fw-500 font-15">4</h6>
+                                                                            </div>
+                                                                            <div class="w-50 pl-3 pl-xl-4">
+                                                                                <h6 class="text-gray font-13">Baths:</h6>
+                                                                                <h6 class="fw-500 font-15">3</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-12 m-b-20">
+                                                            <div class="card card-default h-100 mb-0">
+                                                                <div class="card-header d-flex align-items-center min-h-65">
+                                                                    <h5 class="fw-600">Borrower Credentials</h5>
+                                                                    <img src="../assets/images/loan-pipeline/borrower-credentials.png" alt="" class="ml-auto">
+                                                                </div>
+                                                                <div class="card-body">
+                                                                    <div class="d-flex flex-column justify-content-around h-100">
+                                                                        <div class="d-flex border-bottom pb-3">
+                                                                            <div class="d-flex align-items-center">
+                                                                                <h6 class="text-gray font-13 mb-0">Completed Projects</h6>
+                                                                                <h4 class="fw-500 text-blue mb-0 ml-3">10<span class="font-11 fw-400 text-primary ml-2">$10,000.00</span></h4>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex border-bottom pb-3 pt-3">
+                                                                            <div class="w-50 pr-3 pr-xl-4">
+                                                                                <h6 class="text-gray font-13">Credit Score</h6>
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <img src="../assets/images/loan-pipeline/svg/circle-check-green.svg" alt="" width="25">
+                                                                                    <h4 class="mb-0 fw-500 ml-2 text-green4">730</h4>
+                                                                                </div>
+                                                                                <h6 class="mb-0 text-gray font-10 mt-2"><i>Generated On: 10/15/2020</i></h6>
+                                                                            </div>
+                                                                            <div class="w-50 pl-3 pl-xl-4">
+                                                                                <h6 class="text-gray font-13">Repeat Borrower</h6>
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <img src="../assets/images/loan-pipeline/svg/circle-like-green.svg" alt="" width="25">
+                                                                                    <h5 class="mb-0 fw-500 ml-2 text-green4">Yes</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex pt-3 pb-3">
+                                                                            <div class="w-50 border-right pr-3 pr-xl-4">
+                                                                                <h6 class="text-gray font-13">Required Liquidity</h6>
+                                                                                <h6 class="fw-500 mb-0">$1,00,000.00</h6>
+                                                                            </div>
+                                                                            <div class="w-50 pl-3 pl-xl-4">
+                                                                                <h6 class="text-gray font-13">Verified Liquidity</h6>
+                                                                                <h6 class="fw-500 mb-0">$1,20,000.00</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex">
+                                                                            <div class="w-50 border-right pr-3 pr-xl-4">
+                                                                                <h6 class="text-gray font-13">Surplus (Deficit)</h6>
+                                                                                <h6 class="fw-500 text-orange2 mb-0">$20,000.00</h6>
+                                                                            </div>
+                                                                            <div class="w-50 pl-3 pl-xl-4">
+                                                                                <h6 class="text-gray font-13">Loan Narrative</h6>
+                                                                                <h6 class="fw-500 mb-0">---------</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-8 col-md-12 m-b-20">
+                                                            <div class="card card-default h-100 mb-0">
+                                                                <div class="card-body">
+                                                                    <div class="d-flex flex-column justify-content-around h-100">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6 border-right">
+                                                                                <div class="d-flex justify-content-between align-items-center py-3 px-2">
+                                                                                    <h6 class="font-13 mb-0">Preliminary Loan Amount:</h6>
+                                                                                    <h6 class="fw-500 text-green4 mb-0">$5,00,000.00</h6>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-between align-items-center py-3 px-2 bg-grey">
+                                                                                    <h6 class="font-13 mb-0">Rehab/Construction Loan Amount:</h6>
+                                                                                    <h6 class="fw-500 text-orange mb-0">$1,00,000.00</h6>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-between align-items-center py-3 px-2">
+                                                                                    <h6 class="font-13 mb-0">Interest Reserve:</h6>
+                                                                                    <h6 class="fw-500 mb-0">$50,000.00</h6>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-between align-items-center py-3 px-2 bg-gray-dark">
+                                                                                    <h5 class="mb-0 fw-600">Total Loan Amount</h5>
+                                                                                    <h5 class="mb-0 fw-600">$6,50,000.00</h5>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-between align-items-center py-3 px-2">
+                                                                                    <h6 class="font-13 mb-0">As-is Value:</h6>
+                                                                                    <h6 class="mb-0 fw-500">$7,25,000.00</h6>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-between align-items-center py-3 px-2">
+                                                                                    <h6 class="font-13 mb-0">After Repair Value:</h6>
+                                                                                    <h6 class="mb-0 fw-500">$9,50,000.00</h6>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-between align-items-center py-3 px-2">
+                                                                                    <h6 class="font-13 mb-0">DSCR:</h6>
+                                                                                    <h6 class="mb-0 fw-500">MF</h6>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-6">
+                                                                                <div class="d-flex justify-content-between align-items-center py-3 px-2">
+                                                                                    <h6 class="font-13 mb-0">Purchase Price:</h6>
+                                                                                    <h6 class="mb-0 fw-500">$7,00,000.00</h6>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-between align-items-center py-3 px-2 bg-grey">
+                                                                                    <h6 class="font-13 mb-0">Rehab/Construction to Date:</h6>
+                                                                                    <h6 class="text-orange mb-0 fw-500">$50,000.00</h6>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-between align-items-center py-3 px-2">
+                                                                                    <h6 class="font-13 mb-0">Rehab/Construction Budget:</h6>
+                                                                                    <h6 class="mb-0 fw-500">$1,20,000.00</h6>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-between align-items-center py-3 px-2 bg-gray-dark">
+                                                                                    <h5 class="mb-0 fw-600">Total Project Cost</h5>
+                                                                                    <h5 class="mb-0 fw-600">$8,70,000.00</h5>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-between align-items-center py-3 px-2">
+                                                                                    <h6 class="font-13 mb-0">LTV:</h6>
+                                                                                    <h6 class="mb-0 fw-500">68.97%</h6>
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-between align-items-center py-3 px-2">
+                                                                                    <h6 class="font-13 mb-0">ARV:</h6>
+                                                                                    <h6 class="mb-0 fw-500">68.42%</h6>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-12 m-b-20">
+                                                            <div class="card card-default h-100 mb-0">
+                                                                <div class="card-body">
+                                                                    <div class="d-flex flex-column justify-content-around h-100">
+                                                                        <div class="d-flex border-bottom pb-2">
+                                                                            <div class="w-50 border-right pr-3 pr-xl-4">
+                                                                                <h6 class="font-13">Interest Rate:</h6>
+                                                                                <h6 class="fw-500 font-15 mb-0">9%</h6>
+                                                                            </div>
+                                                                            <div class="w-50 pl-3 pl-xl-4">
+                                                                                <h6 class="font-13">Interest Accrual</h6>
+                                                                                <h6 class="fw-500 font-15 mb-0">Full Loan</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex align-items-center border-bottom pt-2 pb-2">
+                                                                            <h6 class="font-13 fw-500 mb-0">Origination Fee:</h6>
+                                                                            <div class="d-flex align-items-center ml-3">
+                                                                                <h6 class="font-13 mb-0">Broker</h6>
+                                                                                <h6 class="mb-0 font-15 fw-500 ml-1">1%</h6>
+                                                                            </div>
+                                                                            <span class="mx-3">|</span>
+                                                                            <div class="d-flex align-items-center">
+                                                                                <h6 class="font-13 mb-0">Lender</h6>
+                                                                                <h6 class="mb-0 font-15 fw-500 ml-1">1%</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex border-bottom pt-3 pb-3">
+                                                                            <div class="w-50 pr-3 pr-xl-4">
+                                                                                <h6 class="font-13">Cost Basis:</h6>
+                                                                                <h6 class="fw-500 font-15 mb-0">------</h6>
+                                                                            </div>
+                                                                            <div class="w-50 pl-3 pl-xl-4">
+                                                                                <h6 class="font-13">Months Seasoned:</h6>
+                                                                                <h6 class="fw-500 font-15 mb-0">------</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex border-bottom pt-3 pb-3">
+                                                                            <div class="w-50 pr-3 pr-xl-4">
+                                                                                <h6 class="font-13">Loan Closing Date:</h6>
+                                                                                <h6 class="fw-500 font-15 mb-0">10/05/2019</h6>
+                                                                            </div>
+                                                                            <div class="w-50 pl-3 pl-xl-4">
+                                                                                <h6 class="font-13">Initial Maturity Date:</h6>
+                                                                                <h6 class="fw-500 font-15 mb-0">10/05/2022</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex border-bottom pt-3 pb-3">
+                                                                            <div class="w-50 pr-3 pr-xl-4">
+                                                                                <h6 class="font-13">Prepayment Penalty:</h6>
+                                                                                <h6 class="fw-500 font-15 mb-0">5 Months</h6>
+                                                                            </div>
+                                                                            <div class="w-50 pl-3 pl-xl-4">
+                                                                                <h6 class="font-13">Extension Options:</h6>
+                                                                                <h6 class="fw-500 font-15 mb-0">------</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex pt-3">
+                                                                            <div class="w-50 pr-3 pr-xl-4">
+                                                                                <h6 class="font-13">Cash Out:</h6>
+                                                                                <h6 class="fw-500 font-15 mb-0">------</h6>
+                                                                            </div>
+                                                                            <div class="w-50 pl-3 pl-xl-4">
+                                                                                <h6 class="font-13">Cash out % of<br/>Cost Basis:</h6>
+                                                                                <h6 class="fw-500 font-15 mb-0">------</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <hr/>
+                                                    <div class="d-flex justify-content-end mt-4">
+                                                        <button type="button" class="btn btn-Orange">Save & Submit</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="LPPocs" role="tabpanel">
+                                            <div class="card trans-bg fixed-block">
+                                                <div class="card-header no-box-shadow border-bottom">
+                                                    <div class="d-flex align-items-center">
+                                                        <h5 class="text-orange fw-500 mb-0">BC2021-0013088<span class="mx-1">-</span>344 Tully Road, San Jose, California 95111<span class="mx-2">|</span>Refinance</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="card-body">
+                                                    POCs here..
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="LPUnderwriting" role="tabpanel">
+                                            <div class="card trans-bg fixed-block mb-0">
+                                                <div class="card-header no-box-shadow border-bottom">
+                                                    <div class="d-flex align-items-center">
+                                                        <h5 class="text-orange fw-500 mb-0">BC2021-0013088<span class="mx-1">-</span>344 Tully Road, San Jose, California 95111<span class="mx-2">|</span>Refinance</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="card-body">
+                                                    <div class="form-row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-6 mb-lg-0 mb-3">
+                                                            <div class="card card-default h-100 mb-0">
+                                                                <div class="card-body py-2">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <img src="../assets/images/loan-pipeline/loan-information.png" alt="">
+                                                                        <h6 class="mb-0 ml-3">Loan Program: <span class="fw-600 ml-1">Term Loan</span></h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-3 col-lg-3 col-md-6 mb-lg-0 mb-3">
+                                                            <div class="card card-default h-100 mb-0">
+                                                                <div class="card-body py-2">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <img src="../assets/images/loan-pipeline/borrower-credentials.png" alt="">
+                                                                        <h6 class="mb-0 ml-3">Loan Type: <span class="fw-600 ml-1">Purchase</span></h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-3 col-lg-3 col-md-6 mb-lg-0 mb-3">
+                                                            <div class="card card-default h-100 mb-0">
+                                                                <div class="card-body py-2">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <img src="../assets/images/loan-pipeline/salient-facts.png" alt="">
+                                                                        <h6 class="mb-0 ml-3">Lien Position: <span class="fw-600 ml-1">1st</span></h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-3 col-lg-3 col-md-6 mb-lg-0 mb-3">
+                                                            <div class="card card-default h-100 mb-0">
+                                                                <div class="card-body py-2">
+                                                                    <div class="d-flex align-items-center h-100">
+                                                                        <h6 class="mb-0 text-nowrap mr-2">Loan Status:</h6>
+                                                                        <select class="selectpicker textpicker textbold">
+                                                                            <option>Term Sheet Bound</option>
+                                                                            <option>Pending Review</option>
+                                                                            <option>Clear to Close</option>
+                                                                            <option>Closed</option>
+                                                                          </select>  
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul class="nav nav-tabs owl-carousel owl-theme scrlTab customtab-new" role="tablist">
+                                                <a href="#uwStipulations" class="nav-link active" data-toggle="tab" role="tab">
+                                                    Stipulations
+                                                </a>
+                                                <a href="#uwApprovedTerms" class="nav-link" data-toggle="tab" role="tab">
+                                                    Approved Terms
+                                                </a>
+                                                <a href="#uwCostbasis" class="nav-link" data-toggle="tab" role="tab">
+                                                    Cost Basis & Project Cost
+                                                </a>
+                                                <a href="#uwDSCR" class="nav-link" data-toggle="tab" role="tab">
+                                                    DSCR
+                                                </a>
+                                                <a href="#uwProofofFunds" class="nav-link" data-toggle="tab" role="tab">
+                                                    Proof of Funds
+                                                </a>
+                                                <a href="#uwLoanAllocation" class="nav-link" data-toggle="tab" role="tab">
+                                                    Loan Allocation
+                                                </a>
+                                                <a href="#uwSeniorLoans" class="nav-link" data-toggle="tab" role="tab">
+                                                    Senior Loan(s)
+                                                </a>
+                                                <a href="#uwLoanNarrative" class="nav-link" data-toggle="tab" role="tab">
+                                                    Loan Narrative
+                                                </a>
+                                                <a href="#uwExceptions" class="nav-link" data-toggle="tab" role="tab">
+                                                    Exceptions and Compensating Factors
+                                                </a>
+                                                <a href="#uwFundingConditions" class="nav-link" data-toggle="tab" role="tab">
+                                                    Funding Conditions
+                                                </a>
+                                                <a href="#uwFees" class="nav-link" data-toggle="tab" role="tab">
+                                                    Fees
+                                                </a>
+                                            </ul>
+                                            <div class="tab-content pipline-new-wraper">
+                                                <div class="tab-pane active" id="uwStipulations" role="tabpanel">
+                                                    <div class="card-body">
+                                                        <ul class="nav nav-tabs owl-carousel owl-theme scrlTab stepper d-flex justify-content-center" role="tablist">
+                                                            <a href="#uwStipsApplicationDetails" class="nav-link active px-5" data-toggle="tab" role="tab">
+                                                                Application Details
+                                                                <div class="icon success">
+                                                                    <i class="ti-check"></i>
+                                                                </div>
+                                                            </a>
+                                                            <a href="#uwStipsEntityDocs" class="nav-link px-5" data-toggle="tab" role="tab">
+                                                                Entity Documents
+                                                                <div class="icon warning">
+                                                                    <i class="ti-more-alt"></i>
+                                                                </div>
+                                                            </a>
+                                                            <a href="#uwTitleStipulations" class="nav-link px-5" data-toggle="tab" role="tab">
+                                                                Title Stipulations
+                                                                <div class="icon primary">
+                                                                    <i class="ti-check"></i>
+                                                                </div>
+                                                            </a>
+                                                            <a href="#uwClosingDocuments" class="nav-link px-5" data-toggle="tab" role="tab">
+                                                                Closing Documents
+                                                                <div class="icon secondary">
+                                                                    <i class="ti-check"></i>
+                                                                </div>
+                                                            </a>
+                                                        </ul>
+                                                        <hr/>
+                                                        <div class="tab-content pipline-tab">
+                                                            <div class="tab-pane active" id="uwStipsApplicationDetails" role="tabpanel">
+                                                                <div class="row">
+                                                                    <div class="col-md-12 col-lg-6 border-right">
+                                                                        <h5 class="font-600">External</h5>
+                <div class="table-responsive">
+                    <table
+                    class="table table-hover pipline-table-new pipelineTable_Collapse"
+                    data-page-size="10" id="Cred">
+                        <tbody>
+                            <tr>
+                                <td colspan="12">
+                                    <table class="section-table">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    Type
+                                                </th>
+                                                <th>
+                                                    Files
+                                                </th>
+                                                <th>
+                                                    UW Status
+                                                </th>
+                                            </tr>
+                                            <tr class="spacer">
+                                                <th colspan="12"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div
+                                                        class="d-flex align-items-start">
+                                                        <i
+                                                            class="share-preliminary font-31 mr-1">
+                                                        </i>
+                                                        <span
+                                                            class="title">Rehab/Construction
+                                                            Budget</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <ul
+                                                        class="icheck-list p-0 m-0">
+                                                        <li>
+                                                            <div
+                                                                class="d-flex w-100">
+                                                                <input
+                                                                    tabindex="7"
+                                                                    type="radio"
+                                                                    class="check"
+                                                                    id="single_doc"
+                                                                    name="file_type"
+                                                                    data-radio="iradio_minimal-blue">
+                                                                <label
+                                                                    class="m-b-0 text-capitalize font-14"
+                                                                    for="single_doc">single
+                                                                    doc
+                                                                    upload</label>
+                                                            </div>
+                                                        </li>
+                                                        <li class="mt-2">
+                                                            <div
+                                                                class="d-flex w-100">
+                                                                <input
+                                                                    tabindex="7"
+                                                                    type="radio"
+                                                                    class="check"
+                                                                    id="by_collateral"
+                                                                    name="file_type"
+                                                                    data-radio="iradio_minimal-blue">
+                                                                <label
+                                                                    class="m-b-0 text-capitalize font-14"
+                                                                    for="by_collateral">by
+                                                                    collateral</label>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                                <td>
+                                                    <a data-toggle="collapse"
+                                                        href="#collateral1"
+                                                        class="collapsed expand"><i
+                                                            class="fa fa-angle-down"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div>
+                                                        <span
+                                                            class="title">3227
+                                                            East Baltimore
+                                                            Street</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="tooltip-primary mb-2"
+                                                        data-toggle="tooltip"
+                                                        data-placement="auto"
+                                                        data-html="true"
+                                                        title=""
+                                                        data-original-title="Rehab_budget_3227_East_Ba<br>ltimore_Street_201910010247.pdf <br> <small style=opacity:.7>Uploaded  On    10/01/2019 at 03:47PM <br> by Nathan Rembert</small>">
+                                                        <a class="btn btn-outline-secondary color-primary text-left file-item"
+                                                            target="_blank"
+                                                            href="http://192.168.1.100/edev/backend/developers/view_file/13487/Rehab_budget_3227_East_Baltimore_Street_201910010247.pdf/236720">
+                                                            <span>Rehab_budget_3227_East_Baltimore_Street_201910010247.pdf</span><br>
+                                                            <small>Uploaded
+                                                                On
+                                                                10/01/2019
+                                                                at 03:47PM
+                                                                by Nathan
+                                                                Rembert</small>
+                                                            <button
+                                                                class="close"><i
+                                                                    class="fa fa-close"></i></button>
+                                                        </a>
+                                                    </div>
+                                                    <div class="fileinput fileinput-new input-group light-grey"
+                                                        data-provides="fileinput">
+                                                        <span
+                                                            class="input-group-append btn btn-default btn-file mb-2">
+                                                            <span
+                                                                class="fileinput-new">
+                                                                <img width="17px"
+                                                                    class="img-fluid"
+                                                                    src="../assets/images/upload.png">
+                                                            </span>
+                                                            <span
+                                                                class="fileinput-exists">
+                                                                <img width="17px"
+                                                                    class="img-fluid"
+                                                                    src="../assets/images/upload.png">
+                                                            </span>
+                                                            <input
+                                                                name="..."
+                                                                type="file" />
+                                                        </span>
+                                                        <i
+                                                            class="glyphicon glyphicon-file fileinput-exists">
+                                                        </i>
+                                                        <div
+                                                            class="change-class d-flex">
+                                                            <div
+                                                                class="scroll-adjust">
+                                                                <span
+                                                                    class="fileinput-filename">
+                                                                </span>
+                                                            </div>
+                                                            <div
+                                                                class="scroll-adjust-close">
+                                                                <a class="input-group-append btn btn-default btn-change fileinput-exists"
+                                                                    data-dismiss="fileinput"
+                                                                    href="javascript:void(0)">
+                                                                    <i
+                                                                        class="fa fa-close"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <button
+                                                        class="btn btn-outline-primary text-capitalize mb-2">view
+                                                        / edit</button>
+                                                    <button
+                                                        class="btn btn-outline-success">
+                                                        <i
+                                                            class="fa fa-check-circle mr-1"></i>C
+                                                    </button>
+                                                    <a href="#"
+                                                        data-toggle="modal"
+                                                        data-target="#reoStatus"
+                                                        class="d-flex mt-3">REO
+                                                        Status</a>
+                                                    <a href="#"
+                                                        data-toggle="modal"
+                                                        data-target="#addBorrowerEntity"
+                                                        class="d-flex mt-3">Add
+                                                        Borrower Entity</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="collapse"
+                                                id="collateral1">
+                                                <td>
+                                                    <div>
+                                                        <span
+                                                            class="title">837
+                                                            North Montford
+                                                            Avenue</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="tooltip-primary mb-2"
+                                                        data-toggle="tooltip"
+                                                        data-placement="auto"
+                                                        data-html="true"
+                                                        title=""
+                                                        data-original-title="Rehab_budget_3227_East_Ba<br>ltimore_Street_201910010247.pdf <br> <small style=opacity:.7>Uploaded  On    10/01/2019 at 03:47PM <br> by Nathan Rembert</small>">
+                                                        <a class="btn btn-outline-secondary color-primary text-left file-item"
+                                                            target="_blank"
+                                                            href="http://192.168.1.100/edev/backend/developers/view_file/13487/Rehab_budget_3227_East_Baltimore_Street_201910010247.pdf/236720">
+                                                            <span>Rehab_budget_3227_East_Baltimore_Street_201910010247.pdf</span><br>
+                                                            <small>Uploaded
+                                                                On
+                                                                10/01/2019
+                                                                at 03:47PM
+                                                                by Nathan
+                                                                Rembert</small>
+                                                            <button
+                                                                class="close"><i
+                                                                    class="fa fa-close"></i></button>
+                                                        </a>
+                                                    </div>
+                                                    <div class="fileinput fileinput-new input-group light-grey"
+                                                        data-provides="fileinput">
+                                                        <span
+                                                            class="input-group-append btn btn-default btn-file mb-2">
+                                                            <span
+                                                                class="fileinput-new">
+                                                                <img width="17px"
+                                                                    class="img-fluid"
+                                                                    src="../assets/images/upload.png">
+                                                            </span>
+                                                            <span
+                                                                class="fileinput-exists">
+                                                                <img width="17px"
+                                                                    class="img-fluid"
+                                                                    src="../assets/images/upload.png">
+                                                            </span>
+                                                            <input
+                                                                name="..."
+                                                                type="file" />
+                                                        </span>
+                                                        <i
+                                                            class="glyphicon glyphicon-file fileinput-exists">
+                                                        </i>
+                                                        <div
+                                                            class="change-class d-flex">
+                                                            <div
+                                                                class="scroll-adjust">
+                                                                <span
+                                                                    class="fileinput-filename">
+                                                                </span>
+                                                            </div>
+                                                            <div
+                                                                class="scroll-adjust-close">
+                                                                <a class="input-group-append btn btn-default btn-change fileinput-exists"
+                                                                    data-dismiss="fileinput"
+                                                                    href="javascript:void(0)">
+                                                                    <i
+                                                                        class="fa fa-close"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <button
+                                                        class="btn btn-outline-primary text-capitalize mb-2">view
+                                                        / edit</button>
+                                                    <button
+                                                        class="btn btn-outline-success">
+                                                        <i
+                                                            class="fa fa-check-circle mr-1"></i>C
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3">
+                                                    <table class="table-transparent table-stips">
+                                                        <thead>
+                                                            <th>
+                                                                <a class="btn btn-link expand-block collapsed" data-toggle="collapse" href="#row1"><i class="fa fa-chevron-circle-right mr-2"></i></a>
+                                                            </th>
+                                                            <th>Select Appraisal Stips</th>
+                                                            <th>Verified</th>
+                                                            <th>NA</th>
+                                                        </thead>
+                                                        <tbody id="row1" class="collapse">
+                                                            <tr><td colspan="4"></td></tr>
+                                                            <tr>
+                                                                <td></td>
+                                                                <td>
+                                                                    <div class="d-flex align-items-center">
+                                                                        <span class="bullets mr-1"></span>
+                                                                    Status
+                                                                    <span class="fa fa-info-circle text-gray ml-1"></span>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="ss-custom-checkbox gray-border">
+                                                                        <input type="checkbox" id="one"><label for="one" class="mb-0 p-0"></label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="ss-custom-checkbox gray-border">
+                                                                        <input type="checkbox" id="two"><label for="two" class="mb-0 p-0"></label>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td></td>
+                                                                <td>
+                                                                    <div class="d-flex align-items-center">
+                                                                        <span class="bullets mr-1"></span>
+                                                                    Property Address Verified
+                                                                    <span class="fa fa-info-circle text-gray ml-1"></span>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="ss-custom-checkbox gray-border">
+                                                                        <input type="checkbox" id="one"><label for="one" class="mb-0 p-0"></label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="ss-custom-checkbox gray-border">
+                                                                        <input type="checkbox" id="two"><label for="two" class="mb-0 p-0"></label>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tab-pane" id="uwStipsEntityDocs" role="tabpanel">
+                                                                Entity Docs here..
+                                                            </div>
+                                                            <div class="tab-pane" id="uwTitleStipulations" role="tabpanel">
+                                                                Title Stipulations here..
+                                                            </div>
+                                                            <div class="tab-pane" id="uwClosingDocuments" role="tabpanel">
+                                                                Closing Documents here..
+                                                            </div>
+                                                        </div>
+                                                        <hr/>
+                                                        <div class="d-flex justify-content-end mt-4">
+                                                            <button type="button" class="btn btn-outline-primary mr-2">Next</button>
+                                                            <button type="button" class="btn btn-Orange">Save & Submit</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" id="uwApprovedTerms" role="tabpanel">
+                                                    <div class="card-body">
+                                                        Approved Terms here..
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" id="uwCostbasis" role="tabpanel">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-xl-4 col-lg-5 col-md-6">
+                                                                <div class="d-lg-flex align-items-center">
+                                                                    <label for="" class="text-nowrap mb-lg-0">Acquisition Date:</label>
+                                                                    <div class="form-group ml-lg-2 mb-lg-0 w-100">
+                                                                        <div class="input-group mn-w-200">
+                                                                            <input type="text" class="form-control mydatepicker" placeholder="--Select Date--">
+                                                                            <div class="input-group-append">
+                                                                                <span class="input-group-text text-primary"><i class="fa fa-calendar"></i></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                                                <div class="d-lg-flex align-items-center">
+                                                                    <label for="" class="mb-lg-0">Seasoning:</label>
+                                                                    <div class="form-group ml-lg-2 mb-lg-0 w-100">
+                                                                        <input type="text" class="form-control" value="5 Months" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-4 col-lg-3 col-md-12">
+                                                                <div class="d-flex align-items-center justify-content-end h-100">
+                                                                    <span class="text-danger">*Refi only</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-lg-flex justify-content-between mt-5">
+                                                            <div class="card card-default flex-grow-1">
+                                                                <div class="card-body">
+                                                                    <div class="d-flex align-items-center justify-content-center">
+                                                                        <div>
+                                                                            <h6 class="font-13 mb-3">Purchase price:</h6>
+                                                                            <h5 class="mb-0 text-orange fw-600">$5,00,000.00</h5>
+                                                                        </div>
+                                                                        <div>
+                                                                            <h3 class="mb-0 text-gray fw-500 mx-4">+</h3>
+                                                                        </div>
+                                                                        <div>
+                                                                            <h6 class="font-13 mb-3">Rehab/Construction to Date:</h6>
+                                                                            <h5 class="mb-0 text-orange fw-600">$1,00,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex align-items-center justify-content-center m-b-20">
+                                                                <h3 class="mb-0 text-gray fw-500 mx-xl-4 mx-2">=</h3>
+                                                            </div>
+                                                            <div class="card card-default flex-grow-1">
+                                                                <div class="card-body">
+                                                                    <div class="d-flex align-items-center justify-content-center h-100">
+                                                                        <div>
+                                                                            <h6 class="font-13 mb-3">Cost basis:</h6>
+                                                                            <h5 class="mb-0 fw-600">$6,00,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex align-items-center justify-content-center m-b-20">
+                                                                <h3 class="mb-0 text-gray fw-500 mx-xl-4 mx-2">+</h3>
+                                                            </div>
+                                                            <div class="card card-default flex-grow-1">
+                                                                <div class="card-body">
+                                                                    <div class="d-flex align-items-center justify-content-center h-100">
+                                                                        <div>
+                                                                            <h6 class="font-13 mb-3">Rehab/Construction Remaining</h6>
+                                                                            <h5 class="mb-0 text-orange fw-600">$50,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex align-items-center justify-content-center m-b-20">
+                                                                <h3 class="mb-0 text-gray fw-500 mx-xl-4 mx-2">=</h3>
+                                                            </div>
+                                                            <div class="card card-default flex-grow-1">
+                                                                <div class="card-body">
+                                                                    <div class="d-flex align-items-center justify-content-center h-100">
+                                                                        <div>
+                                                                            <h6 class="font-13 mb-3">Total Project Cost:</h6>
+                                                                            <h5 class="mb-0 fw-600">$6,50,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mt-4 mb-4">
+                                                            <h6>
+                                                                Cash Out
+                                                                <span class="mx-2">=</span>
+                                                                <b>$1,50,000.00</b>
+                                                                <small class="ml-1">(Payoff)</small>
+                                                                <span class="mx-1">-</span>
+                                                                <b>$2,00,000.00</b>
+                                                                <small class="ml-1">(Upfront Loan)</small>
+                                                                <span class="mx-1">-</span>
+                                                                <b>$50,000.00</b>
+                                                                <small class="ml-1">(Closing Costs)</small>
+                                                            </h6>
+                                                            <h6>
+                                                                Cash Out % of Cost Basis
+                                                                <span class="mx-2">=</span>
+                                                                <b>$50,000.00</b>
+                                                                <small class="ml-1">(Cash Out)</small>
+                                                                <span class="mx-1">/</span>
+                                                                <b>$6,00,000.00</b>
+                                                                <small class="ml-1">(Cost Basis)</small>
+                                                            </h6>
+                                                        </div>
+                                                        <hr/>
+                                                        <div class="d-flex justify-content-end mt-4">
+                                                            <button type="button" class="btn btn-outline-primary mr-2">Next</button>
+                                                            <button type="button" class="btn btn-Orange">Save &amp; Submit</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" id="uwDSCR" role="tabpanel">
+                                                    <div class="card-body">
+                                                        DSCR here..
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" id="uwProofofFunds" role="tabpanel">
+                                                    <div class="card-body">
+                                                        <h5 class="fw-500 mb-lg-3 mb-4">Liquidity</h5>
+                                                        <div class="row">
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="d-lg-flex align-items-center">
+                                                                    <label for="" class="text-nowrap mb-lg-0">Requirement:</label>
+                                                                    <div class="form-group ml-lg-2 mb-lg-0 w-100">
+                                                                        <input type="text" class="form-control" value="$1,00,000.00">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="d-lg-flex align-items-center">
+                                                                    <label for="" class="text-nowrap mb-lg-0">Verified:</label>
+                                                                    <div class="form-group ml-lg-2 mb-lg-0 w-100">
+                                                                        <input type="text" class="form-control" value="$1,00,000.00">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="d-lg-flex align-items-center">
+                                                                    <label for="" class="text-nowrap mb-lg-0">Surplus (Deficit):</label>
+                                                                    <div class="form-group ml-lg-2 mb-lg-0 w-100">
+                                                                        <input type="text" class="form-control" value="$1,00,000.00">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mt-4 mb-4">
+                                                            <div class="col-lg-12">
+                                <div class="table-responsive">
+                                    <table class="table table-outlined table-striped thead-grey">
+                                        <thead>
+                                            <tr>
+                                                <th>Liquidity Type</th>
+                                                <th>Document End Date</th>
+                                                <th>Amount</th>
+                                                <th>Effective %</th>
+                                                <th>Effective Liquidity</th>
+                                                <th>Account Entity</th>
+                                                <th>OA Recieved</th>
+                                                <th>Verified Ac.</th>
+                                                <th>Docs</th>
+                                                <th>Notes</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="text-nowrap">
+                                                    <div class="d-flex align-items-center">
+                                                        Personal Bank Ac.
+                                                        <button class="btn btn-outline-primary d-inline-flex align-items-center ml-3 btn-sm"><span class="icon-plus font-18 mr-2"></span>Add More</button>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="input-group mn-w-200">
+                                                        <input type="text" class="form-control mydatepicker" placeholder="--Select Date--">
+                                                        <div class="input-group-append">
+                                                            <span class="input-group-text text-primary"><i class="fa fa-calendar"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="min-w-150">
+                                                        <input type="text" class="form-control" value="$2,000.00" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="min-w-65">
+                                                        <input type="text" class="form-control" value="100%" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="min-w-150">
+                                                        <input type="text" class="form-control" value="$2,000.00" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="min-w-150">
+                                                        <input type="text" class="form-control" value="John Smith" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="ss-custom-checkbox checkbox-sm">
+                                                            <input type="radio" name="OARecieved" id="OARecievedY">
+                                                            <label for="OARecievedY" class="mb-0">Y</label>
+                                                        </div>
+                                                        <div class="ss-custom-checkbox checkbox-sm ml-3">
+                                                            <input type="radio" name="OARecieved" id="OARecievedN">
+                                                            <label for="OARecievedN" class="mb-0">N</label>
+                                                        </div>
+                                                        <div class="ss-custom-checkbox checkbox-sm ml-3">
+                                                            <input type="radio" name="OARecieved" id="OARecievedNA">
+                                                            <label for="OARecievedNA" class="mb-0">N/A</label>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="ss-custom-checkbox checkbox-sm">
+                                                            <input type="radio" name="OAVerifiedAc" id="OAVerifiedAcY">
+                                                            <label for="OAVerifiedAcY" class="mb-0">Y</label>
+                                                        </div>
+                                                        <div class="ss-custom-checkbox checkbox-sm ml-3">
+                                                            <input type="radio" name="OAVerifiedAc" id="OAVerifiedAcN">
+                                                            <label for="OAVerifiedAcN" class="mb-0">N</label>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex align-items-start">
+                                                        <div class="d-flex align-items-center">
+                                                            <a data-toggle="tooltip" data-html="true" title="" data-original-title="<div class='font-12'><span class='fw-500'>Business_Bank_Document.pdf</span><br/>Uploaded By:<span class='fw-500 ml-1'>John Doe</span><br/>on<span class='fw-500 ml-1 mr-1'>29/09/2019</span>at <span class='fw-500 ml-1'>9:30 AM</span></div>" class="btn btn-sm btn-outline-secondary no-hover"><img src="../assets/images/loan-pipeline/docs.png" alt=""></a>
+                                                        </div>
+                                                        <div class="fileinput fileinput-new input-group form-fileinput ml-2" data-provides="fileinput">
+                                                            <span class="input-group-append btn btn-default btn-file w-auto ml-0 py-1 px-2">
+                                                              <span class="fileinput-new"><i class="fa fa-cloud-upload text-gray font-18"></i> </span>
+                                                              <span class="fileinput-exists"><i class="ti-reload text-gray font-18"></i></span>
+                                                              <input type="file" name="...">
+                                                            </span>
+                                                            <div class="file-preview form-control no-border min-w-100" data-trigger="fileinput">
+                                                              <i class="glyphicon glyphicon-file fileinput-exists"></i>
+                                                              <span class="fileinput-filename"></span>
+                                                            </div>
+                                                            <a href="javascript:void(0)" class="input-group-append btn btn-default fileinput-exists p-0" data-dismiss="fileinput">Remove</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td class="min-w-150">
+                                                    <div class="dialog-box">
+                                                        <h6 class="font-12 mb-0">lorem ipsum dolar sit amet..</h6>
+                                                        <span class="tip tip-down"></span>
+                                                    </div>
+                                                    <h6 class="mb-0 font-10 text-gray mt-2">By William on 30/09/2020<br/>at 10:00 AM</h6>
+                                                </td>
+                                            </tr>
+                                            <tr class="footer-primary">
+                                                <td colspan="2">
+                                                    <span class="text-white font-18 fw-500">Total</span>
+                                                </td>
+                                                <td colspan="2">
+                                                    <span class="text-white font-18 fw-500">$2,27,000.00</span>
+                                                </td>
+                                                <td colspan="6">
+                                                    <span class="text-white font-18 fw-500">$1,27,000.00</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <hr/>
+                                                        <div class="d-flex justify-content-end mt-4">
+                                                            <button type="button" class="btn btn-outline-primary mr-2">Next</button>
+                                                            <button type="button" class="btn btn-Orange">Save &amp; Submit</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" id="uwLoanAllocation" role="tabpanel">
+                                                    <div class="card-body">
+                                                        Loan Allocation here..
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" id="uwSeniorLoans" role="tabpanel">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-xl-9 col-lg-8 col-md-6 mb-sm-0 mb-3">
+                                                                <button class="btn btn-primary-new-outline active" type="button">IO</button>
+                                                                <button class="btn btn-primary-new-outline ml-2" type="button">Amort/Paid Down</button>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-4 col-md-6">
+                                                                <select class="selectpicker w-100" title="--Select Previous Loan--">
+                                                                    <option>Mustard</option>
+                                                                    <option>Ketchup</option>
+                                                                    <option>Relish</option>
+                                                                  </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mt-4">
+                                                            <div class="col-lg-12">
+                        <div class="table-responsive">
+                            <table class="table table-outlined thead-grey">
+                                <thead>
+                                    <tr>
+                                        <th colspan="4" class="fw-600 font-14 bg-light">Refinance</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="fw-600 font-14">Values</th>
+                                        <th class="fw-600 font-14">1st Lien</th>
+                                        <th class="fw-600 font-14">2nd Lien</th>
+                                        <th class="fw-600 font-14">3rd Lien</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="v-align-top">
+                                            <div class="d-flex">
+                                                <span class="fw-500 min-w-65">Budget:</span>
+                                                <span>$10,00,000.00</span>
+                                            </div> 
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <span class="fw-500">Upfront:</span>
+                                                <span>$15,00,000.00</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between mt-3">
+                                                <span class="fw-500">Escrow:</span>
+                                                <span>$5,00,000.00</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between mt-3">
+                                                <span class="fw-500">Reserves:</span>
+                                                <span>$1,00,000.00</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <span class="fw-500">Upfront:</span>
+                                                <span>$1,00,000.00</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between mt-3">
+                                                <span class="fw-500">Escrow:</span>
+                                                <span>$3,00,000.00</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between mt-3">
+                                                <span class="fw-500">Reserves:</span>
+                                                <span>$1,00,000.00</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <span class="fw-500">Upfront:</span>
+                                                <span>$1,00,000.00</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between mt-3">
+                                                <span class="fw-500">Escrow:</span>
+                                                <span>$3,00,000.00</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between mt-3">
+                                                <span class="fw-500">Reserves:</span>
+                                                <span>$1,00,000.00</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="bg-gray">
+                                        <td></td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <h5 class="fw-600 mb-0">Total:</h5>
+                                                <h5 class="fw-600 mb-0">$21,25,000.00</h5>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <h5 class="fw-600 mb-0">Total:</h5>
+                                                <h5 class="fw-600 mb-0">$5,00,000.00</h5>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <h5 class="fw-600 mb-0">Total:</h5>
+                                                <h5 class="fw-600 mb-0">$5,00,000.00</h5>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="v-align-top">
+                                            <div class="d-flex">
+                                                <span class="fw-500 min-w-65">AIV:</span>
+                                                <span>$35,00,000.00</span>
+                                            </div>
+                                            <div class="d-flex mt-3">
+                                                <span class="fw-500 min-w-65">ARV:</span>
+                                                <span>$75,00,000.00</span>
+                                            </div> 
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <h6 class="fw-500 mb-0">Fully Disbursed:</h5>
+                                                <h6 class="fw-500 text-green2 mb-0">Yes</h5>
+                                            </div>
+                                            <div class="d-flex justify-content-between mt-3">
+                                                <span class="fw-500">LTV:</span>
+                                                <span>43%</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between mt-3">
+                                                <span class="fw-500">ARV:</span>
+                                                <span>28%</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <h6 class="fw-500 mb-0">Fully Disbursed:</h5>
+                                                <h6 class="fw-500 text-orange mb-0">No</h5>
+                                            </div>
+                                            <div class="d-flex justify-content-between mt-3">
+                                                <span class="fw-500">CLTV:</span>
+                                                <span>64%</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between mt-3">
+                                                <span class="fw-500">ARV:</span>
+                                                <span>35%</span>
+                                            </div>
+                                        </td>
+                                        <td class="v-align-top">
+                                            <div class="d-flex justify-content-between">
+                                                <span class="fw-500">CLTV:</span>
+                                                <span>66%</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between mt-3">
+                                                <span class="fw-500">ARV:</span>
+                                                <span>42%</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                                            </div>
+                                                        </div>
+                                                        <hr>
+                                                        <div class="d-flex justify-content-end mt-4">
+                                                            <button type="button" class="btn btn-outline-primary mr-2">Next</button>
+                                                            <button type="button" class="btn btn-Orange">Save &amp; Submit</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" id="uwLoanNarrative" role="tabpanel">
+                                                    <div class="card-body">
+                                                        Loan Narrative here..
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" id="uwExceptions" role="tabpanel">
+                                                    <div class="card-body">
+                                                        <h6 class="fw-500 mb-lg-3 mb-4">Please select Compensating Factors for the highlighted Exceptions</h6>
+                                                        <div class="row mt-4">
+                                                            <div class="col-lg-8">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" id="uwFundingConditions" role="tabpanel">
+                                                    <div class="card-body">
+                                                        Funding Conditions here..
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" id="uwFees" role="tabpanel">
+                                                    <div class="card-body">
+                                                        Fees here..
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="LPBorrowerProfile" role="tabpanel">
+                                            <div class="card-body">
+                                                borrower profile here..
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="LPInsurance" role="tabpanel">
+                                            <div class="card-body"> 
+                                                Insurance here..
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="LPBroker" role="tabpanel">
+                                            <div class="card-body">
+                                                Broker here..
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="LPAppraiser" role="tabpanel">
+                                            <div class="card-body"> 
+                                                Appraiser here..
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="LPTitleCompany" role="tabpanel">
+                                            <div class="card-body"> 
+                                                Title Company here..
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="LPBankAttorney" role="tabpanel">
+                                            <div class="card-body">
+                                                Bank Attorney here..
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="LPSA" role="tabpanel">
+                                            <div class="card-body">
+                                                SA here..
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="LPSellerBuyersAttorney" role="tabpanel">
+                                            <div class="card-body">
+                                                Seller/Buyers  Attorney here..
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="LPClosing" role="tabpanel">
+                                            <div class="card-body">
+                                                Closing here..
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="LPNotes" role="tabpanel">
+                                            <div class="card-body">
+                                                Notes here..
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="LPAllocateInvestors" role="tabpanel">
+                                            <div class="card-body"> 
+                                                Allocate Investors here..
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade custom-bs-modal" id="reoStatus" tabindex="-1" aria-labelledby="status-popup-modal"
+        role="dialog">
+        <div class="modal-dialog modal-xlarge" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom bbrr-0 bblr-0">
+                    <h3 class="modal-title font-weight-bold">REO Status</h3>
+                    <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="aligned-form-panel p-lg-3">
+                        <div class="form-group row">
+                            <label for="reo_date" class="col-lg-2 col-form-label">REO Date</label>
+                            <div class="col-lg-4">
+                                <input type="text" class="form-control reo_date" name="reo_date" id="reo_date" value=""
+                                    readonly="">
+                                <div class="reo-errordis missing-err" style="color:red;"></div>
+                            </div>
+                        </div>
+                        <div class="form-group row reo_sold auto-complete-blk">
+                            <label for="reo_sold_to" class="col-lg-2 col-form-label">REO Sold To</label>
+                            <div class="col-lg-4">
+                                <input type="text" class="form-control reo_sold_to" name="reo_sold_to" id="reo_sold_to"
+                                    value="">
+                                <div class="reosold-errordis missing-err" style="color:red;"></div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="reo_additional">
+                            <table class="table reo_status-table">
+                                <tbody>
+                                    
+                                    <tr class="reo_headings">
+                                        <td colspan="4">
+                                            <h5 class="fw-500 mb-0">Contract Price</h5>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" width="50%">
+                                            <h5 class="text-orange mb-0">Details</h5>
+                                        </td>
+                                        <td width="25%">
+                                            <h5 class="text-orange mb-0">Debit</h5>
+                                        </td>
+                                        <td width="25%">
+                                            <h5 class="text-orange mb-0">Credit</h5>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" width="50%">
+                                            <input type="text" class="form-control input-digits"
+                                                name="contract_price"
+                                                id="contract_price" value="">
+                                        </td>
+                                        <td width="25%">
+                                            <input type="text" class="form-control input-digits"
+                                                name="contract_price_dbt"
+                                                id="contract_price_dbt" value="">
+                                        </td>
+                                        <td width="25%">
+                                            <input type="text" class="form-control input-digits"
+                                                name="contract_price_cdt"
+                                                id="contract_price_cdt" value="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <input type="hidden" name="commission_paid_row" id="commission_paid_row"
+                                            value="1">
+                                        <td align="right" colspan="4"><button type="button" class="btn btn-primary"
+                                                id="commission_paid_add_more" data-toggle="tooltip" data-placement="top"
+                                                title="" data-original-title="Add More"><i
+                                                    class="fa fa-plus"></i></button></td>
+                                    </tr>
+
+                                    <tr class="reo_headings">
+                                        <td colspan="4">
+                                            <h5 class="fw-500 mb-0">Adjustments</h5>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" width="50%">
+                                            <h5 class="text-orange mb-0">Details</h5>
+                                        </td>
+                                        <td width="25%">
+                                            <h5 class="text-orange mb-0">Debit</h5>
+                                        </td>
+                                        <td width="25%">
+                                            <h5 class="text-orange mb-0">Credit</h5>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" width="50%">
+                                            <input type="text" class="form-control input-digits"
+                                                name="Adjustments"
+                                                id="Adjustments" value="">
+                                        </td>
+                                        <td width="25%">
+                                            <input type="text" class="form-control input-digits"
+                                                name="Adjustments_dbt"
+                                                id="Adjustments_dbt" value="">
+                                        </td>
+                                        <td width="25%">
+                                            <input type="text" class="form-control input-digits"
+                                                name="Adjustments_cdt"
+                                                id="Adjustments_cdt" value="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <input type="hidden" name="commission_paid_row" id="commission_paid_row"
+                                            value="1">
+                                        <td align="right" colspan="4"><button type="button" class="btn btn-primary"
+                                                id="commission_paid_add_more" data-toggle="tooltip" data-placement="top"
+                                                title="" data-original-title="Add More"><i
+                                                    class="fa fa-plus"></i></button></td>
+                                    </tr>
+
+                                    <tr class="reo_headings">
+                                        <td colspan="4">
+                                            <h5 class="fw-500 mb-0">Other Closing Costs</h5>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" width="50%">
+                                            <h5 class="text-orange mb-0">Details</h5>
+                                        </td>
+                                        <td width="25%">
+                                            <h5 class="text-orange mb-0">Debit</h5>
+                                        </td>
+                                        <td width="25%">
+                                            <h5 class="text-orange mb-0">Credit</h5>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" width="50%">
+                                            <input type="text" class="form-control input-digits"
+                                                name="other_closing_costs"
+                                                id="other_closing_costs" value="">
+                                        </td>
+                                        <td width="25%">
+                                            <input type="text" class="form-control input-digits"
+                                                name="other_closing_costs_dbt"
+                                                id="other_closing_costs_dbt" value="">
+                                        </td>
+                                        <td width="25%">
+                                            <input type="text" class="form-control input-digits"
+                                                name="other_closing_costs_cdt"
+                                                id="other_closing_costs_cdt" value="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <input type="hidden" name="commission_paid_row" id="commission_paid_row"
+                                            value="1">
+                                        <td align="right" colspan="4"><button type="button" class="btn btn-primary"
+                                                id="commission_paid_add_more" data-toggle="tooltip" data-placement="top"
+                                                title="" data-original-title="Add More"><i
+                                                    class="fa fa-plus"></i></button></td>
+                                    </tr>
+                                    
+
+                                   
+                                    <tr>
+                                        <td colspan="2" width="50%">
+                                            <h5 class="fw-500 mb-0">Totals</h5>
+                                        </td>
+                                        <td width="25%"><input type="text" class="form-control fw-500 input-digits"
+                                            name="totals-one"
+                                            id="totals-one" value="" readonly>
+                                        </td>
+                                        <td width="25%"><input type="text" class="form-control fw-500 input-digits"
+                                                name="totals-two"
+                                                id="totals-two" value="" readonly>
+                                        </td>
+                                    </tr>
+                                   
+                                    <tr>
+                                        <td colspan="2" width="50%">
+                                            <h4 class="fw-600 mb-0">Total Available to Distribute</h4>
+                                        </td>
+                                        <td width="25%">
+                                        </td>
+                                        <td width="25%"><input type="text" class="form-control fw-600 font-18 input-digits"
+                                                name="total_avl_to_distribute"
+                                                id="total_avl_to_distribute" value="" readonly>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="reo_headings">
+                                        <td colspan="4">
+                                            <h5 class="fw-500 mb-0">Loan Advances Not Reimbursed to Sharestates</h5>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" width="50%">
+                                            <h5 class="text-orange mb-0">Details</h5>
+                                        </td>
+                                        <td width="25%">
+                                            <h5 class="text-orange mb-0">Debit</h5>
+                                        </td>
+                                        <td width="25%">
+                                            <h5 class="text-orange mb-0">Credit</h5>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" width="50%">
+                                            <label>Loan Advances paid by Sharestates</label>
+                                        </td>
+                                        <td width="25%">
+                                            <input type="text" class="form-control input-digits"
+                                                name="loan_advances_paid_by_dbt"
+                                                id="loan_advances_paid_by_dbt" value="">
+                                        </td>
+                                        <td width="25%">
+                                            <input type="text" class="form-control input-digits"
+                                                name="loan_advances_paid_by_cdt"
+                                                id="loan_advances_paid_by_cdt" value="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <input type="hidden" name="commission_paid_row" id="commission_paid_row"
+                                            value="1">
+                                        <td align="right" colspan="4"><button type="button" class="btn btn-primary"
+                                                id="commission_paid_add_more" data-toggle="tooltip" data-placement="top"
+                                                title="" data-original-title="Add More"><i
+                                                    class="fa fa-plus"></i></button></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td colspan="2" width="50%">
+                                            <h4 class="fw-600 mb-0">Net Due investors</h4>
+                                        </td>
+                                        <td width="25%">
+                                        </td>
+                                        <td width="25%"><input type="text" class="form-control fw-600 font-18 input-digits"
+                                                name="net_due_investors"
+                                                id="net_due_investors" value="" readonly>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td colspan="2" width="50%">
+                                            <h5 class="fw-500 mb-0">Charge Off Amount</h5>
+                                        </td>
+                                        <td width="25%">
+                                        </td>
+                                        <td width="25%"><input type="text" class="form-control fw-500 input-digits"
+                                                name="change_of-amount"
+                                                id="change_of-amount" value="" readonly>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <input type="hidden" name="project_type" id="project_stattype" class="project_stattype"
+                            value="RS">
+                        <input type="hidden" name="sold_to" id="sold_to" class="sold_to" value="">
+                        <input type="hidden" name="project_id" id="project_id_reo" class="project_id_reo" value="12405">
+                        <input type="hidden" name="total_investment_amount" id="total_investment_amount"
+                            class="total_investment_amount" value="5622000">
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-Orange mw80" id="save_reo" data-prj="">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade custom-bs-modal" id="addBorrowerEntity" tabindex="-1" aria-labelledby="status-popup-modal"
+        role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom bbrr-0 bblr-0">
+                    <h3 class="modal-title font-weight-bold">Add New Borrower Entities</h3>
+                    <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label>Account type</label>
+                                <select class="selectpicker form-control">
+                                    <option>Mustard</option>
+                                    <option>Ketchup</option>
+                                    <option>Relish</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label>Entity Name
+                                </label>
+                                <input type="text" class="form-control" placeholder="Entity Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label>Entity Type
+                                </label>
+                                <select class="selectpicker form-control">
+                                    <option>Mustard</option>
+                                    <option>Ketchup</option>
+                                    <option>Relish</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label>EIN
+                                </label>
+                                <input type="text" class="form-control" placeholder="EIN">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label>Date of Formation
+                                </label>
+                                <div class="input-group small-text w-100">
+                                    <input type="text" class="form-control mydatepicker" placeholder="mm/dd/yyyy">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><i class="icon-calender"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label>Entity Address
+                                </label>
+                                <input type="text" class="form-control" placeholder="Entity Address">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label>City/Township
+                                </label>
+                                <input type="text" class="form-control" placeholder="City/Township">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label>State
+                                </label>
+                                <select class="selectpicker form-control">
+                                    <option>Mustard</option>
+                                    <option>Ketchup</option>
+                                    <option>Relish</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label>Zip Code
+                                </label>
+                                <input type="text" class="form-control" placeholder="Zip Code">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label>Email
+                                </label>
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-Orange mw80">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ============================================================== -->
+    <!-- End Container fluid  -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- End Page wrapper  -->
+    <!-- ============================================================== -->
+    <!-- Modal -->
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- footer -->
+    <!-- ============================================================== -->
+    <footer class="footer">
+        © 2019 Sharestates.com
+    </footer>
+    <script src="../assets/node_modules/jquery/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap popper Core JavaScript -->
+    <script src="../assets/node_modules/popper/popper.min.js"></script>
+    <script src="../assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="dist/js/perfect-scrollbar.jquery.min.js"></script>
+    <!--Wave Effects -->
+    <!-- <script src="dist/js/waves.js"></script> -->
+    <!--Menu sidebar -->
+    <script src="dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="dist/js/custom.min.js"></script>
+    <script src="../assets/node_modules/icheck/icheck.min.js"></script>
+    <script src="../assets/node_modules/icheck/icheck.init.js"></script>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <!-- Date Picker Plugin JavaScript -->
+    <script src="../assets/node_modules/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript">
+        // Date Picker
+        jQuery('.mydatepicker, #datepicker').datepicker({
+            autoclose: true,
+            todayHighlight: true
+        });
+        jQuery('.input-daterange input').each(function () {
+            $(this).datepicker('clearDates');
+        });
+        $("body").on("click", "#btn", function () {
+
+            $("#pendingStatus").modal("show");
+            var parentHolder = $(this).parent('td');
+
+            parentHolder.addClass("after_modal_appended");
+
+            //appending modal background inside the blue div
+            $('.modal-backdrop').appendTo(parentHolder);
+
+            //remove the padding right and modal-open class from the body tag which bootstrap adds when a modal is shown
+
+            $('body').removeClass("modal-open")
+            $('body').css("padding-right", "");
+        });
+    </script>
+    <script src="dist/js/pages/jasny-bootstrap.js"></script>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <script src="../assets/node_modules/datatables/jquery.dataTables.min.js"></script>
+    <!-- ============================================================== -->
+    <script type="text/javascript" src="dist/js/pages/loading-bar.js"></script>
+    <script src="dist/js/owl.carousel.min.js"></script>
+    <script>
+        // var bar1 = new ldBar("#myItem1");
+        // var bar2 = document.getElementById('myItem1').ldBar;
+        // bar1.set(60);
+
+        $('.mystyle').on('change', function () {
+            var value = $(this).val();
+            alert(value);
+
+        });
+
+        $(document).ready(function () {
+
+            $('#addBorrowerEntity').on('hidden.bs.modal', function () {
+                $('.selectpicker').selectpicker();
+            });
+
+
+
+            // ScrollTab
+            var tabAnchor = $('.scrlTab a');
+            var tabSlider = $('.owl-carousel:not(.stepper)');
+            var tabSliderStepper = $('.stepper');
+            tabSlider.owlCarousel({
+                loop: false,
+                margin: 0,
+                nav: true,
+                dots: false,
+                autoWidth: true,
+                mouseDrag: false,
+                // responsive: {
+                //     0: {
+                //         items: 1
+                //     },
+                //     600: {
+                //         items: 3
+                //     },
+                //     1000: {
+                //         items: 5
+                //     }
+                // }
+            });
+            tabSliderStepper.owlCarousel({
+                loop: false,
+                margin: 0,
+                dots: false,
+                nav: false,
+                autoWidth: true,
+                mouseDrag: true,
+                responsive: {
+                    1000: {
+                        mouseDrag: false,
+                    }
+                }
+            });
+            $('body').find('.scrlTab li').addClass('nav-item');
+            $(tabAnchor).click(function () {
+                $(this).tab('show');
+                $(this).addClass('active');
+                $(this).closest('.owl-stage').find('.owl-item a').removeClass("active");
+            });
+            // ScrollTab   
+
+
+        });
+    </script>
+    <script>
+        $('.track-record').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            // tooltip color changes
+            function changeTooltipColorTo(color) {
+                $('.tooltip-inner').css({
+                    "color": color,
+                    "max-width": "299px",
+                    "text-align": " left",
+                    "border-color": color,
+                    "box-shadow": "0 2px 4px 0 rgba(0,0,0,0.10)"
+                });
+                $('<style type="text/css">.tooltip.bs-tooltip-auto[x-placement^=left] .arrow::before, .tooltip.tooltip.bs-tooltip-top .arrow::before {border-top-color: ' +
+                    color + '; border-top-color: ' + color + '}</style>').appendTo($('head'));
+            }
+
+            function changeTooltiptextColorTo(textcolor) {
+                $('.tooltip-inner').css({
+                    "color": '#2e5788'
+                });
+            }
+
+            $('[data-toggle="tooltip"]').tooltip();
+
+            $('.tooltip-primary').hover(function () {
+                changeTooltipColorTo('#e7e7e7')
+            });
+
+            $('.tooltip-primary').hover(function () {
+                changeTooltiptextColorTo('#2e5788')
+            });
+            // tooltip color changes
+
+        });
+
+        $('.section-table a.expand').click(function () {
+            $(this).closest('table').toggleClass('highlighted')
+        });
+    </script>
+</body>
+
+</html>

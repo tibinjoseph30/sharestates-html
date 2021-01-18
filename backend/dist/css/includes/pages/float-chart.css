@@ -1,0 +1,57 @@
+/*
+
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*============================================================== 
+ flot chart
+ ============================================================== */
+/* line 11, ../../../scss/includes/pages/float-chart.scss */
+.flot-chart {
+  display: block;
+  height: 400px;
+}
+
+/* line 16, ../../../scss/includes/pages/float-chart.scss */
+.flot-chart-content {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 21, ../../../scss/includes/pages/float-chart.scss */
+html body .jqstooltip,
+html body .flotTip {
+  width: auto !important;
+  height: auto !important;
+  background: #343a40;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+/* line 30, ../../../scss/includes/pages/float-chart.scss */
+body .jqstooltip {
+  border-color: transparent;
+  border-radius: 60px;
+}

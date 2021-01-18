@@ -1,0 +1,93 @@
+/*
+
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*============================================================== 
+Easy pie chart 
+ ============================================================== */
+/* line 13, ../../../scss/includes/pages/easy-pie-chart.scss */
+.chart {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* line 21, ../../../scss/includes/pages/easy-pie-chart.scss */
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 28, ../../../scss/includes/pages/easy-pie-chart.scss */
+.chart.chart-widget-pie {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 33, ../../../scss/includes/pages/easy-pie-chart.scss */
+.pie-chart > span {
+  left: 0;
+  margin-top: -2px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 43, ../../../scss/includes/pages/easy-pie-chart.scss */
+.chart > span > img {
+  left: 0;
+  margin-top: -2px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  width: 60%;
+  height: 60%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+
+/* line 56, ../../../scss/includes/pages/easy-pie-chart.scss */
+.percent {
+  display: inline-block;
+  line-height: 100px;
+  z-index: 2;
+  font-weight: 600;
+  font-size: 18px;
+  color: #343a40;
+}
+/* line 63, ../../../scss/includes/pages/easy-pie-chart.scss */
+.percent:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .8em;
+}

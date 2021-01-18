@@ -1,0 +1,58 @@
+/*
+
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/* line 10, ../../../scss/includes/pages/dashboard5.scss */
+#cc-table span a i {
+  font-size: 25px;
+}
+/* line 13, ../../../scss/includes/pages/dashboard5.scss */
+#cc-table h6 {
+  margin-bottom: 0px;
+}
+/* line 17, ../../../scss/includes/pages/dashboard5.scss */
+#cc-table.dataTable thead .sorting:after,
+#cc-table.dataTable thead .sorting_desc:after,
+#cc-table.dataTable thead .sorting_asc:after {
+  display: none;
+}
+
+/* line 27, ../../../scss/includes/pages/dashboard5.scss */
+.cc-widget .cc-icon i {
+  font-size: 50px;
+}
+/* line 32, ../../../scss/includes/pages/dashboard5.scss */
+.cc-widget .cc-details .growth {
+  color: #00ccf1;
+}
+/* line 35, ../../../scss/includes/pages/dashboard5.scss */
+.cc-widget .cc-details .up {
+  color: #20c997;
+}
+/* line 38, ../../../scss/includes/pages/dashboard5.scss */
+.cc-widget .cc-details .down {
+  color: #f62d51;
+}

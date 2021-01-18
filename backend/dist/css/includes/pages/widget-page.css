@@ -1,0 +1,146 @@
+/*
+
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*============================================================== 
+widget-chart-page product review
+ ============================================================== */
+/* line 14, ../../../scss/includes/pages/widget-page.scss */
+.product-review {
+  margin: 0px;
+  padding: 25px;
+}
+/* line 17, ../../../scss/includes/pages/widget-page.scss */
+.product-review li {
+  display: block;
+  padding: 20px 0;
+  list-style: none;
+}
+/* line 21, ../../../scss/includes/pages/widget-page.scss */
+.product-review li .font,
+.product-review li span {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* line 29, ../../../scss/includes/pages/widget-page.scss */
+.social-profile {
+  text-align: center;
+  background: rgba(7, 10, 43, 0.8);
+}
+
+/* line 37, ../../../scss/includes/pages/widget-page.scss */
+.profile-tab li a.nav-link,
+.customtab li a.nav-link {
+  border: 0px;
+  padding: 15px 20px;
+  color: #212529;
+}
+/* line 41, ../../../scss/includes/pages/widget-page.scss */
+.profile-tab li a.nav-link.active,
+.customtab li a.nav-link.active {
+  border-bottom: 2px solid #009efb;
+  color: #009efb;
+}
+/* line 45, ../../../scss/includes/pages/widget-page.scss */
+.profile-tab li a.nav-link:hover,
+.customtab li a.nav-link:hover {
+  color: #009efb;
+}
+
+/*******************/
+/*widgets -app*/
+/*******************/
+/* line 57, ../../../scss/includes/pages/widget-page.scss */
+.css-bar:after {
+  z-index: 1;
+}
+
+/* line 61, ../../../scss/includes/pages/widget-page.scss */
+.css-bar > i {
+  z-index: 10;
+}
+
+/* line 65, ../../../scss/includes/pages/widget-page.scss */
+ul.list-icons {
+  margin: 0px;
+  padding: 0px;
+}
+/* line 68, ../../../scss/includes/pages/widget-page.scss */
+ul.list-icons li {
+  list-style: none;
+  line-height: 30px;
+  margin: 5px 0;
+  transition: 0.2s ease-in;
+}
+/* line 73, ../../../scss/includes/pages/widget-page.scss */
+ul.list-icons li a {
+  color: #212529;
+}
+/* line 75, ../../../scss/includes/pages/widget-page.scss */
+ul.list-icons li a:hover {
+  color: #009efb;
+}
+/* line 79, ../../../scss/includes/pages/widget-page.scss */
+ul.list-icons li i {
+  padding-right: 8px;
+}
+
+/*Widget charts page*/
+/* line 88, ../../../scss/includes/pages/widget-page.scss */
+.total-revenue4 {
+  position: relative;
+}
+/* line 90, ../../../scss/includes/pages/widget-page.scss */
+.total-revenue4 .ct-series-a .ct-line {
+  stroke: #1969cb;
+  stroke-width: 1px;
+}
+/* line 94, ../../../scss/includes/pages/widget-page.scss */
+.total-revenue4 .ct-series-a .ct-point {
+  stroke: #1969cb;
+  stroke-width: 5px;
+}
+/* line 98, ../../../scss/includes/pages/widget-page.scss */
+.total-revenue4 .ct-series-b .ct-line {
+  stroke: #30e356;
+  stroke-width: 1px;
+}
+/* line 102, ../../../scss/includes/pages/widget-page.scss */
+.total-revenue4 .ct-series-b .ct-point {
+  stroke: #30e356;
+  stroke-width: 5px;
+}
+/* line 106, ../../../scss/includes/pages/widget-page.scss */
+.total-revenue4 .ct-series-a .ct-area {
+  fill: #1969cb;
+  fill-opacity: 0.2;
+}
+/* line 110, ../../../scss/includes/pages/widget-page.scss */
+.total-revenue4 .ct-series-b .ct-area {
+  fill: #30e356;
+  fill-opacity: 0.2;
+}

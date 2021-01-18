@@ -1,0 +1,504 @@
+/*
+
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*******************
+ribbons page
+******************/
+/* line 12, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-wrapper,
+.ribbon-wrapper-reverse,
+.ribbon-wrapper-bottom,
+.ribbon-wrapper-right-bottom {
+  position: relative;
+  padding: 50px 15px 15px 15px;
+}
+
+/* line 20, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-vwrapper {
+  padding: 15px 15px 15px 50px;
+  position: relative;
+}
+
+/* line 25, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-overflow {
+  overflow: hidden;
+}
+
+/* line 29, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-vwrapper-reverse {
+  padding: 15px 50px 15px 15px;
+}
+
+/* line 34, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-wrapper-bottom {
+  padding: 15px 15px 50px 50px;
+}
+
+/* line 38, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-wrapper-right-bottom {
+  padding: 15px 50px 50px 15px;
+}
+
+/* line 41, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-content {
+  margin-bottom: 0px;
+}
+
+/* line 44, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon {
+  padding: 0 20px;
+  height: 30px;
+  line-height: 30px;
+  clear: left;
+  position: absolute;
+  top: 12px;
+  left: -2px;
+  color: #fff;
+}
+
+/* line 55, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark:before {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  display: block;
+  width: 0;
+  height: 0;
+  content: '';
+  border: 15px solid #343a40;
+  border-right: 10px solid transparent;
+}
+
+/* line 67, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-right {
+  left: auto;
+  right: -2px;
+}
+
+/* line 72, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-right:before {
+  right: 100%;
+  left: auto;
+  border-right: 15px solid #343a40;
+  border-left: 10px solid transparent;
+}
+
+/* line 79, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-vertical-l,
+.ribbon-vertical-r {
+  clear: none;
+  padding: 0 5px;
+  height: 70px;
+  width: 30px;
+  line-height: 70px;
+  text-align: center;
+  left: 12px;
+  top: -2px;
+}
+
+/* line 91, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-vertical-r {
+  left: auto;
+  right: 12px;
+}
+
+/* line 96, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-vertical-l:before,
+.ribbon-bookmark.ribbon-vertical-r:before {
+  top: 100%;
+  left: 0;
+  margin-top: -14px;
+  border-right: 15px solid #343a40;
+  border-bottom: 10px solid transparent;
+}
+
+/* line 105, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-badge {
+  top: 15px;
+  overflow: hidden;
+  left: -90px;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 117, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-badge.ribbon-right {
+  left: auto;
+  right: -90px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 126, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-badge.ribbon-bottom {
+  top: auto;
+  bottom: 15px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 135, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-badge.ribbon-right.ribbon-bottom {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 142, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-corner {
+  top: 0;
+  left: 0;
+  background-color: transparent !important;
+  padding: 6px 0 0 10px;
+}
+
+/* line 149, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-corner i {
+  position: relative;
+}
+
+/* line 153, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-corner:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  content: '';
+  border: 30px solid transparent;
+  border-top-color: #009efb;
+  border-left-color: #009efb;
+}
+
+/* line 166, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-corner.ribbon-right:before {
+  right: 0;
+  left: auto;
+  border-right-color: #526069;
+  border-left-color: transparent;
+}
+
+/* line 173, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-corner.ribbon-right {
+  right: 0;
+  left: auto;
+  padding: 6px 10px 0 0;
+}
+
+/* line 179, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-corner.ribbon-bottom:before {
+  top: auto;
+  bottom: 0;
+  border-top-color: transparent;
+  border-bottom-color: #526069;
+}
+
+/* line 186, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-corner.ribbon-bottom {
+  bottom: 0;
+  top: auto;
+  padding: 0 10px 6px 10px;
+}
+
+/* line 192, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-custom {
+  background: #009efb;
+}
+
+/* line 196, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-right.ribbon-custom:before {
+  border-right-color: #009efb;
+  border-left-color: transparent;
+}
+
+/* line 201, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-vertical-l.ribbon-custom:before,
+.ribbon-bookmark.ribbon-vertical-r.ribbon-custom:before {
+  border-right-color: #009efb;
+  border-bottom-color: transparent;
+}
+
+/* line 207, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-primary {
+  background: #2e5788;
+}
+
+/* line 211, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-primary:before {
+  border-color: #2e5788;
+  border-right-color: transparent;
+}
+
+/* line 216, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-right.ribbon-primary:before {
+  border-right-color: #2e5788;
+  border-left-color: transparent;
+}
+
+/* line 221, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-vertical-l.ribbon-primary:before,
+.ribbon-bookmark.ribbon-vertical-r.ribbon-primary:before {
+  border-right-color: #2e5788;
+  border-bottom-color: transparent;
+}
+
+/* line 227, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-primary.ribbon-corner:before {
+  border-top-color: #2e5788;
+  border-left-color: #2e5788;
+}
+
+/* line 232, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-primary.ribbon-corner.ribbon-right:before {
+  border-right-color: #2e5788;
+  border-left-color: transparent;
+}
+
+/* line 237, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-primary.ribbon-corner.ribbon-bottom:before {
+  border-top-color: transparent;
+  border-bottom-color: #2e5788;
+}
+
+/* line 242, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-success {
+  background: #30e356;
+}
+
+/* line 246, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-success:before {
+  border-color: #30e356;
+  border-right-color: transparent;
+}
+
+/* line 251, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-right.ribbon-success:before {
+  border-right-color: #30e356;
+  border-left-color: transparent;
+}
+
+/* line 256, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-vertical-l.ribbon-success:before,
+.ribbon-bookmark.ribbon-vertical-r.ribbon-success:before {
+  border-right-color: #30e356;
+  border-bottom-color: transparent;
+}
+
+/* line 262, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-success.ribbon-corner:before {
+  border-top-color: #30e356;
+  border-left-color: #30e356;
+}
+
+/* line 267, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-success.ribbon-corner.ribbon-right:before {
+  border-right-color: #30e356;
+  border-left-color: transparent;
+}
+
+/* line 272, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-success.ribbon-corner.ribbon-bottom:before {
+  border-top-color: transparent;
+  border-bottom-color: #30e356;
+}
+
+/* line 277, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-info {
+  background: #1969cb;
+}
+
+/* line 281, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-info:before {
+  border-color: #1969cb;
+  border-right-color: transparent;
+}
+
+/* line 286, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-right.ribbon-info:before {
+  border-right-color: #1969cb;
+  border-left-color: transparent;
+}
+
+/* line 291, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-vertical-l.ribbon-info:before,
+.ribbon-bookmark.ribbon-vertical-r.ribbon-info:before {
+  border-right-color: #1969cb;
+  border-bottom-color: transparent;
+}
+
+/* line 297, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-info.ribbon-corner:before {
+  border-top-color: #1969cb;
+  border-left-color: #1969cb;
+}
+
+/* line 302, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-info.ribbon-corner.ribbon-right:before {
+  border-right-color: #1969cb;
+  border-left-color: transparent;
+}
+
+/* line 307, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-info.ribbon-corner.ribbon-bottom:before {
+  border-top-color: transparent;
+  border-bottom-color: #1969cb;
+}
+
+/* line 312, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-warning {
+  background: #ff9c00;
+}
+
+/* line 316, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-warning:before {
+  border-color: #ff9c00;
+  border-right-color: transparent;
+}
+
+/* line 321, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-right.ribbon-warning:before {
+  border-right-color: #ff9c00;
+  border-left-color: transparent;
+}
+
+/* line 326, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-vertical-l.ribbon-warning:before,
+.ribbon-bookmark.ribbon-vertical-r.ribbon-warning:before {
+  border-right-color: #ff9c00;
+  border-bottom-color: transparent;
+}
+
+/* line 332, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-warning.ribbon-corner:before {
+  border-top-color: #ff9c00;
+  border-left-color: #ff9c00;
+}
+
+/* line 337, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-warning.ribbon-corner.ribbon-right:before {
+  border-right-color: #ff9c00;
+  border-left-color: transparent;
+}
+
+/* line 342, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-warning.ribbon-corner.ribbon-bottom:before {
+  border-top-color: transparent;
+  border-bottom-color: #ff9c00;
+}
+
+/* line 347, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-danger {
+  background: #f62d51;
+}
+
+/* line 351, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-danger:before {
+  border-color: #f62d51;
+  border-right-color: transparent;
+}
+
+/* line 356, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-right.ribbon-danger:before {
+  border-right-color: #f62d51;
+  border-left-color: transparent;
+}
+
+/* line 361, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-vertical-l.ribbon-danger:before,
+.ribbon-bookmark.ribbon-vertical-r.ribbon-danger:before {
+  border-right-color: #f62d51;
+  border-bottom-color: transparent;
+}
+
+/* line 367, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-danger.ribbon-corner:before {
+  border-top-color: #f62d51;
+  border-left-color: #f62d51;
+}
+
+/* line 372, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-danger.ribbon-corner.ribbon-right:before {
+  border-right-color: #f62d51;
+  border-left-color: transparent;
+}
+
+/* line 377, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-danger.ribbon-corner.ribbon-bottom:before {
+  border-top-color: transparent;
+  border-bottom-color: #f62d51;
+}
+
+/* line 382, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-default {
+  background: #343a40;
+}
+
+/* line 386, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-default:before {
+  border-color: #343a40;
+  border-right-color: transparent;
+}
+
+/* line 391, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-right.ribbon-default:before {
+  border-right-color: #343a40;
+  border-left-color: transparent;
+}
+
+/* line 396, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-bookmark.ribbon-vertical-l.ribbon-default:before,
+.ribbon-bookmark.ribbon-vertical-r.ribbon-default:before {
+  border-right-color: #343a40;
+  border-bottom-color: transparent;
+}
+
+/* line 402, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-default.ribbon-corner:before {
+  border-top-color: #343a40;
+  border-left-color: #343a40;
+}
+
+/* line 407, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-default.ribbon-corner.ribbon-right:before {
+  border-right-color: #343a40;
+  border-left-color: transparent;
+}
+
+/* line 412, ../../../scss/includes/pages/ribbon-page.scss */
+.ribbon-default.ribbon-corner.ribbon-bottom:before {
+  border-top-color: transparent;
+  border-bottom-color: #343a40;
+}

@@ -1,0 +1,218 @@
+/*
+
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*******************/
+/*Floating Label*/
+/*******************/
+/* line 13, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels .form-group {
+  position: relative;
+}
+
+/* line 17, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels .form-control {
+  padding: 10px 10px 10px 0;
+  display: block;
+  border: none;
+  font-family: "Rubik", sans-serif;
+  border-radius: 0px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+/* line 27, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels select.form-control > option {
+  font-size: 14px;
+}
+
+/* line 31, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels .has-error .form-control {
+  border-bottom: 1px solid #f62d51;
+}
+
+/* line 35, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels .has-warning .form-control {
+  border-bottom: 1px solid #ff9c00;
+}
+
+/* line 39, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels .has-success .form-control {
+  border-bottom: 1px solid #30e356;
+}
+
+/* line 43, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels .form-control:focus {
+  outline: none;
+  border: none;
+}
+
+/* line 48, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels label {
+  color: #212529;
+  position: absolute;
+  cursor: auto;
+  top: 5px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* line 59, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels .focused label {
+  top: -20px;
+  font-size: 12px;
+  color: #343a40;
+}
+
+/* line 65, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels .bar {
+  position: relative;
+  display: block;
+}
+
+/* line 70, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels .bar:before,
+.floating-labels .bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #009efb;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* line 83, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels .bar:before {
+  left: 50%;
+}
+
+/* line 87, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels .bar:after {
+  right: 50%;
+}
+
+/* line 91, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels .form-control:focus ~ .bar:before,
+.floating-labels .form-control:focus ~ .bar:after {
+  width: 50%;
+}
+
+/* line 96, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels .highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* line 106, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels .input-lg ~ label,
+.floating-labels .input-lg {
+  font-size: 24px;
+}
+
+/* line 111, ../../../scss/includes/pages/floating-label.scss */
+.floating-labels .input-sm ~ label,
+.floating-labels .input-sm {
+  font-size: 16px;
+}
+
+/* line 116, ../../../scss/includes/pages/floating-label.scss */
+.has-warning .bar:before,
+.has-warning .bar:after {
+  background: #ff9c00;
+}
+
+/* line 121, ../../../scss/includes/pages/floating-label.scss */
+.has-success .bar:before,
+.has-success .bar:after {
+  background: #30e356;
+}
+
+/* line 126, ../../../scss/includes/pages/floating-label.scss */
+.has-error .bar:before,
+.has-error .bar:after {
+  background: #f62d51;
+}
+
+/* line 131, ../../../scss/includes/pages/floating-label.scss */
+.has-warning .form-control:focus ~ label,
+.has-warning .form-control:valid ~ label {
+  color: #ff9c00;
+}
+
+/* line 136, ../../../scss/includes/pages/floating-label.scss */
+.has-success .form-control:focus ~ label,
+.has-success .form-control:valid ~ label {
+  color: #30e356;
+}
+
+/* line 141, ../../../scss/includes/pages/floating-label.scss */
+.has-error .form-control:focus ~ label,
+.has-error .form-control:valid ~ label {
+  color: #f62d51;
+}
+
+/* line 146, ../../../scss/includes/pages/floating-label.scss */
+.has-feedback label ~ .t-0 {
+  top: 0;
+}
+
+/* line 149, ../../../scss/includes/pages/floating-label.scss */
+.form-group.error input, .form-group.error select, .form-group.error textarea {
+  border: 1px solid #f62d51;
+}
+
+/* line 152, ../../../scss/includes/pages/floating-label.scss */
+.form-group.validate input, .form-group.validate select, .form-group.validate textarea {
+  border: 1px solid #30e356;
+}
+
+/* line 156, ../../../scss/includes/pages/floating-label.scss */
+.form-group.error .help-block ul {
+  padding: 0px;
+  color: #f62d51;
+}
+/* line 159, ../../../scss/includes/pages/floating-label.scss */
+.form-group.error .help-block ul li {
+  list-style: none;
+}
+
+/* line 165, ../../../scss/includes/pages/floating-label.scss */
+.form-group.issue .help-block ul {
+  padding: 0px;
+  color: #ff9c00;
+}
+/* line 168, ../../../scss/includes/pages/floating-label.scss */
+.form-group.issue .help-block ul li {
+  list-style: none;
+}

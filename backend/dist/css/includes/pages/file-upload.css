@@ -1,0 +1,122 @@
+/*
+
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*============================================================== 
+File upload
+ ============================================================== */
+/* line 12, ../../../scss/includes/pages/file-upload.scss */
+.btn-file {
+  overflow: hidden;
+  position: relative;
+  vertical-align: middle;
+}
+/* line 16, ../../../scss/includes/pages/file-upload.scss */
+.btn-file > input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  font-size: 23px;
+  height: 100%;
+  width: 100%;
+  direction: ltr;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+/* line 33, ../../../scss/includes/pages/file-upload.scss */
+.fileinput .input-group-addon {
+  border: none;
+  border-bottom: 1px solid #e9ecef;
+  background: #fff;
+  margin-bottom: 1px;
+}
+
+/* line 41, ../../../scss/includes/pages/file-upload.scss */
+.fileinput .form-control {
+  padding-top: 7px;
+  padding-bottom: 5px;
+  display: inline-block;
+  margin-bottom: 0px;
+  vertical-align: middle;
+  cursor: text;
+}
+
+/* line 50, ../../../scss/includes/pages/file-upload.scss */
+.fileinput .thumbnail {
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* line 58, ../../../scss/includes/pages/file-upload.scss */
+.fileinput .thumbnail > img {
+  max-height: 100%;
+}
+
+/* line 62, ../../../scss/includes/pages/file-upload.scss */
+.fileinput .btn {
+  vertical-align: middle;
+}
+
+/* line 66, ../../../scss/includes/pages/file-upload.scss */
+.fileinput-exists .fileinput-new,
+.fileinput-new .fileinput-exists {
+  display: none;
+}
+
+/* line 71, ../../../scss/includes/pages/file-upload.scss */
+.fileinput-inline .fileinput-controls {
+  display: inline;
+}
+
+/* line 75, ../../../scss/includes/pages/file-upload.scss */
+.fileinput-filename {
+  vertical-align: middle;
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* line 81, ../../../scss/includes/pages/file-upload.scss */
+.form-control .fileinput-filename {
+  vertical-align: bottom;
+}
+
+/* line 85, ../../../scss/includes/pages/file-upload.scss */
+.fileinput.input-group > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* line 90, ../../../scss/includes/pages/file-upload.scss */
+.fileinput.input-group > .btn-file {
+  z-index: 1;
+}

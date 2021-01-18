@@ -1,0 +1,103 @@
+/*
+
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*******************
+Pricing Page
+******************/
+/* line 11, ../../../scss/includes/pages/pricing-page.scss */
+.pricing-box {
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* line 16, ../../../scss/includes/pages/pricing-page.scss */
+.featured-plan {
+  margin-top: 0px;
+}
+/* line 18, ../../../scss/includes/pages/pricing-page.scss */
+.featured-plan .pricing-body {
+  padding: 60px 0;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+}
+/* line 23, ../../../scss/includes/pages/pricing-page.scss */
+.featured-plan .price-table-content .price-row {
+  border-top: 1px solid rgba(120, 130, 140, 0.13);
+}
+
+/* line 28, ../../../scss/includes/pages/pricing-page.scss */
+.pricing-body {
+  border-radius: 0px;
+  border-top: 1px solid rgba(120, 130, 140, 0.13);
+  border-bottom: 5px solid rgba(120, 130, 140, 0.13);
+  vertical-align: middle;
+  padding: 30px 0;
+  position: relative;
+}
+
+/* line 38, ../../../scss/includes/pages/pricing-page.scss */
+.pricing-body h2 {
+  position: relative;
+  font-size: 56px;
+  margin: 20px 0 10px;
+  font-weight: 500;
+}
+/* line 43, ../../../scss/includes/pages/pricing-page.scss */
+.pricing-body h2 span {
+  position: absolute;
+  font-size: 15px;
+  top: -10px;
+  margin-left: -10px;
+}
+
+/* line 51, ../../../scss/includes/pages/pricing-page.scss */
+.price-table-content .price-row {
+  padding: 20px 0;
+  border-top: 1px solid rgba(120, 130, 140, 0.13);
+}
+
+/* line 56, ../../../scss/includes/pages/pricing-page.scss */
+.pricing-plan {
+  padding: 0 15px;
+}
+/* line 58, ../../../scss/includes/pages/pricing-page.scss */
+.pricing-plan .no-padding {
+  padding: 0px;
+}
+
+/* line 60, ../../../scss/includes/pages/pricing-page.scss */
+.price-lable {
+  position: absolute;
+  top: -10px;
+  padding: 5px 10px;
+  margin: 0 auto;
+  display: inline-block;
+  width: 100px;
+  left: 0px;
+  right: 0px;
+}

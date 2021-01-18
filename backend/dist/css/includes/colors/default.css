@@ -1,0 +1,13 @@
+/* line 5, ../../../scss/includes/colors/default.scss */
+.skin-default .topbar {
+  background: #363d4a;
+}
+/* line 9, ../../../scss/includes/colors/default.scss */
+.skin-default .topbar .top-navbar .navbar-header .navbar-brand .dark-logo {
+  display: none;
+}
+/* line 12, ../../../scss/includes/colors/default.scss */
+.skin-default .topbar .top-navbar .navbar-header .navbar-brand .light-logo {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.8);
+}

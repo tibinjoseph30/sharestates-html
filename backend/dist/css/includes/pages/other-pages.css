@@ -1,0 +1,201 @@
+/*
+
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*******************
+FAQs Page
+******************/
+/* line 15, ../../../scss/includes/pages/other-pages.scss */
+.minimal-faq .card {
+  border: 0px;
+}
+/* line 17, ../../../scss/includes/pages/other-pages.scss */
+.minimal-faq .card .card-header {
+  background: #fff;
+  padding: 20px 0;
+  margin-top: 10px;
+}
+/* line 22, ../../../scss/includes/pages/other-pages.scss */
+.minimal-faq .card .card-body {
+  padding: 15px 0px;
+}
+
+/*******************
+Seach listing Page
+******************/
+/* line 35, ../../../scss/includes/pages/other-pages.scss */
+.search-listing {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 38, ../../../scss/includes/pages/other-pages.scss */
+.search-listing li {
+  list-style: none;
+  padding: 15px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+/* line 42, ../../../scss/includes/pages/other-pages.scss */
+.search-listing li h3 {
+  margin: 0px;
+  font-size: 18px;
+}
+/* line 45, ../../../scss/includes/pages/other-pages.scss */
+.search-listing li h3 a {
+  color: #1969cb;
+}
+/* line 47, ../../../scss/includes/pages/other-pages.scss */
+.search-listing li h3 a:hover {
+  text-decoration: underline;
+}
+/* line 52, ../../../scss/includes/pages/other-pages.scss */
+.search-listing li a {
+  color: #30e356;
+}
+
+/*******************
+Gridstack Dragable portlet
+******************/
+/* line 63, ../../../scss/includes/pages/other-pages.scss */
+.grid-stack-item-content {
+  background: #fff;
+  color: #6c757d;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* line 71, ../../../scss/includes/pages/other-pages.scss */
+.grid-stack > .grid-stack-item > .grid-stack-item-content {
+  border: 1px solid #e9ecef;
+}
+
+/*******************
+Grid page
+******************/
+/* line 81, ../../../scss/includes/pages/other-pages.scss */
+.show-grid {
+  margin-bottom: 10px;
+  padding: 0 15px;
+}
+
+/* line 86, ../../../scss/includes/pages/other-pages.scss */
+.show-grid [class^=col-] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #e9ecef;
+  background-color: #e9ecef;
+}
+
+/*******************
+Date paginator page
+******************/
+/* line 98, ../../../scss/includes/pages/other-pages.scss */
+.dp-selected[style] {
+  background-color: #009efb !important;
+}
+
+/* line 108, ../../../scss/includes/pages/other-pages.scss */
+.datepaginator-sm .pagination li a,
+.datepaginator-lg .pagination li a,
+.datepaginator .pagination li a {
+  padding: 0 5px;
+  height: 60px;
+  border: 1px solid #e9ecef;
+  float: left;
+  position: relative;
+}
+
+/*******************
+Notification page Jquery toaster
+******************/
+/* line 125, ../../../scss/includes/pages/other-pages.scss */
+.jq-icon-info {
+  background-color: #1969cb;
+  color: #fff;
+}
+
+/* line 130, ../../../scss/includes/pages/other-pages.scss */
+.jq-icon-success {
+  background-color: #30e356;
+  color: #fff;
+}
+
+/* line 135, ../../../scss/includes/pages/other-pages.scss */
+.jq-icon-error {
+  background-color: #f62d51;
+  color: #fff;
+}
+
+/* line 140, ../../../scss/includes/pages/other-pages.scss */
+.jq-icon-warning {
+  background-color: #ff9c00;
+  color: #fff;
+}
+
+/* line 145, ../../../scss/includes/pages/other-pages.scss */
+.alert-rounded {
+  border-radius: 60px;
+}
+
+/*******************
+list and media
+******************/
+/* line 154, ../../../scss/includes/pages/other-pages.scss */
+.list-group a.list-group-item:hover {
+  background: #e9ecef;
+}
+
+/* line 158, ../../../scss/includes/pages/other-pages.scss */
+.list-group-item.active,
+.list-group .list-group-item.active:hover {
+  background: #009efb;
+  border-color: #009efb;
+}
+
+/* line 164, ../../../scss/includes/pages/other-pages.scss */
+.list-group-item.disabled {
+  color: #adb5bd;
+  background: #e9ecef;
+}
+
+/* line 169, ../../../scss/includes/pages/other-pages.scss */
+.media {
+  border: 1px solid #e9ecef;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+/*******************
+/*Documentation page
+******************/
+/* line 180, ../../../scss/includes/pages/other-pages.scss */
+.plugin-details {
+  display: none;
+}
+
+/* line 184, ../../../scss/includes/pages/other-pages.scss */
+.plugin-details-active {
+  display: block;
+}

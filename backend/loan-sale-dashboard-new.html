@@ -1,0 +1,2281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.ico">
+    <title>Sharestates - Crowd Funding Realestate Investments</title>
+    <!-- This page CSS -->
+    <!-- chartist CSS -->
+    <link href="../assets/node_modules/morrisjs/morris.css" rel="stylesheet">
+    <!--Toaster Popup message CSS -->
+    <link href="../assets/node_modules/toast-master/css/jquery.toast.css" rel="stylesheet">
+    <!--c3 plugins CSS -->
+    <link href="../assets/node_modules/c3-master/c3.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="dist/css/style.min.css" rel="stylesheet">
+    <link href="../assets/node_modules/icheck/skins/all.css" rel="stylesheet">
+    <link href="dist/css/pages/form-icheck.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+    <link href="dist/css/slider/owl.carousel.min.css" rel="stylesheet">
+    <link href="dist/css/slider/owl.theme.default.css" rel="stylesheet">
+    <link href="dist/css/sprite.css" rel="stylesheet">
+    <link href="dist/css/custom.css" rel="stylesheet">
+    <link href="dist/css/bootstrap-datepicker.css" rel="stylesheet">
+    <link href="dist/css/includes/pages/file-upload.css" rel="stylesheet">
+    <!-- Dashboard 1 Page CSS -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body class="ss-blue fixed-layout lock-nav">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header">
+                    <a class="navbar-brand sm-up" href="index.html">
+                        <!-- Logo icon -->
+                        <b>
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <!-- <img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo icon-only" /> -->
+                            <!-- Light Logo icon -->
+                            <!-- <img src="../assets/images/logo-icon.png" alt="homepage" class="light-logo" /> -->
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text --><span>
+                         <!-- dark Logo text -->
+                         <img src="../assets/images/logo.png" alt="homepage" class="dark-logo" />
+                         <!-- Light Logo text -->
+                         <img src="../assets/images/logo.png" class="light-logo" alt="homepage" /></span>
+                     </a>
+                     <a class="nav-link nav-lock waves-effect waves-light d-none new-nav" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                     <!-- <a class="" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a> -->
+
+                    <li class="nav-item hidden-sm-up text-center">
+                        <a class="nav-link nav-toggler waves-effect waves-light" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                    </li>
+                        <!-- <li class="nav-item d-none d-lg-block"></li> -->
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav mr-auto">
+                        <!-- This is  -->
+
+                        <!-- ============================================================== -->
+                        <!-- Comment -->
+                        <!-- ============================================================== -->
+                        <li class="greetings d-flex align-items-center">
+                            <p class="m-b-0">Welcome back, <b>Admin</b></p>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Comment -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+
+                            <div class="dropdown-menu mailbox animated bounceInDown" aria-labelledby="2">
+                                <span class="with-arrow"><span class="bg-danger"></span></span>
+                                <ul>
+                                    <li>
+                                        <div class="drop-title text-white bg-danger">
+                                            <h4 class="m-b-0 m-t-5">5 New</h4>
+                                            <span class="font-light">Messages</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="message-center">
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)">
+                                                <div class="user-img"> <img src="../assets/images/users/1.png" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                                                <div class="mail-contnet">
+                                                    <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span> </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)">
+                                                <div class="user-img"> <img src="../assets/images/users/2.png" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
+                                                <div class="mail-contnet">
+                                                    <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span> </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)">
+                                                <div class="user-img"> <img src="../assets/images/users/3.jpg" alt="user" class="img-circle"> <span class="profile-status away pull-right"></span> </div>
+                                                <div class="mail-contnet">
+                                                    <h5>Arijit Sinh</h5> <span class="mail-desc">I am a singer!</span> <span class="time">9:08 AM</span> </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)">
+                                                <div class="user-img"> <img src="../assets/images/users/2.png" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
+                                                <div class="mail-contnet">
+                                                    <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link text-center link m-b-5" href="javascript:void(0);"> <b>See all e-Mails</b> <i class="fa fa-angle-right"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+
+                    </ul>
+                    <ul class="navbar-nav my-lg-0 log-rt-info">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="../assets/images/users/s2.png" alt="user" class="img-circle" width="30">
+                                <span class="m-l-10">Admin Name</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
+                                <span class="with-arrow"><span class="bg-primary"></span></span>
+                                <div class="d-flex no-block align-items-center p-15 bg-primary text-white m-b-10">
+                                    <div class=""><img src="../assets/images/users/2.png" alt="user" class="img-circle" width="60"></div>
+                                    <div class="m-l-10">
+                                        <h4 class="m-b-0">Steave Jobs</h4>
+                                        <p class=" m-b-0">varun@gmail.com</p>
+                                    </div>
+                                </div>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-user m-r-5 m-l-5"></i> My Profile</a>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-wallet m-r-5 m-l-5"></i> My Balance</a>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-email m-r-5 m-l-5"></i> Inbox</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-settings m-r-5 m-l-5"></i> Account Setting</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a>
+                                <div class="dropdown-divider"></div>
+                                <div class="p-l-30 p-10"><a href="javascript:void(0)" class="btn btn-sm btn-success btn-rounded">View Profile</a></div>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                        <!-- <li class="nav-item right-side-toggle"> <a class="nav-link  waves-effect waves-light" href="javascript:void(0)"><i class="ti-settings"></i></a></li> -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <div class="d-flex no-block nav-text-box align-items-center">
+                <!-- <span><img src="../assets/images/logo-icon.png" alt="elegant admin template"></span> -->
+                 <!-- <li class="nav-item hidden-sm-up">
+                 <a class="nav-link nav-toggler waves-effect waves-light" href="javascript:void(0)"><i class="ti-menu"></i></a></li>
+                        <li class="nav-item d-none d-lg-block"><a class="nav-link nav-lock waves-effect waves-light" href="javascript:void(0)"><i class="ti-menu"></i></a></li> -->
+                <a class="nav-lock waves-effect waves-dark ml-auto hidden-md-down" href="javascript:void(0)"><i class="mdi mdi-toggle-switch"></i></a>
+            </div>
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <div class="d-flex no-block align-items-center p-l-15 bg-transparent user-info text-white m-b-10">
+                        <div class="">
+                            <img src="../assets/images/users/1.png" alt="user" class="img-circle" width="60">
+                        </div>
+                        <div class="m-l-10 nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin Name</span></a>
+                            <div class="dropdown-menu user-dash animated bounceInDown">
+                                <ul>
+                                    <li><a href="#">Account <i class="ti-user"></i></a></li>
+                                    <li><a href="#">Password <i class="ti-lock"></i></a></li>
+                                    <li><a href="#l">Log Out <i class="ti-power-off"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- <li>
+                            <a class="waves-effect waves-dark" href="index.html" aria-expanded="false"><i class="mdi mdi-home-outline"></i>
+                            <span class="hide-menu">Home</span></a>
+                        </li> -->
+                        <!-- <li>
+                            <a href="index.html" aria-expanded="false"><i class="mdi mdi-home-outline"></i>
+                            <span class="hide-menu">Administrators</span></a>
+                        </li> -->
+                        <li>
+                            <a class="waves-effect waves-dark" href="index.html">
+                                <i class="share-top_nav_home"></i>
+                                <span class="hide-menu">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false">
+                                <i class="share-administrators"></i>
+                                <span class="hide-menu">Dashboard</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="#"><i class="share-administrators_list font24"></i> Loan Closing</a></li>
+                                <li><a href="#"><i class="share-add_administrator"></i> Loan Sale</a></li>
+                                <li><a href="#"><i class="share-administrators_roles"></i> Avg. Turnaround Time</a></li>
+                                <li><a href="#"><i class="share-administrators_departments"></i> Marketing Analytics</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                                <i class="share-administrators"></i>
+                                <span class="hide-menu">Administrators</span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="administrators-list.html"><i class="share-administrators_list font24"></i> Administrators List</a></li>
+                                <li><a href="add_admin.html"><i class="share-add_administrator"></i> Add Administrator</a></li>
+                                <li><a href="admin_roles.html"><i class="share-administrators_roles"></i> Roles</a></li>
+                                <li><a href="manage-department.html"><i class="share-administrators_departments"></i> Departments</a></li>
+                                <li><a href="#"><i class="share-administrators_blocked"></i> Blocked Administrators</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                           <a class="has-arrow waves-effect waves-dark" href="investor-dashboard.html" aria-expanded="false">
+                               <!-- <i class="share-top_nav_home"></i> -->
+                               <img class="icon-width" src="../assets/images/investor-icon.png">
+                               <span class="hide-menu">Investors</span>
+                           </a>
+                           <ul aria-expanded="false" class="collapse">
+                               <li><a href="investor-list.html"><i class="share-administrators_list font24"></i>Individual Investors</a></li>
+                               <li><a href="#"><i class="share-add_administrator"></i> Institutional Investors</a></li>
+                               <li><a href="#"><i class="share-administrators_roles"></i> Foreign Investors</a></li>
+                               <li><a href="investor_add_tab.html"><i class="share-administrators_departments"></i> Add Investor</a></li>
+                               <li><a href="#"><i class="share-administrators_blocked"></i> Blocked Administrators</a></li>
+                           </ul>
+                       </li>
+                        <li>
+                            <a class="has-arrow waves-effect waves-dark" href="index.html" aria-expanded="false"><!-- <i class="share-top_nav_home"></i> -->
+                                <img class="icon-width" src="../assets/images/vendor-icon.png">
+                            <span class="hide-menu">Vendors</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="vendor-appraiser.html"><i class="share-administrators_list font24"></i> Appraiser</a></li>
+                                <li><a href="vendor-bank-atrtorney.html"><i class="share-add_administrator"></i> Bank Attorney</a></li>
+                                <li><a href="vendor-broker.html"><i class="share-administrators_roles"></i> Broker</a></li>
+                                <li><a href="vendor-buyer-attorney.html"><i class="share-administrators_departments"></i> Buyer Attorney</a></li>
+                                <li><a href="vendor-foreclosure-attorney.html"><i class="share-administrators_blocked"></i> Foreclosure Attorney</a></li>
+                                <li><a href="vendor-seller-attorney.html"><i class="share-administrators_blocked"></i> Seller Attorney</a></li>
+                                <li><a href="vendor-title-company.html"><i class="share-administrators_blocked"></i> Title Company</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" aria-expanded="false"><!-- <i class="share-top_nav_home"></i> -->
+                                <img class="icon-width" src="../assets/images/borrowers-icon.png">
+                            <span class="hide-menu">Borrowers</span></a>
+                        </li>
+                        <li>
+                            <a href="#" aria-expanded="false"><!-- <i class="share-top_nav_home"></i> -->
+                                <img class="icon-width" src="../assets/images/investor-brokers-icon.png">
+                            <span class="hide-menu">Investor Brokers</span></a>
+                        </li>
+                        <li>
+                            <a href="#" aria-expanded="false"><!-- <i class="share-top_nav_home"></i> -->
+                                <img class="icon-width" src="../assets/images/warehouse-icon.png">
+                            <span class="hide-menu">Warehouse</span></a>
+                        </li>
+                        <li>
+                            <a class="has-arrow waves-effect waves-dark" href="loan-pipeline.html" aria-expanded="false"> <!-- <i class="share-top_nav_home"></i> -->
+                                <img class="icon-width" src="../assets/images/loans.png">
+                            <span class="hide-menu">Loans</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="vendor-appraiser.html"><i class="share-administrators_list font24"></i>Loan List</a></li>
+                                <li><a href="vendor-bank-atrtorney.html"><i class="share-add_administrator"></i>Loan Draft List</a></li>
+                                <li><a href="loan-pipeline-new.html"><i class="share-administrators_roles"></i>Loan Pipeline</a></li>
+                                <li><a href="vendor-buyer-attorney.html"><i class="share-administrators_departments"></i>Weekly Tracker</a></li>
+                                <li><a href="vendor-foreclosure-attorney.html"><i class="share-administrators_blocked"></i>Hit List</a></li>
+                                <li><a href="vendor-seller-attorney.html"><i class="share-administrators_blocked"></i>Manage Updates</a></li>
+                                <li><a href="vendor-title-company.html"><i class="share-administrators_blocked"></i>Shared Documents</a></li>
+                                <li><a href="vendor-title-company.html"><i class="share-administrators_blocked"></i>Deleted Loans</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="ti-layout-grid2"></i><span class="hide-menu">Apps</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="app-calendar.html">Calendar <i class="ti-calendar"></i></a></li>
+                                <li><a href="app-chat.html">Chat app <i class="ti-comment"></i></a></li>
+                                <li><a href="app-ticket.html">Support Ticket <i class="ti-support"></i></a></li>
+                                <li><a href="app-contact.html">Contact / Employee <i class="ti-user"></i></a></li>
+                                <li><a href="app-contact2.html">Contact Grid <i class=" ti-list"></i></a></li>
+                                <li><a href="app-contact-detail.html">Contact Detail <i class="ti-pencil-alt"></i></a></li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper pipeline-wrap">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <div class="row page-titles breadcrumb-outer m-t-0 m-b-0">
+                    <div class="col-md-7 text-right">
+                        <div class="d-flex">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><i class="mdi mdi-home-outline"></i> <a href="javascript:void(0)">Home</a></li>
+                                <li class="breadcrumb-item"><a href="javascript:void(0)">Dashboard</a></li>
+                                <li class="breadcrumb-item active">Loan Sale</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card trans-bg card-top radius nav-tab">
+                            <div class="card-body p-0">
+                                <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs customtab scrlTab shadow-bg owl-carousel owl-theme" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#closedLoans" role="tab">
+                                                Closed Loans
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#scheduleToClose" role="tab">
+                                                Schedule to Close
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#bridgeLoanAllocation" role="tab">
+                                                Bridge Loan Allocation
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#bridgeLoanInvestorVolumeTracker" role="tab">
+                                                Bridge Loan Investor Volume Tracker
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#termLoanAllocationDashboard" role="tab">
+                                                Term Loan Allocation Dashboard
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#termLoanInvestorVolumeTracker" role="tab">
+                                                Term Loan Investor Volume Tracker
+                                            </a>
+                                        </li>
+                                        
+                                    </ul>
+                                
+                            </div>
+                            <!-- Tab panes -->
+
+                            <div class="card-body p-0 card-pipline-two">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="closedLoans" role="tabpanel"> 
+                                    <div class="card fixed-block m-t-10">
+                                        <div class="card-header no-box-shadow border-bottom">
+                                            <h5 class="font-w-600">Projects With Loan Sale Date in December</h5>
+                                        </div>
+                                        <div class="card-body new-pipline-body">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-md-12 col-sm-12 col-12 item-block border-lg-right pr-lg-5">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="sel-wrap custom-sel-wrap text-center">
+                                                                <select class="selectpicker">
+                                                                    <option selected>Monthly View</option>
+                                                                    <option value="volvo">yearley View</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="sel-wrap custom-sel-wrap text-center">
+                                                                <select class="selectpicker">
+                                                                    <option selected>Dec 2018</option>
+                                                                    <option value="volvo">Jan 2018</option>
+                                                                    <option value="fiat">Feb 2018</option>
+                                                                    <option value="audi">Mar 2018</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="calendar-container" class="loanSale-calendar">
+                                                         <div class="datepicker"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-7 col-md-12 col-sm-12 col-12 item-block d-lg-flex align-items-center justify-content-center">
+                                                    <div id="container-35" class="wrap185 loanSale-hgChart_container" style="margin: 0; padding: 0"></div>
+                                                    <div class="addText"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card m-t-10">
+                                    
+                                        <div class="card-body new_loan-sale-calendar">
+                                            <div class="row mb-2">
+                                                <div class="col-lg-5 col-sm-5 d-flex align-items-center">
+                                                    <h5 class="font-w-600 mb-0">Final Loan Pools</h5>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-7 offset-lg-3">
+                                                    <div class="d-flex mt-sm-0 mt-3">
+                                                        <div class="search-box inv-list ml-auto flex-grow-sm-0 flex-grow-1">
+                                                            <div class="input-group">
+                                                              <input class="form-control py-2 border-right-0" type="search" value="" placeholder="Search" id="example-search-input">
+                                                                <span class="input-group-append">
+                                                                    <button class="btn btn-outline-secondary border-left-0" type="button">
+                                                                        <i class="fa fa-search"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <button type="reset" class="btn waves-effect waves-light custom-reset-button reset-btn ml-2">Reset</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="table-responsive">
+                                        <table id="loanSalecalendar" class="table table-bordered table-striped role-table m-t-10 dataTable no-footer table-hover" data-page-size="10">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>Investor Name</th>
+                                                    <th>Created On</th>
+                                                    <th>Number of Loans</th>
+                                                    <th>Total Loan Amount</th>
+                                                    <th>TPR Status</th>
+                                                    <th>Target Settlement Date</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="expanded_block collapsed" data-toggle="collapse" href="#rowExpand">
+                                                        <span><i class="ti"></i></span>
+                                                    </td>
+                                                    <td class="text-nowrap">
+                                                        <a href="javascript:void(0)" data-toggle="modal" data-target="#investorDetails">Toorak Capital</a>
+                                                    </td>
+                                                    <td>11/25/2020</td>
+                                                    <td>
+                                                        7
+                                                    </td>
+                                                    <td>$262,510,000.00</td>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="d-flex align-items-center">
+                                                                <select class="selectpicker">
+                                                                    <option>Settlement Date Set</option>
+                                                                    <option>Ketchup</option>
+                                                                    <option>Relish</option>
+                                                                </select>
+                                                                <div class="input-group small-text min-w-150 ml-2">
+                                                                    <input type="text" class="form-control mydatepicker" placeholder="--Select Date--">
+                                                                    <div class="input-group-append">
+                                                                        <span class="input-group-text text-primary bg-white"><i class="fa fa-calendar"></i></span>
+                                                                    </div>
+                                                                </div>
+                                                                <button class="btn btn-primary ml-2">Sale</button>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <button class="btn btn-outline-success no-hover btn-xs ml-2 p-1" style="display: none;"><span class="icon-circle outline-success"><i class="ti-check"></i></span></button>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>12/13/2020</td>
+                                                </tr>
+                                                <tr class="collapse" id="rowExpand">
+                                                    <td colspan="12">
+                                                        <table class="table table-bordered role-table table-striped thead-bg mb-0">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th class="text-nowrap">Loan No.</th>
+                                                                    <th class="text-nowrap">Loan Address</th>
+                                                                    <th class="text-nowrap">Allocated On</th>
+                                                                    <th class="text-nowrap">Days Elapsed</th>
+                                                                    <th class="text-nowrap">Property Type</th>
+                                                                    <th class="text-nowrap">Disbursed Amount</th>
+                                                                    <th class="text-nowrap">Escrow</th>
+                                                                    <th class="text-nowrap">Total Loan Amount</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="text-nowrap">BC2019-002656</td>
+                                                                    <td>0852 East Henderson Terrace</td>
+                                                                    <td>07/18/2020</td>
+                                                                    <td>120</td>
+                                                                    <td>Commercial</td>
+                                                                    <td>$10,000.00</td>
+                                                                    <td>$220,000.00</td>
+                                                                    <td>$230,000.00</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="expanded_block collapsed" data-toggle="collapse" href="#rowExpand2">
+                                                            <span>
+                                                                <i class="ti"></i>
+                                                            </span>
+                                                    </td>
+                                                    <td class="text-nowrap">
+                                                        SS-NP-Select Owner Trust
+                                                    </td>
+                                                    <td>11/25/2020</td>
+                                                    <td>
+                                                        7
+                                                    </td>
+                                                    <td>$262,510,000.00</td>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="d-flex">
+                                                                <select class="selectpicker" disabled>
+                                                                    <option>Settlement Date Set</option>
+                                                                    <option>Ketchup</option>
+                                                                    <option>Relish</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <button class="btn btn-outline-success no-hover btn-xs ml-2 p-1" role="img"><span class="icon-circle outline-success"><i class="ti-check"></i></span></button>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>12/05/2020</td>
+                                                </tr>
+                                                <tr class="collapse" id="rowExpand2">
+                                                    <td colspan="12">
+                                                        <table class="table table-bordered role-table table-striped thead-bg mb-0">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th class="text-nowrap">Loan No.</th>
+                                                                    <th class="text-nowrap">Loan Address</th>
+                                                                    <th class="text-nowrap">Allocated On</th>
+                                                                    <th class="text-nowrap">Days Elapsed</th>
+                                                                    <th class="text-nowrap">Property Type</th>
+                                                                    <th class="text-nowrap">Disbursed Amount</th>
+                                                                    <th class="text-nowrap">Escrow</th>
+                                                                    <th class="text-nowrap">Total Loan Amount</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="text-nowrap">BC2019-002656</td>
+                                                                    <td>0852 East Henderson Terrace</td>
+                                                                    <td>07/18/2020</td>
+                                                                    <td>120</td>
+                                                                    <td>Commercial</td>
+                                                                    <td>$10,000.00</td>
+                                                                    <td>$220,000.00</td>
+                                                                    <td>$230,000.00</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="expanded_block collapsed" data-toggle="collapse" href="#rowExpand3">
+                                                            <span>
+                                                                <i class="ti"></i>
+                                                            </span>
+                                                    </td>
+                                                    <td class="text-nowrap">
+                                                        SS-NP-Select Owner Trust
+                                                    </td>
+                                                    <td>11/25/2020</td>
+                                                    <td>
+                                                        7
+                                                    </td>
+                                                    <td>$262,510,000.00</td>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="d-flex">
+                                                                <select class="selectpicker" disabled>
+                                                                    <option>Settlement Date Set</option>
+                                                                    <option>Ketchup</option>
+                                                                    <option>Relish</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <button class="btn btn-outline-success no-hover btn-xs ml-2 p-1" role="img"><span class="icon-circle outline-success"><i class="ti-check"></i></span></button>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>12/05/2020</td>
+                                                </tr>
+                                                <tr class="collapse" id="rowExpand3">
+                                                    <td colspan="12">
+                                                        <table class="table table-bordered role-table table-striped thead-bg mb-0">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th class="text-nowrap">Loan No.</th>
+                                                                    <th class="text-nowrap">Loan Address</th>
+                                                                    <th class="text-nowrap">Allocated On</th>
+                                                                    <th class="text-nowrap">Days Elapsed</th>
+                                                                    <th class="text-nowrap">Property Type</th>
+                                                                    <th class="text-nowrap">Disbursed Amount</th>
+                                                                    <th class="text-nowrap">Escrow</th>
+                                                                    <th class="text-nowrap">Total Loan Amount</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="text-nowrap">BC2019-002656</td>
+                                                                    <td>0852 East Henderson Terrace</td>
+                                                                    <td>07/18/2020</td>
+                                                                    <td>120</td>
+                                                                    <td>Commercial</td>
+                                                                    <td>$10,000.00</td>
+                                                                    <td>$220,000.00</td>
+                                                                    <td>$230,000.00</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row m-t-30">
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0 mb-3">
+                                                    <a href="#">
+                                                        <div class="d-flex tile-block">
+                                                            <div class="tile-box">
+                                                                <img src="../assets/images/loan-sale/svg/document-red.svg" />
+                                                            </div>
+                                                            <div class="tile-box">
+                                                                <p class="text-grey no-margin small">Allocated to a Loan Tape for</p>
+                                                                <p class="highlighted no-margin small">20 Days or More</p>
+                                                            </div>
+                                                            <div class="tile-box">
+                                                                <h2 class="no-margin color-red"><b>5</b></h2>
+                                                                <p class="text-grey no-margin small">Files</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0 mb-3">
+                                                    <a href="#">
+                                                        <div class="d-flex tile-block">
+                                                            <div class="tile-box">
+                                                                <img src="../assets/images/loan-sale/svg/document-orange.svg" />
+                                                            </div>
+                                                            <div class="tile-box">
+                                                                <p class="text-grey no-margin small">Allocated to a Loan Tape for</p>
+                                                                <p class="highlighted no-margin small">15-19 Days</p>
+                                                            </div>
+                                                            <div class="tile-box">
+                                                                <h2 class="no-margin color-orange"><b>10</b></h2>
+                                                                <p class="text-grey no-margin small">Files</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-sm-0 mb-3">
+                                                    <a href="#">
+                                                        <div class="d-flex tile-block">
+                                                            <div class="tile-box">
+                                                                <img src="../assets/images/loan-sale/svg/document-yellow.svg" />
+                                                            </div>
+                                                            <div class="tile-box">
+                                                                <p class="text-grey no-margin small">Allocated to a Loan Tape for</p>
+                                                                <p class="highlighted no-margin small">10-14 Days</p>
+                                                            </div>
+                                                            <div class="tile-box">
+                                                                <h2 class="no-margin color-yellow-light"><b>3</b></h2>
+                                                                <p class="text-grey no-margin small">Files</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                                    <a href="#">
+                                                        <div class="d-flex tile-block">
+                                                            <div class="tile-box">
+                                                                <img src="../assets/images/loan-sale/svg/document-skyBlue.svg" />
+                                                            </div>
+                                                            <div class="tile-box">
+                                                                <p class="text-grey no-margin small">Allocated to a Loan Tape for</p>
+                                                                <p class="highlighted no-margin small">to be Allocated</p>
+                                                            </div>
+                                                            <div class="tile-box">
+                                                                <h2 class="no-margin color-info-light"><b>4</b></h2>
+                                                                <p class="text-grey no-margin small">Files</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <div class="row m-t-30 mb-2">
+                                                <div class="col-lg-6 col-md-12 d-flex align-items-center">
+                                                    <div class="d-flex">
+                                                        <select class="selectpicker" title="--Select Investor--">
+                                                            <option>Mustard</option>
+                                                            <option>Ketchup</option>
+                                                            <option>Relish</option>
+                                                        </select>
+                                                        <button data-toggle="modal" data-target="#createFinalLoanPool" type="button" class="btn btn-primary ml-2">Create Final Loan Pool</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-12 offset-lg-2">
+                                                    <div class="d-flex mt-lg-0 mt-3">
+                                                        <div class="search-box inv-list ml-lg-auto">
+                                                            <div class="input-group">
+                                                              <input class="form-control py-2 border-right-0" type="search" value="" placeholder="Search" id="example-search-input">
+                                                                <span class="input-group-append">
+                                                                    <button class="btn btn-outline-secondary border-left-0" type="button">
+                                                                        <i class="fa fa-search"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <button type="reset" class="btn waves-effect waves-light custom-reset-button reset-btn ml-2">Reset</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+
+                                            <div class="row m-t-10">
+                                                <div class="col-md-12">
+                                                    <div class="table-responsive">
+                                                        <table id="loanSaleTable" class="table table-bordered loanGenerate_list table-striped table-primary role-table m-t-10 dataTable no-footer table-hover" data-page-size="10">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Loan No.</th>
+                                                                    <th>Loan Adress</th>
+                                                                    <th>City</th>
+                                                                    <th>State</th>
+                                                                    <th>Zip</th>
+                                                                    <th>Total Loan<br/>Amount</th>
+                                                                    <th>Interest<br/>Rate</th>
+                                                                    <th>Borrower<br/>Funding Date</th>
+                                                                    <th>Days<br/>Elapsed</th>
+                                                                    <th>Allocation</th>
+                                                                    <th class="bgc-green6">
+                                                                        <div class="d-flex">
+                                                                            <div class="ss-custom-checkbox checkbox-white mb-0 text-center">
+                                                                                <input type="checkbox" id="zero"><label for="zero" class="check-white mb-0"></label>
+                                                                            </div>
+                                                                            Allocation Preference-1 & docs
+                                                                        </div>
+                                                                    </th>
+                                                                    <th class="bgc-green6">TPR-1 & docs</th>
+                                                                    <th class="bgc-green6">TPR-1 Status</th>
+                                                                    <th class="bgc-green6">USB Status</th>
+                                                                    <th class="bgc-green6">Release<br/>Request</th>
+                                                                    <th class="bgc-green6">Collateral<br/>Status</th>
+                                                                    <th class="bgc-green6">Loan Tape-1</th>
+                                                                    <th class="bgc-green6">Days Elapsed<br/>Since Allocated</th>
+                                                                    <th>Notes</th>
+                                                                    <th>Line</th>
+                                                                    <th>Assignment/<br/>Allonge</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="text-nowrap">
+                                                                        <div class="d-flex justify-content-between align-items-center status">
+                                                                            <a href="">BC2019-002652</a>
+                                                                            <i class="fa fa-circle color-danger bgc-danger"></i>
+                                                                        </div> 
+                                                                    </td>
+                                                                    <td>
+                                                                        70 lafayette Street 
+                                                                    </td>
+                                                                    <td>
+                                                                        Buffalo
+                                                                    </td>
+                                                                    <td>NY</td>
+                                                                    <td>10013</td>
+                                                                    <td>$5,800,000.00</td>
+                                                                    <td>3%</td>
+                                                                    <td>08/06/2014</td>
+                                                                    <td>168</td>
+                                                                    <td class="min-w-200">
+                                                                        <select class="selectpicker" title="--Select--">
+                                                                            <option value="volvo">Department1</option>
+                                                                            <option value="fiat">Department2</option>
+                                                                            <option value="audi">Department3</option>
+                                                                       </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <div class="ss-custom-checkbox gray-border">
+                                                                                <input type="checkbox" id="one"><label for="one" class="mb-0"></label>
+                                                                            </div>
+                                                                            <div class="d-flex flex-column">
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <div class="allocated d-flex align-items-center">
+                                                                                        <span class="text-nowrap">Toorak Capital Partners LLC</span>
+                                                                                        <span class="icon-circle outline-danger ml-2"><i class="ti-close font-10"></i></span>
+                                                                                    </div>
+                                                                                    <a href="" data-toggle="modal" data-target="#boxDocsInvestorDetails">
+                                                                                        <img src="../assets/images/loan-closing/box-icon.png" class="ml-2" />
+                                                                                    </a> 
+                                                                                </div>
+                                                                                <div>
+                                                                                    <a href="#" data-toggle="modal" data-target="" class="d-inline-flex align-items-center font-12 mt-2 text-orange">View More Applications<span class="badge badge-pill badge-orange ml-2">2</span></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <span>Edgemac</span>
+                                                                            <img src="../assets/images/loan-closing/link-icon.png" class="ml-2" style="width: 25px !important;" />
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="min-w-200">
+                                                                        <select class="selectpicker">
+                                                                            <option value="volvo">Data Room Pending</option>
+                                                                            <option value="fiat">Department2</option>
+                                                                            <option value="audi">Department3</option>
+                                                                       </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <select class="selectpicker bs-select-sm">
+                                                                                <option data-content="<span class='text-orange'>Pending</span>">Pending</option>
+                                                                                <option data-content="<span class='text-blue3'>OH</span>">OH</option>
+                                                                                <option data-content="<span class='text-green2'>RL</span>">RL</option>
+                                                                            </select>
+                                                                            <span class="ti-info-alt ml-2"></span>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="#" class="btn btn-outline-primary no-hover btn-sm d-flex align-items-center" data-toggle="tooltip" title="" data-html="true" data-original-title="<div class='font-10'><span>Req. on 12/03/2020<br/>by John Doe</span></div>">Requested<span class="ti-info-alt ml-1"></span></a>
+                                                                    </td>
+                                                                    <td class="min-w-150">
+                                                                        <div class="d-flex align-items-center">
+                                                                            <select class="selectpicker bs-select-sm" title="--Select--">
+                                                                                <option>Settlement</option>
+                                                                                <option>Ketchup</option>
+                                                                                <option>Relish</option>
+                                                                            </select>
+                                                                            <a href="" data-toggle="modal" data-target="#recallAndRelease">
+                                                                                <button class="btn btn-outline-orange btn-sm ml-2 tooltip-orange" data-toggle="tooltip" title="" data-html="true" data-original-title="<div class='font-10'>Recall & Release</div>">R & R</button>
+                                                                            </a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="#" class="btn btn-gray-new btn-sm">
+                                                                            <img src="../assets/images/loan-sale/svg/generate-white.svg" class="mr-1" style="width:13px !important" />
+                                                                            View
+                                                                        </a>
+                                                                    </td>
+                                                                    <td>10</td>
+                                                                    <td>
+                                                                        <img src="../assets/images/background/add_notes.svg" />
+                                                                    </td>
+                                                                    <td class="min-w-200">
+                                                                        <select class="selectpicker" title="--Select--">
+                                                                            <option value="volvo">Department1</option>
+                                                                            <option value="fiat">Department2</option>
+                                                                            <option value="audi">Department3</option>
+                                                                       </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="d-flex">
+                                                                            <button class="btn-sm btn-outline-orange bg-white">ASN</button>
+                                                                            <button class="btn-sm btn-outline-orange bg-white ml-2">ALN</button>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-nowrap">
+                                                                        <div class="d-flex justify-content-between align-items-center status">
+                                                                            <a href="">BC2019-002652</a>
+                                                                            <i class="fa fa-circle color-danger bgc-danger"></i>
+                                                                        </div> 
+                                                                    </td>
+                                                                    <td>
+                                                                        70 lafayette Street 
+                                                                    </td>
+                                                                    <td>
+                                                                        Buffalo
+                                                                    </td>
+                                                                    <td>NY</td>
+                                                                    <td>10013</td>
+                                                                    <td>$5,800,000.00</td>
+                                                                    <td>3%</td>
+                                                                    <td>08/06/2014</td>
+                                                                    <td>168</td>
+                                                                    <td class="min-w-200">
+                                                                        <select class="selectpicker" title="--Select--">
+                                                                            <option value="volvo">Department1</option>
+                                                                            <option value="fiat">Department2</option>
+                                                                            <option value="audi">Department3</option>
+                                                                       </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <div class="allocated d-flex align-items-center">
+                                                                                <span class="text-nowrap">Toorak Capital Partners LLC</span>
+                                                                                <span class="icon-circle outline-danger ml-2"><i class="ti-close font-10"></i></span>
+                                                                            </div>
+                                                                            <img src="../assets/images/loan-closing/box-icon.png" class="ml-2" />
+                                                                        </div>
+                                                                        <a href="#" data-toggle="modal" data-target="" class="d-inline-flex align-items-center font-12 mt-2 text-orange">View More Applications<span class="badge badge-pill badge-orange ml-2">2</span></a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <span>Edgemac</span>
+                                                                            <img src="../assets/images/loan-closing/link-icon.png" class="ml-2" style="width: 25px !important;" />
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="min-w-200">
+                                                                        <select class="selectpicker">
+                                                                            <option value="volvo">Data Room Pending</option>
+                                                                            <option value="fiat">Department2</option>
+                                                                            <option value="audi">Department3</option>
+                                                                       </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <select class="selectpicker bs-select-sm">
+                                                                                <option data-content="<span class='text-green2'>RL</span>">RL</option>
+                                                                                <option data-content="<span class='text-orange'>Pending</span>">Pending</option>
+                                                                                <option data-content="<span class='text-blue3'>OH</span>">OH</option>
+                                                                            </select>
+                                                                            <span class="ti-info-alt ml-2"></span>
+                                                                        </div>
+                                                                        <span class="font-10 text-nowrap">Track #: 123456789</span>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="#" class="btn btn-primary btn-sm disabled">Request</a>
+                                                                    </td>
+                                                                    <td class="min-w-150">
+                                                                        <select class="selectpicker bs-select-sm" title="--Select--">
+                                                                            <option>Settlement</option>
+                                                                            <option>Ketchup</option>
+                                                                            <option>Relish</option>
+                                                                        </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="#" class="btn btn-secondary btn-sm">
+                                                                            <img src="../assets/images/loan-sale/svg/generate.svg" class="mr-1" style="width:13px !important" />
+                                                                            View
+                                                                        </a>
+                                                                    </td>
+                                                                    <td>10</td>
+                                                                    <td>
+                                                                        <img src="../assets/images/background/add_notes.svg" />
+                                                                    </td>
+                                                                    <td class="min-w-200">
+                                                                        <select class="selectpicker" title="--Select--">
+                                                                            <option value="volvo">Department1</option>
+                                                                            <option value="fiat">Department2</option>
+                                                                            <option value="audi">Department3</option>
+                                                                       </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="d-flex">
+                                                                            <button class="btn-sm btn-outline-orange bg-white">ASN</button>
+                                                                            <button class="btn-sm btn-outline-orange bg-white ml-2">ALN</button>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-nowrap">
+                                                                        <div class="d-flex justify-content-between align-items-center status">
+                                                                            BC2019-002652
+                                                                            <i class="fa fa-circle color-danger bgc-danger"></i>
+                                                                        </div> 
+                                                                    </td>
+                                                                    <td>
+                                                                        70 lafayette Street 
+                                                                    </td>
+                                                                    <td>
+                                                                        Buffalo
+                                                                    </td>
+                                                                    <td>NY</td>
+                                                                    <td>10013</td>
+                                                                    <td>$5,800,000.00</td>
+                                                                    <td>3%</td>
+                                                                    <td>08/06/2014</td>
+                                                                    <td>168</td>
+                                                                    <td class="min-w-200">
+                                                                        <select class="selectpicker" title="--Select--">
+                                                                            <option value="volvo">Department1</option>
+                                                                            <option value="fiat">Department2</option>
+                                                                            <option value="audi">Department3</option>
+                                                                       </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <div class="allocated d-flex align-items-center">
+                                                                                <span class="text-nowrap">Toorak Capital Partners LLC</span>
+                                                                                <span class="icon-circle outline-danger ml-2"><i class="ti-close font-10"></i></span>
+                                                                            </div>
+                                                                            <img src="../assets/images/loan-closing/box-icon.png" class="ml-2" />
+                                                                        </div>
+                                                                        <a href="#" data-toggle="modal" data-target="#addAllocations" class="link d-inline-flex align-items-center font-12 mt-2">Add More Applications<span class="icon-circle blue ml-2"><i class="ti-plus font-10"></i></span></a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <span>Edgemac</span>
+                                                                            <img src="../assets/images/loan-closing/link-icon.png" class="ml-2" style="width: 25px !important;" />
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="min-w-200">
+                                                                        <select class="selectpicker">
+                                                                            <option value="volvo">Data Room Pending</option>
+                                                                            <option value="fiat">Department2</option>
+                                                                            <option value="audi">Department3</option>
+                                                                       </select>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td>
+                                                                        <a href="#" class="btn btn-secondary btn-sm">
+                                                                            <img src="../assets/images/loan-sale/svg/generate.svg" class="mr-1" style="width:13px !important" />
+                                                                            Generate
+                                                                        </a>
+                                                                    </td>
+                                                                    <td>10</td>
+                                                                    <td>
+                                                                        <img src="../assets/images/background/add_notes.svg" />
+                                                                    </td>
+                                                                    <td class="min-w-200">
+                                                                        <select class="selectpicker" title="--Select--">
+                                                                            <option value="volvo">Department1</option>
+                                                                            <option value="fiat">Department2</option>
+                                                                            <option value="audi">Department3</option>
+                                                                       </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="d-flex">
+                                                                            <button class="btn-sm btn-outline-orange bg-white">ASN</button>
+                                                                            <button class="btn-sm btn-outline-orange bg-white ml-2">ALN</button>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-nowrap">
+                                                                        <div class="d-flex justify-content-between align-items-center status">
+                                                                            BC2019-002649
+                                                                            <i class="fa fa-circle color-success bgc-success"></i>
+                                                                        </div> 
+                                                                    </td>
+                                                                    <td>
+                                                                        70 lafayette Street 
+                                                                    </td>
+                                                                    <td>
+                                                                        Buffalo
+                                                                    </td>
+                                                                    <td>NY</td>
+                                                                    <td>10013</td>
+                                                                    <td>$5,800,000.00</td>
+                                                                    <td>3%</td>
+                                                                    <td>08/06/2014</td>
+                                                                    <td>168</td>
+                                                                    <td class="min-w-200">
+                                                                        <select class="selectpicker" title="--Select--">
+                                                                            <option value="volvo">Department1</option>
+                                                                            <option value="fiat">Department2</option>
+                                                                            <option value="audi">Department3</option>
+                                                                       </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <div class="allocated d-flex align-items-center">
+                                                                                <span class="text-nowrap">Toorak Capital Partners LLC</span>
+                                                                                <span class="icon-circle outline-danger ml-2"><i class="ti-close font-10"></i></span>
+                                                                            </div>
+                                                                            <img src="../assets/images/loan-closing/box-icon.png" class="ml-2" />
+                                                                        </div>
+                                                                        <a href="#" class="link d-inline-flex align-items-center font-12 mt-2">Add More Applications<span class="icon-circle blue ml-2"><i class="ti-plus font-10"></i></span></a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <select class="selectpicker" title="--Select--">
+                                                                            <option value="volvo">AMC</option>
+                                                                            <option value="fiat">Edgemac</option>
+                                                                       </select>
+                                                                    </td>
+                                                                    <td class="min-w-200">
+                                                                        <select class="selectpicker">
+                                                                            <option value="volvo">Data Room Pending</option>
+                                                                            <option value="fiat">Department2</option>
+                                                                            <option value="audi">Department3</option>
+                                                                       </select>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td>
+                                                                        <a href="#" class="btn btn-secondary btn-sm">
+                                                                            <img src="../assets/images/loan-sale/svg/generate.svg" class="mr-1" style="width:13px !important" />
+                                                                            Generate
+                                                                        </a>
+                                                                    </td>
+                                                                    <td>10</td>
+                                                                    <td>
+                                                                        <img src="../assets/images/background/add_notes.svg" />
+                                                                    </td>
+                                                                    <td class="min-w-200">
+                                                                        <select class="selectpicker" title="--Select--">
+                                                                            <option value="volvo">Department1</option>
+                                                                            <option value="fiat">Department2</option>
+                                                                            <option value="audi">Department3</option>
+                                                                       </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="d-flex">
+                                                                            <button class="btn-sm btn-outline-orange bg-white">ASN</button>
+                                                                            <button class="btn-sm btn-outline-orange bg-white ml-2">ALN</button>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-nowrap">
+                                                                        <div class="d-flex justify-content-between align-items-center status">
+                                                                            BC2019-002545
+                                                                            <i class="fa fa-circle color-warning-light bgc-warning-light"></i>
+                                                                        </div> 
+                                                                    </td>
+                                                                    <td>
+                                                                        70 lafayette Street 
+                                                                    </td>
+                                                                    <td>
+                                                                        Buffalo
+                                                                    </td>
+                                                                    <td>NY</td>
+                                                                    <td>10013</td>
+                                                                    <td>$5,800,000.00</td>
+                                                                    <td>3%</td>
+                                                                    <td>08/06/2014</td>
+                                                                    <td>168</td>
+                                                                    <td class="min-w-200">
+                                                                        <select class="selectpicker" title="--Select--">
+                                                                            <option value="volvo">Department1</option>
+                                                                            <option value="fiat">Department2</option>
+                                                                            <option value="audi">Department3</option>
+                                                                       </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <select class="selectpicker" title="--Select--">
+                                                                            <option value="volvo">Department1</option>
+                                                                            <option value="fiat">Department2</option>
+                                                                            <option value="audi">Department3</option>
+                                                                       </select>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td>
+                                                                        <img src="../assets/images/background/add_notes.svg" />
+                                                                    </td>
+                                                                    <td class="min-w-200">
+                                                                        <select class="selectpicker" title="--Select--">
+                                                                            <option value="volvo">Department1</option>
+                                                                            <option value="fiat">Department2</option>
+                                                                            <option value="audi">Department3</option>
+                                                                       </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="d-flex">
+                                                                            <button class="btn-sm btn-outline-orange bg-white">ASN</button>
+                                                                            <button class="btn-sm btn-outline-orange bg-white ml-2">ALN</button>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="tab-pane" id="scheduleToClose" role="tabpanel">
+                                    schedule to close here..
+                                </div>
+                                <div class="tab-pane" id="bridgeLoanAllocation" role="tabpanel">
+                                    bridge loan allocation here..
+                                </div>
+                                <div class="tab-pane" id="bridgeLoanInvestorVolumeTracker" role="tabpanel">
+                                    bridge loan investor volume tracker here..
+                                </div>
+                                <div class="tab-pane" id="termLoanAllocationDashboard" role="tabpanel">
+                                    term loan allocation dashboard here..
+                                </div>
+                                <div class="tab-pane" id="termLoanInvestorVolumeTracker" role="tabpanel">
+                                    term loan investor volume tracker here..
+                                </div>      
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- Yearly Sales -->
+                <!-- ============================================================== -->
+
+                <!-- ============================================================== -->
+                <!-- News -->
+                <!-- ============================================================== -->
+
+                <!-- ============================================================== -->
+                <!-- To do chat and message -->
+                <!-- ============================================================== -->
+
+                <!-- ============================================================== -->
+                <!-- Right sidebar -->
+                <!-- ============================================================== -->
+                <!-- .right-sidebar -->
+
+                <!-- ============================================================== -->
+                <!-- End Right sidebar -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+
+        	   <!-- Modal -->
+
+
+        <!-- ============================================================== -->
+        <!-- footer -->
+        <!-- ============================================================== -->
+        <footer class="footer">
+            © 2018 Sharestates.com
+        </footer>
+        <!-- ============================================================== -->
+        <!-- End footer -->
+        <!-- ============================================================== -->
+    
+    
+        <!-- Modal -->
+        <div id="addAllocations" class="modal custom-bs-modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-600">Add More Allocations<span class="mx-2">-</span>BC2019-002652<span class="mx-2">|</span>70 lafayette Street</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="table-responsive">
+                            <table class="table table-bordered loanGenerate_list">
+                                <tr>
+                                    <th class="text-nowrap">Preference</th>
+                                    <th class="bgc-orange light">Second</th>
+                                    <th class="bgc-red3 light">Third</th>
+                                </tr>
+                                <tr>
+                                    <th class="text-nowrap">Investor & Docs</th>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="allocated d-flex align-items-center bg-secondary">
+                                                <span class="text-nowrap">Toorak Capital Partners LLC</span>
+                                                <span class="icon-circle outline-danger ml-2"><i class="ti-close font-10"></i></span>
+                                            </div>
+                                            <img src="../assets/images/loan-closing/box-icon.png" class="ml-2">
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="allocated d-flex align-items-center bg-secondary">
+                                                <span class="text-nowrap">Toorak Capital Partners LLC</span>
+                                                <span class="icon-circle outline-danger ml-2"><i class="ti-close font-10"></i></span>
+                                            </div>
+                                            <img src="../assets/images/loan-closing/box-icon.png" class="ml-2">
+                                        </div>
+                                      </td>
+                                </tr>
+                                <tr>
+                                    <th class="text-nowrap">TPR & Docs</th>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <span>Edgemac</span>
+                                            <img src="../assets/images/loan-closing/link-icon.png" class="ml-2" style="width: 25px !important;">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <span>AMC</span>
+                                            <img src="../assets/images/loan-closing/link-icon.png" class="ml-2" style="width: 25px !important;">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="text-nowrap">TPR Status</th>
+                                    <td>
+                                        <select class="selectpicker" title="--Select--">
+                                            <option>Data Room Pending</option>
+                                            <option>data Room Populated</option>
+                                            <option>Exceptions Issued</option>
+                                            <option>Exceptions Cleared</option>
+                                            <option>Final Loan Pool</option>
+                                            <option>Collateral Shipped</option>
+                                        </select>   
+                                    </td>
+                                    <td>
+                                        <select class="selectpicker" title="--Select--">
+                                            <option>Data Room Pending</option>
+                                            <option>data Room Populated</option>
+                                            <option>Exceptions Issued</option>
+                                            <option>Exceptions Cleared</option>
+                                            <option>Final Loan Pool</option>
+                                            <option>Collateral Shipped</option>
+                                        </select>   
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="text-nowrap">Loan Tape</th>
+                                    <td>
+                                        <a href="#" class="btn btn-secondary btn-sm">
+                                            <img src="../assets/images/loan-sale/svg/generate.svg" class="mr-1" style="width:12px !important">
+                                            Generate
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="btn btn-secondary btn-sm">
+                                            <img src="../assets/images/loan-sale/svg/generate.svg" class="mr-1" style="width:12px !important">
+                                            Generate
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="text-nowrap">Days Elapsed<br/>Since Allocation</th>
+                                    <td>5</td>
+                                    <td>5</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-end mt-2">
+                            <button type="button" class="btn btn-outline-success min-w-100">Save</button>
+                            <button data-dismiss="modal" type="button" class="btn btn-outline-danger min-w-100 ml-2">Cancel</button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="recallAndRelease" class="modal custom-bs-modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-large" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom bblr-0 bbrr-0">
+                        <h5 class="modal-title fw-600"><span class="text-orange">Recall & Release</span><span class="mx-2">-</span>BC2019-002652<span class="mx-2">|</span>70 lafayette Street</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h4 class="text-center">This loan is already allocated to Toorak Capital Partners LLC.</h4>
+                        <h4 class="text-orange text-center fw-600">Do you want to Recall & Release to different Investor?</h4>
+                        <div class="d-flex align-items-center justify-content-center mt-3 mb-4">
+                            <button class="btn btn-outline-orange min-w-65">Yes</button>
+                            <button class="btn btn-outline-primary min-w-65 ml-2">No</button>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-bordered loanGenerate_list table-allocation">
+                                <tr>
+                                    <th class="text-nowrap">Preference</th>
+                                    <th class="bgc-green4 light">First</th>
+                                    <th class="bgc-orange light">Second</th>
+                                    <th class="bgc-red3 light">Third</th>
+                                </tr>
+                                <tr>
+                                    <th class="text-nowrap">Investor & Docs</th>
+                                    <td class="highlighted">
+                                        <div class="d-flex align-items-center">
+                                            <div class="allocated d-flex align-items-center bg-secondary active">
+                                                <span class="text-nowrap">Toorak Capital Partners LLC</span>
+                                                <span class="icon-circle outline-danger ml-2"><i class="ti-close font-10"></i></span>
+                                            </div>
+                                            <img src="../assets/images/loan-closing/box-icon.png" class="ml-2">
+                                        </div>
+                                      </td>
+                                      <td class="disabled">
+                                        <div class="d-flex align-items-center">
+                                            <div class="allocated d-flex align-items-center bg-secondary">
+                                                <span class="text-nowrap">Toorak Capital Partners LLC</span>
+                                                <span class="icon-circle outline-danger ml-2"><i class="ti-close font-10"></i></span>
+                                            </div>
+                                            <img src="../assets/images/loan-closing/box-icon.png" class="ml-2">
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="allocated d-flex align-items-center bg-secondary">
+                                                <span class="text-nowrap">Toorak Capital Partners LLC</span>
+                                                <span class="icon-circle outline-danger ml-2"><i class="ti-close font-10"></i></span>
+                                            </div>
+                                            <img src="../assets/images/loan-closing/box-icon.png" class="ml-2">
+                                        </div>
+                                      </td>
+                                </tr>
+                                <tr>
+                                    <th class="text-nowrap">TPR & Docs</th>
+                                    <td class="highlighted">
+                                        <div class="d-flex align-items-center">
+                                            <span>Edgemac</span>
+                                            <img src="../assets/images/loan-closing/link-icon.png" class="ml-2" style="width: 25px !important;">
+                                        </div>
+                                    </td>
+                                    <td class="disabled">
+                                        <div class="d-flex align-items-center">
+                                            <span>Edgemac</span>
+                                            <img src="../assets/images/loan-closing/link-icon.png" class="ml-2" style="width: 25px !important;">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <span>AMC</span>
+                                            <img src="../assets/images/loan-closing/link-icon.png" class="ml-2" style="width: 25px !important;">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="text-nowrap">TPR Status</th>
+                                    <td class="highlighted">
+                                        <select class="selectpicker" title="--Select--">
+                                            <option>Data Room Pending</option>
+                                            <option>data Room Populated</option>
+                                            <option>Exceptions Issued</option>
+                                            <option>Exceptions Cleared</option>
+                                            <option>Final Loan Pool</option>
+                                            <option>Collateral Shipped</option>
+                                        </select>   
+                                    </td>
+                                    <td class="disabled">
+                                        <select class="selectpicker" title="--Select--">
+                                            <option>Data Room Pending</option>
+                                            <option>data Room Populated</option>
+                                            <option>Exceptions Issued</option>
+                                            <option>Exceptions Cleared</option>
+                                            <option>Final Loan Pool</option>
+                                            <option>Collateral Shipped</option>
+                                        </select>   
+                                    </td>
+                                    <td>
+                                        <select class="selectpicker" title="--Select--">
+                                            <option>Data Room Pending</option>
+                                            <option>data Room Populated</option>
+                                            <option>Exceptions Issued</option>
+                                            <option>Exceptions Cleared</option>
+                                            <option>Final Loan Pool</option>
+                                            <option>Collateral Shipped</option>
+                                        </select>   
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="text-nowrap">Loan Tape</th>
+                                    <td class="highlighted">
+                                        <a href="#" class="btn btn-gray-new btn-sm">
+                                            <img src="../assets/images/loan-sale/svg/generate-white.svg" class="mr-1" style="width:13px !important">
+                                            View
+                                        </a>
+                                    </td>
+                                    <td class="disabled">
+                                        <a href="#" class="btn btn-gray-new btn-sm">
+                                            <img src="../assets/images/loan-sale/svg/generate-white.svg" class="mr-1" style="width:13px !important">
+                                            View
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="btn btn-gray-new btn-sm">
+                                            <img src="../assets/images/loan-sale/svg/generate-white.svg" class="mr-1" style="width:13px !important">
+                                            View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="text-nowrap">Days Elapsed<br/>Since Allocation</th>
+                                    <td class="highlighted">10</td>
+                                    <td class="disabled">10</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr class="align-top">
+                                    <th></th>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <button class="btn btn-orange">Unallocated</button>
+                                            <span class="ml-2 font-10">On 12/05/2020<br/>By John Smith</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-primary">Release Request Sent</button>
+                                        <div>
+                                            <span class="font-10">On 12/05/2020 By John Smith</span>
+                                        </div>
+                                    </td>
+                                    <td><button class="btn btn-outline-primary">Release Collateral</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-end mt-4">
+                            <button type="button" class="btn btn-outline-success min-w-100">Save</button>
+                            <button data-dismiss="modal" type="button" class="btn btn-outline-danger min-w-100 ml-2">Cancel</button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="createFinalLoanPool" class="modal custom-bs-modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom bblr-0 bbrr-0">
+                        <h5 class="modal-title fw-600">Create Final Loan Pool</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-flex justify-content-between">
+                            <p>Selected Loans:<span class="fw-600 ml-2">3</span></p>
+                            <p>Ttal Loan amount:<span class="fw-600 ml-2">$200,000.00</span></p>
+                        </div>
+                        <ul class="loan-pools d-flex flex-wrap list-unstyled">
+                            <li class="d-flex align-items-center">
+                                BC2019-002652
+                                <span class="icon-circle outline-danger ml-2"><i class="ti-close font-10"></i></span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                BC2019-002652
+                                <span class="icon-circle outline-danger ml-2"><i class="ti-close font-10"></i></span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                BC2019-002652
+                                <span class="icon-circle outline-danger ml-2"><i class="ti-close font-10"></i></span>
+                            </li>
+                        </ul>
+                        <h5 class="fw-600 text-center mt-5 mb-4">Do you want to create the Final Loan Pool?</h5>
+                        <div class="d-flex justify-content-center mt-2 mb-4">
+                            <button type="button" class="btn btn-outline-success min-w-100">YES</button>
+                            <button type="button" class="btn btn-outline-danger min-w-100 ml-2">NO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="boxDocsInvestorDetails" class="modal custom-bs-modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-large" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom bblr-0 bbrr-0">
+                        <h5 class="modal-title fw-600">
+                            <span class="mr-2"><img src="../assets/images/loan-sale/icon-buildings.png"/></span>
+                            <span class="text-orange2">Box.com docs for Toorak Capital LLC</span>
+                            <span class="mx-1">-</span>
+                            70 Lafayette street<span class="mx-2">|</span>BC2019-002656
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card no-box-shadow border p-3 mb-0 h-100">
+                                    <div class="card-head min-h-55 border-bottom">
+                                        <h5 class="fw-500 mb-0 text-rose">
+                                            <span class="mr-3"><img src="../assets/images/loan-sale/underwriting-documents.png"/></span>Underwriting Documents
+                                        </h5>
+                                    </div>
+                                    <div class="card-body p-0 pt-3">
+                                        <h6 class="text-green2 fw-500 mb-3">Uploaded Documents</h6>
+                                        <div id="uploadUnderwritingDocuments" class="accordian accordian-primary accordian-sm mb-4">
+                                            <div class="card no-box-shadow mb-2">
+                                              <div class="card-header">
+                                                <a class="d-flex align-items-center fw-500" data-toggle="collapse" data-target="#borrowerID">
+                                                Borrower Id
+                                                <span class="icon-circle outline-danger ml-auto"><i class="ti-close font-10"></i></span>
+                                                </a>  
+                                              </div>
+                                              <div id="borrowerID" class="collapse show" data-parent="#uploadUnderwritingDocuments">
+                                                <div class="card-body">
+                                                  <ul class="list-unstyled mb-0">
+                                                    <li class="d-flex align-items-center mt-1">
+                                                        <span class="fa fa-circle text-gray font-8 mr-2"></span>Driving license
+                                                        <span class="icon-circle outline-danger ml-auto"><i class="ti-close font-10"></i></span>
+                                                    </li>
+                                                    <li class="d-flex align-items-center mt-1">
+                                                        <span class="fa fa-circle text-gray font-8 mr-2"></span>SSN
+                                                        <span class="icon-circle outline-danger ml-auto"><i class="ti-close font-10"></i></span>
+                                                   </li>
+                                                    <li class="d-flex align-items-center mt-1">
+                                                        <span class="fa fa-circle text-gray font-8 mr-2"></span>Passport
+                                                        <span class="icon-circle outline-danger ml-auto"><i class="ti-close font-10"></i></span>
+                                                    </li>
+                                                  </ul>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="card no-box-shadow mb-2">
+                                                <div class="card-header" id="headingtwo">
+                                                  <a class="d-flex align-items-center fw-500" data-toggle="collapse" data-target="#proofOfLiquidity">
+                                                  Proof of liquidity
+                                                  <span class="icon-circle outline-danger ml-auto"><i class="ti-close font-10"></i></span>
+                                                  </a>
+                                                </div>
+                                                <div id="proofOfLiquidity" class="collapse" data-parent="#uploadUnderwritingDocuments">
+                                                  <div class="card-body">
+                                                    <ul class="list-unstyled mb-0">
+                                                      <li class="d-flex align-items-center mt-1">
+                                                          <span class="fa fa-circle text-gray font-8 mr-2"></span>sample text
+                                                          <span class="icon-circle outline-danger ml-auto"><i class="ti-close font-10"></i></span>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="card no-box-shadow mb-2">
+                                                <div class="card-header" id="headingtwo">
+                                                  <a class="d-flex align-items-center fw-500" data-toggle="collapse" data-target="#creditReport">
+                                                  Credit Report
+                                                  <span class="icon-circle outline-danger ml-auto"><i class="ti-close font-10"></i></span>
+                                                  </a>
+                                                </div>
+                                                <div id="creditReport" class="collapse" data-parent="#uploadUnderwritingDocuments">
+                                                  <div class="card-body">
+                                                    <ul class="list-unstyled mb-0">
+                                                      <li class="d-flex align-items-center mt-1">
+                                                          <span class="fa fa-circle text-gray font-8 mr-2"></span>sample text
+                                                          <span class="icon-circle outline-danger ml-auto"><i class="ti-close font-10"></i></span>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="card no-box-shadow mb-2">
+                                                <div class="card-header" id="headingtwo">
+                                                  <a class="d-flex align-items-center fw-500" data-toggle="collapse" data-target="#certificateOfFormation">
+                                                  Certificate of Formation
+                                                  <span class="icon-circle outline-danger ml-auto"><i class="ti-close font-10"></i></span>
+                                                  </a>
+                                                </div>
+                                                <div id="certificateOfFormation" class="collapse" data-parent="#uploadUnderwritingDocuments">
+                                                  <div class="card-body">
+                                                    <ul class="list-unstyled mb-0">
+                                                      <li class="d-flex align-items-center mt-1">
+                                                          <span class="fa fa-circle text-gray font-8 mr-2"></span>sample text
+                                                          <span class="icon-circle outline-danger ml-auto"><i class="ti-close font-10"></i></span>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                          </div>
+                                          <h6 class="text-orange fw-500 mb-3">Missing Documents</h6>
+                                          <div class="row">
+                                              <div class="col-lg-7">
+                                                  <label class="mb-0">Purchase Contract</label>
+                                              </div>
+                                              <div class="col-lg-5">
+                                                <div class="fileinput fileinput-new input-group form-fileinput gray" data-provides="fileinput">
+                                                    <span class="input-group-append btn btn-default btn-file ml-0">
+                                                      <span class="fileinput-new">Upload File <i class="ti-export"></i> </span>
+                                                      <span class="fileinput-exists">Change <i class="ti-reload"></i></span>
+                                                      <input type="file" name="...">
+                                                    </span>
+                                                    <div class="file-preview form-control no-border" data-trigger="fileinput">
+                                                      <i class="glyphicon glyphicon-file fileinput-exists"></i>
+                                                      <span class="fileinput-filename"></span>
+                                                    </div>
+                                                    <a href="javascript:void(0)" class="input-group-append btn btn-default fileinput-exists p-0" data-dismiss="fileinput">Remove</a>
+                                                </div>
+                                            </div>
+                                          </div>
+                                          <div class="row mt-3">
+                                            <div class="col-lg-7">
+                                                <label class="mb-0">Lenders Title Policy</label>
+                                            </div>
+                                            <div class="col-lg-5">
+                                              <div class="fileinput fileinput-new input-group form-fileinput gray" data-provides="fileinput">
+                                                  <span class="input-group-append btn btn-default btn-file ml-0">
+                                                    <span class="fileinput-new">Upload File <i class="ti-export"></i> </span>
+                                                    <span class="fileinput-exists">Change <i class="ti-reload"></i></span>
+                                                    <input type="file" name="...">
+                                                  </span>
+                                                  <div class="file-preview form-control no-border" data-trigger="fileinput">
+                                                    <i class="glyphicon glyphicon-file fileinput-exists"></i>
+                                                    <span class="fileinput-filename"></span>
+                                                  </div>
+                                                  <a href="javascript:void(0)" class="input-group-append btn btn-default fileinput-exists p-0" data-dismiss="fileinput">Remove</a>
+                                              </div>
+                                            </div>
+                                         </div>
+                                         <div class="row mt-3">
+                                            <div class="col-lg-7">
+                                                <label class="mb-0">Rehab/Construction Budget</label>
+                                            </div>
+                                            <div class="col-lg-5">
+                                              <div class="fileinput fileinput-new input-group form-fileinput gray" data-provides="fileinput">
+                                                  <span class="input-group-append btn btn-default btn-file ml-0">
+                                                    <span class="fileinput-new">Upload File <i class="ti-export"></i> </span>
+                                                    <span class="fileinput-exists">Change <i class="ti-reload"></i></span>
+                                                    <input type="file" name="...">
+                                                  </span>
+                                                  <div class="file-preview form-control no-border" data-trigger="fileinput">
+                                                    <i class="glyphicon glyphicon-file fileinput-exists"></i>
+                                                    <span class="fileinput-filename"></span>
+                                                  </div>
+                                                  <a href="javascript:void(0)" class="input-group-append btn btn-default fileinput-exists p-0" data-dismiss="fileinput">Remove</a>
+                                              </div>
+                                            </div>
+                                         </div>
+                                         <div class="row mt-3">
+                                            <div class="col-lg-7">
+                                                <label class="mb-0">Certificate of Formation</label>
+                                            </div>
+                                            <div class="col-lg-5">
+                                              <div class="fileinput fileinput-new input-group form-fileinput gray" data-provides="fileinput">
+                                                  <span class="input-group-append btn btn-default btn-file ml-0">
+                                                    <span class="fileinput-new">Upload File <i class="ti-export"></i> </span>
+                                                    <span class="fileinput-exists">Change <i class="ti-reload"></i></span>
+                                                    <input type="file" name="...">
+                                                  </span>
+                                                  <div class="file-preview form-control no-border" data-trigger="fileinput">
+                                                    <i class="glyphicon glyphicon-file fileinput-exists"></i>
+                                                    <span class="fileinput-filename"></span>
+                                                  </div>
+                                                  <a href="javascript:void(0)" class="input-group-append btn btn-default fileinput-exists p-0" data-dismiss="fileinput">Remove</a>
+                                              </div>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card no-box-shadow border p-3 mb-0 h-100">
+                                    <div class="card-head min-h-55 border-bottom">
+                                        <h5 class="fw-500 mb-0 text-blue">
+                                            <span class="mr-3"><img src="../assets/images/loan-sale/closed-documents.png"/></span>Closing Documents
+                                        </h5>
+                                    </div>
+                                    <div class="card-body p-0 pt-3">
+                                        <h6 class="text-green2 fw-500 mb-3">Uploaded Documents</h6>
+                                        <div id="uploadClosingDocuments" class="accordian accordian-primary accordian-sm mb-4">
+                                            <div class="card no-box-shadow mb-2">
+                                              <div class="card-header">
+                                                <a class="d-flex align-items-center fw-500" data-toggle="collapse" data-target="#loanAgreement">
+                                                Loan Agreement
+                                                <span class="icon-circle outline-danger ml-auto"><i class="ti-close font-10"></i></span>
+                                                </a>
+                                              </div>
+                                              <div id="loanAgreement" class="collapse" data-parent="#uploadClosingDocuments">
+                                                <div class="card-body">
+                                                  <ul class="list-unstyled mb-0">
+                                                    <li class="d-flex align-items-center mt-1">
+                                                        <span class="fa fa-circle text-gray font-8 mr-2"></span>Driving license
+                                                        <span class="icon-circle outline-danger ml-auto"><i class="ti-close font-10"></i></span>
+                                                    </li>
+                                                    <li class="d-flex align-items-center mt-1">
+                                                        <span class="fa fa-circle text-gray font-8 mr-2"></span>SSN
+                                                        <span class="icon-circle outline-danger ml-auto"><i class="ti-close font-10"></i></span>
+                                                   </li>
+                                                    <li class="d-flex align-items-center mt-1">
+                                                        <span class="fa fa-circle text-gray font-8 mr-2"></span>Passport
+                                                        <span class="icon-circle outline-danger ml-auto"><i class="ti-close font-10"></i></span>
+                                                    </li>
+                                                  </ul>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="card no-box-shadow mb-2">
+                                                <div class="card-header" id="headingtwo">
+                                                  <a class="d-flex align-items-center fw-500" data-toggle="collapse" data-target="#titleReport">
+                                                    Title Report
+                                                    <span class="icon-circle outline-danger ml-auto"><i class="ti-close font-10"></i></span>
+                                                  </a>
+                                                </div>
+                                                <div id="titleReport" class="collapse" data-parent="#uploadClosingDocuments">
+                                                  <div class="card-body">
+                                                    <ul class="list-unstyled mb-0">
+                                                      <li class="d-flex align-items-center mt-1">
+                                                          <span class="fa fa-circle text-gray font-8 mr-2"></span>sample text
+                                                          <span class="icon-circle outline-danger ml-auto"><i class="ti-close font-10"></i></span>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                          </div>
+                                          <h6 class="text-orange fw-500 mb-3">Missing Documents</h6>
+                                          <div class="row">
+                                              <div class="col-lg-7">
+                                                  <label class="mb-0">Mortgage file</label>
+                                              </div>
+                                              <div class="col-lg-5">
+                                                <div class="fileinput fileinput-new input-group form-fileinput gray" data-provides="fileinput">
+                                                    <span class="input-group-append btn btn-default btn-file ml-0">
+                                                      <span class="fileinput-new">Upload File <i class="ti-export"></i> </span>
+                                                      <span class="fileinput-exists">Change <i class="ti-reload"></i></span>
+                                                      <input type="file" name="...">
+                                                    </span>
+                                                    <div class="file-preview form-control no-border" data-trigger="fileinput">
+                                                      <i class="glyphicon glyphicon-file fileinput-exists"></i>
+                                                      <span class="fileinput-filename"></span>
+                                                    </div>
+                                                    <a href="javascript:void(0)" class="input-group-append btn btn-default fileinput-exists p-0" data-dismiss="fileinput">Remove</a>
+                                                </div>
+                                            </div>
+                                          </div>
+                                          <div class="row mt-3">
+                                            <div class="col-lg-7">
+                                                <label class="mb-0">Flood insurance Policy Document</label>
+                                            </div>
+                                            <div class="col-lg-5">
+                                              <div class="fileinput fileinput-new input-group form-fileinput gray" data-provides="fileinput">
+                                                  <span class="input-group-append btn btn-default btn-file ml-0">
+                                                    <span class="fileinput-new">Upload File <i class="ti-export"></i> </span>
+                                                    <span class="fileinput-exists">Change <i class="ti-reload"></i></span>
+                                                    <input type="file" name="...">
+                                                  </span>
+                                                  <div class="file-preview form-control no-border" data-trigger="fileinput">
+                                                    <i class="glyphicon glyphicon-file fileinput-exists"></i>
+                                                    <span class="fileinput-filename"></span>
+                                                  </div>
+                                                  <a href="javascript:void(0)" class="input-group-append btn btn-default fileinput-exists p-0" data-dismiss="fileinput">Remove</a>
+                                              </div>
+                                            </div>
+                                         </div>
+                                         <div class="row mt-3">
+                                            <div class="col-lg-7">
+                                                <label class="mb-0">Borrower Identification</label>
+                                            </div>
+                                            <div class="col-lg-5">
+                                              <div class="fileinput fileinput-new input-group form-fileinput gray" data-provides="fileinput">
+                                                  <span class="input-group-append btn btn-default btn-file ml-0">
+                                                    <span class="fileinput-new">Upload File <i class="ti-export"></i> </span>
+                                                    <span class="fileinput-exists">Change <i class="ti-reload"></i></span>
+                                                    <input type="file" name="...">
+                                                  </span>
+                                                  <div class="file-preview form-control no-border" data-trigger="fileinput">
+                                                    <i class="glyphicon glyphicon-file fileinput-exists"></i>
+                                                    <span class="fileinput-filename"></span>
+                                                  </div>
+                                                  <a href="javascript:void(0)" class="input-group-append btn btn-default fileinput-exists p-0" data-dismiss="fileinput">Remove</a>
+                                              </div>
+                                            </div>
+                                         </div>
+                                         <div class="row mt-3">
+                                            <div class="col-lg-7">
+                                                <label class="mb-0">Personal Guarantee or Non-Resource Guarantee</label>
+                                            </div>
+                                            <div class="col-lg-5">
+                                              <div class="fileinput fileinput-new input-group form-fileinput gray" data-provides="fileinput">
+                                                  <span class="input-group-append btn btn-default btn-file ml-0">
+                                                    <span class="fileinput-new">Upload File <i class="ti-export"></i> </span>
+                                                    <span class="fileinput-exists">Change <i class="ti-reload"></i></span>
+                                                    <input type="file" name="...">
+                                                  </span>
+                                                  <div class="file-preview form-control no-border" data-trigger="fileinput">
+                                                    <i class="glyphicon glyphicon-file fileinput-exists"></i>
+                                                    <span class="fileinput-filename"></span>
+                                                  </div>
+                                                  <a href="javascript:void(0)" class="input-group-append btn btn-default fileinput-exists p-0" data-dismiss="fileinput">Remove</a>
+                                              </div>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end mt-4">
+                            <button type="button" class="btn btn-info min-w-100">Send to Box<span class="ml-2"><img src="../assets/images/loan-sale/sendto-box.png" /></span></button>
+                            <button type="button" class="btn btn-outline-success min-w-100 ml-2">Save</button>
+                            <button data-dismiss="modal" type="button" class="btn btn-outline-danger min-w-100 ml-2">Cancel</button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="investorDetails" class="modal custom-bs-modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom bblr-0 bbrr-0">
+                        <h5 class="modal-title">
+                            <span class="text-green2">Investor:<span class="fw-600 ml-1">Toorak Capital Partners LLC</span>
+                            </span>
+                            <span class="mx-2">-</span>
+                            No of Loans:<span class="fw-600 ml-1">1</span>
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="form-group">
+                                    <label class="control-label fw-500">Total Pool<span class="mx-1">-</span>Loan Sale Paid Thru Date*</label>
+                                    <div class="input-group small-text w-100">
+                                        <input type="text" class="form-control mydatepicker" placeholder="--Select Date(s)--">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text text-primary"><i class="fa fa-calendar"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="form-group">
+                                    <label class="control-label fw-500">Total Pool<span class="mx-1">-</span>Target Settlement Date*</label>
+                                    <div class="input-group small-text w-100">
+                                        <input type="text" class="form-control mydatepicker" placeholder="--Select Date(s)--">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text text-primary"><i class="fa fa-calendar"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped role-table">
+                                <thead>
+                                    <tr>
+                                        <th class="text-nowrap">Loan Id.</th>
+                                        <th class="text-nowrap">Loan Name</th>
+                                        <th class="text-nowrap">Loan Amount</th>
+                                        <th class="text-nowrap">Loan Sale Balance</th>
+                                        <th class="text-nowrap">Interest Rate</th>
+                                        <th class="text-nowrap">Loan Sale price</th>
+                                        <th class="text-nowrap">Sale Doc Upload</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-nowrap">BC2019-002656</td>
+                                        <td>0852 East Henderson Terrace</td>
+                                        <td>$200,000.00</td>
+                                        <td>$230,000.00</td>
+                                        <td>11%</td>
+                                        <td>$234,000.00</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="mr-3">Doc1</div>
+                                                <div class="min-w-150">
+                                                    <div class="fileinput fileinput-new input-group form-fileinput gray" data-provides="fileinput">
+                                                        <span class="input-group-append btn btn-default btn-file ml-0">
+                                                          <span class="fileinput-new">Upload File <i class="ti-export"></i> </span>
+                                                          <span class="fileinput-exists">Change <i class="ti-reload"></i></span>
+                                                          <input type="file" name="...">
+                                                        </span>
+                                                        <div class="file-preview form-control no-border" data-trigger="fileinput">
+                                                          <i class="glyphicon glyphicon-file fileinput-exists"></i>
+                                                          <span class="fileinput-filename"></span>
+                                                        </div>
+                                                        <a href="javascript:void(0)" class="input-group-append btn btn-default fileinput-exists p-0" data-dismiss="fileinput">Remove</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-end mt-4">
+                            <button type="button" class="btn btn-primary min-w-100">Submit</button>
+                            <button data-dismiss="modal" type="button" class="btn btn-outline-danger min-w-100 ml-2">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+    
+    
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/node_modules/jquery/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap popper Core JavaScript -->
+    <script src="../assets/node_modules/popper/popper.min.js"></script>
+    <script src="../assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="dist/js/perfect-scrollbar.jquery.min.js"></script>
+    <!--Wave Effects -->
+    <script src="dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="dist/js/custom.min.js"></script>
+    <script src="../assets/node_modules/icheck/icheck.min.js"></script>
+    <script src="../assets/node_modules/icheck/icheck.init.js"></script>
+
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <!-- Date Picker Plugin JavaScript -->
+    <script src="../assets/node_modules/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript">
+        
+
+        // Date Picker
+        jQuery('.mydatepicker, #datepicker').datepicker({
+            autoclose: true,
+            todayHighlight: true
+        });
+        jQuery('.input-daterange input').each(function() {
+            $(this).datepicker('clearDates');
+        });
+
+    </script>
+    <script src="dist/js/pages/jasny-bootstrap.js"></script>
+     <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <script src="dist/js/owl.carousel.min.js"></script>
+    <script src="../assets/node_modules/datatables/jquery.dataTables.min.js"></script>
+    <!-- ============================================================== -->
+    
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="dist/js/bootstrap-datepicker.js"></script>
+    
+    <script type="text/javascript">
+            $(document).ready(function() {
+
+
+                $('[data-toggle="tooltip"]').tooltip();
+                
+
+
+                // ScrollTab
+            var tabAnchor = $('.scrlTab a');
+            var tabSlider = $('.scrlTab');
+            tabSlider.owlCarousel({
+                loop: false,
+                margin: 10,
+                nav: true,
+                dots: false,
+                autoWidth: true,
+                mouseDrag: false,
+                // responsive: {
+                //     0: {
+                //         items: 1
+                //     },
+                //     600: {
+                //         items: 3
+                //     },
+                //     1000: {
+                //         autoWidth: true,
+                //     }
+                // }
+            });
+            $('body').find('.scrlTab li').addClass('nav-item');
+            $(tabAnchor).click(function () {
+                $(this).tab('show');
+                $(this).addClass('active');
+                $(tabAnchor).not(this).removeClass("active")
+            });
+            // ScrollTab 
+
+
+            $('#container-35').highcharts({
+			chart: {
+                      type: 'pie',
+                      events: {
+                        load: function(event) {
+                        	widthNew = $(".highcharts-series-group").width();
+
+                      
+                            
+                          var chart = this,
+                            points = chart.series[0].points,
+                            len = points.length,
+                            total = 0,
+                            i = 0;
+
+                          for (; i < len; i++) {
+                            total += points[i].y;
+                          }
+
+                            chart.setTitle({
+                                text: '<span style="font-weight:400; font-family: roboto; color:#1a2942;" class="h2">'+total+'</span>' + '<br><span style="font-size: 5px; color: transparent;">-</span>' + '<br>Total Loans<br>' + 'Closed',
+                                align: 'center',
+                                verticalAlign: 'middle',
+                                 x: 0,
+                                y: 0,
+                                style: {
+                                    color: '#a7aab1',
+                                    fontSize:'13px',
+                                    fontFamily: 'roboto',
+                                    // transform: 'translate(-22%, 10%)'
+                                },
+                            });
+                            $(chart.series[0].data).each(function (j, seriesitem,) {
+                               $('<div class="legend-item"><div class="legend-item-label" style="color:'+seriesitem.color+'"><span>'+ seriesitem.name +'</span> <span style="font-weight:bold;">' + this.y + '</span></div></div>').click(function () {
+                                seriesitem.visible ? seriesitem.hide() : seriesitem.show();
+                            }).appendTo('#items');
+                        });
+                        }
+                      }
+                    },
+                  x:20,
+            credits:{enabled: false},
+
+            title:{text: null},
+			plotOptions: {
+                      pie: {
+                        shadow: false,
+                        showInLegend: true,
+                        dataLabels: {
+                            enabled: false
+                        },
+                          legend: {
+                             position: 'right'
+                          },
+                        width:'100%',
+                        innerSize: '90%',
+                      }
+                    },
+        
+            legend: {
+                enabled: true,
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'middle',
+                useHTML: true,
+                width: 200,
+                itemMarginBottom: 5,     
+                labelFormatter: function() {
+                    return '<div style="text-align: left; width:130px;float:left;color:#1a2942; font-family: roboto; font-weight:500; display:flex; align-items:center;">' + '<span class="fa fa-circle mr-2" style="font-size:8px !important; color:'+this.color+'"></span>' + this.name + '</div><div style="width:40px; float:left;text-align:right; font-family: roboto; color:'+this.color+'">' + this.y + '%</div>';
+				}
+            },
+			series: [{
+                innerSize: '85%',
+                data: [
+                    {name: 'Peter Saith', y: 12, color: '#3f8ce4'},
+                    {name: 'Smith Graham', y: 10, color: '#fe9d1e' },
+                    {name: 'Prime Meridian', y: 33, color: '#f4284a'},
+                    {name: 'Inmost', y: 40, color: '#716aca'},
+                    {name: 'Alfa Flow', y: 3, color: '#1f4e85'},
+                    {name: 'Napier', y: 5, color: '#36c8fe'},
+                    {name: 'IBI', y: 15, color: '#f46e01'},
+                    {name: 'KiWi', y: 15, color: '#34bf5b'},
+                    {name: '1Sharp', y: 11, color: '#b900fe'}
+                ],
+                name: 'Percentage'
+            }],
+            tooltip: {
+                borderRadius: 15,
+                shadow: false,
+                formatter: function () {
+                    return '<div style="font-size:10px; color:'+this.color+'">' + this.point.name +
+                        '<br>' + '<span style="color:'+this.color+'">' + this.y + '%' + '</span>' + '</div>';
+                }
+            },
+		});
+
+            });
+
+  </script>
+    
+    <script>
+        
+    $('#calendar-container div').datepicker({
+    weekStart: 1,
+    todayBtn: true,
+    multidate: false,
+    multidateSeparator: false,
+    keyboardNavigation: false,
+    forceParse: false,
+    daysOfWeekDisabled: false,
+    todayHighlight: true
+});   
+        
+        
+        
+    </script>
+    <script>
+        // tooltip color changes
+        function tooltipCustomClass(className) {
+            $('.tooltip').addClass(className);
+        }
+        
+        $(document).ready(function(){
+            $('.tooltip-green').hover(function() {
+                tooltipCustomClass('green');
+            });
+            $('.tooltip-orange').hover(function() {
+                tooltipCustomClass('orange');
+            });
+            $('.tooltip-boxed').hover(function() {
+                tooltipCustomClass('boxed');
+            });
+        });
+        // tooltip color changes
+    </script>
+    
+    
+
+    
+    
+    
+</body>
+
+</html>

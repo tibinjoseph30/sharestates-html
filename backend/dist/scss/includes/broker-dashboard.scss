@@ -1,0 +1,373 @@
+@import "variable";
+
+
+.text-green2 {
+  color: $green2 !important;
+}
+.text-green3 {
+  color: $green3 !important;
+}
+.text-green4 {
+  color: $green4 !important;
+}
+.text-green5 {
+  color: $green5 !important;
+}
+.text-green7 {
+  color: $green7 !important;
+}
+.text-red {
+  color: $red2 !important;
+}
+.text-red2 {
+  color: $red3 !important;
+}
+.text-red3 {
+  color: $red4 !important;
+}
+.text-brown {
+  color: $brown !important;
+}
+.text-violet {
+  color: $violet !important;
+}
+.text-cyan2 {
+  color: $cyan2 !important;
+}
+.text-yellow2 {
+  color: $yellow2 !important;
+}
+.text-gray {
+  color: $gray !important;
+}
+.text-orange2 {
+  color: $orange2 !important;
+}
+.text-blue3 {
+  color: $blue3 !important;
+}
+
+.bgc-green4 {
+  background-color: $green4 !important;
+  &.light {
+    background-color: transparentize($green4, 0.8) !important;
+  }
+}
+.bgc-green5 {
+  background-color: $green5 !important;
+  &.light {
+    background-color: transparentize($green5, 0.8) !important;
+  }
+}
+.bgc-green6 {
+  background-color: $green6 !important;
+  &.light {
+    background-color: transparentize($green6, 0.8) !important;
+  }
+}
+.bgc-orange {
+  background-color: $orange !important;
+  &.light {
+    background-color: transparentize($orange, 0.8) !important;
+  }
+}
+.bgc-red3 {
+  background-color: $red4 !important;
+  &.light {
+    background-color: transparentize($red4, 0.8) !important;
+  }
+}
+
+.bg-gray-dark {
+  background-color: lighten($gray6, 35%) !important;
+}
+
+.badge {
+  &.badge-orange {
+    background-color: $primary-hover;
+    color: #fff;
+  }
+  &.badge-pill {
+    &.badge-outline-primary {
+      border: 1px solid $primary-color;
+      background-color: transparent;
+      color: $primary-color;
+    }
+  }
+}
+.brokerDashboard {
+  .bd_slider {
+    .owl-stage-outer {
+      @include breakpoint(mn1200) {
+        overflow: visible;
+      }
+      .owl-item {
+        .item {
+          .slide-item {
+            border: 1px solid $border_clr;
+            @include border-radius(8px);
+            @include transition(all 0.2s ease);
+            padding: 1rem 1.5rem;
+            @include breakpoint(mn1200) {
+              min-height: 100px;
+            }
+            @include breakpoint(mn1280) {
+              min-height: 85px;
+            }
+            img {
+              width: 45px;
+            }
+            h4 {
+              font-weight: 600;
+              font-size: 20px;
+              margin-bottom: 0;
+            }
+          }
+        }
+        a {
+          &.active {
+            .slide-item {
+              @include box-shadow(0 0 10px -2px rgba(0, 0, 0, 0.2));
+              @include transform(scale(1, 1.1));
+              & * {
+                @include transform(scale(1, 0.95));
+              }
+              &.total-brokers {
+                background-color: transparentize($primary-color, 0.9);
+              }
+              &.active-brokers {
+                background-color: transparentize($green2, 0.9);
+              }
+              &.inactive-brokers {
+                background-color: transparentize($primary-hover, 0.9);
+              }
+              &.license-expired-brokers {
+                background-color: transparentize($red2, 0.9);
+              }
+              &.blocked-brokers {
+                background-color: transparentize($brown, 0.9);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .bd_custom-tabs {
+    .nav-item {
+      $colors: $violet, $cyan2, $yellow2, $red3;
+      @for $i from 1 through length($colors) {
+        &:nth-child(#{$i}) {
+          .nav-link {
+            &.active {
+              .tab-item {
+                &::before {
+                  background-color: nth($colors, $i);
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+      width: 100%;
+      padding: 0.25rem;
+      @include breakpoint(mn768) {
+        width: 50%;
+        padding: 0.25rem;
+      }
+      @include breakpoint(mn1200) {
+        &:first-child,
+        &:nth-child(2),
+        &:nth-child(3) {
+          width: 23%;
+        }
+        &:last-child {
+          width: 31%;
+        }
+        padding: 0;
+        &:not(:last-child) {
+          .nav-link {
+            .tab-item {
+              &::after {
+                content: "";
+                position: absolute;
+                width: 1px;
+                height: calc(100% - 2rem);
+                background-color: transparentize($white, 0.7);
+                top: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+              }
+            }
+          }
+        }
+      }
+      @include breakpoint(mn1440) {
+        width: calc(100% / 4) !important;
+      }
+      .nav-link {
+        border: 0;
+        padding: 0;
+        .tab-item {
+          background-color: #212d39;
+          padding: 1rem;
+          color: transparentize($white, 0.5);
+          position: relative;
+          &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 0;
+            margin: auto;
+            height: 5px;
+            background-color: transparent;
+            @include transition(all 0.2s ease);
+          }
+
+          img {
+            width: 40px;
+          }
+          .text-block {
+            min-height: 85px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .border-right{
+              border-right-color: transparentize($white, 0.7) !important;
+            }
+            & > h6 {
+              font-size: inherit;
+              @include breakpoint(mn1200) {
+                font-size: 13px;
+              }
+              @include breakpoint(mn1280) {
+                font-size: inherit;
+              }
+            }
+
+            h4 {
+              min-height: 30px;
+            }
+            .badge {
+              background-color: transparentize($gray, 0.7);
+              color: transparentize($white, 0.3);
+              font-size: 11px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include placeholder {
+    color: $gray !important;
+  }
+  .bootstrap-select{
+    & > .dropdown-menu{
+      border: 1px solid transparentize( #000000, 0.9);
+        @include border-radius(5px);
+    }
+  }
+}
+
+%danger-buttonHover{
+  &:hover,
+  &:focus{
+    color: $white;
+    background-color: $red4 !important;
+  }
+}
+%success-buttonHover{
+  &:hover,
+  &:focus{
+    color: $white;
+    background-color: $green2 !important;
+  }
+}
+
+table {
+  &.bd_table {
+    td {
+      .badge{
+        &.badge-pill{
+          &.badge-outline-primary {
+            font-size: 13px;
+            background-color: transparentize($primary-color, 0.9);
+            min-width: 50px;
+          }
+        }
+      }
+      &.notes{
+        a{
+          &:not(.to-write) {
+            img{
+              opacity: 0.6;
+            }
+          }
+        }
+      }
+      &.delq_rate{
+        span{
+          display: flex;
+          align-items: center;
+          font-weight: 500;
+          i{
+            font-weight: 600;
+            &.fa-circle {
+              font-size: 8px;
+            }
+          }
+          i[class^="ti-"]{
+              font-size: 11px;
+          }
+        }
+      }
+      &.table-actions{
+        button{
+          padding: 0.15rem 0.75rem;
+          font-size: 13px;
+          i{
+            font-size: 15px;
+          }
+          
+          &.btn-outline-danger{
+            border-color: $red4 !important;
+            color: $red4;
+            @extend %danger-buttonHover;
+          }
+          &.btn-outline-success{
+            border-color: $green2 !important;
+            color: $green2;
+            @extend %success-buttonHover;
+          }
+        }
+      }
+    }
+  }
+  &.table-primary {
+    thead {
+      th {
+        background-color: $primary-color;
+        color: #fff;
+        &:not(:last-child) {
+          border-right-color: transparentize($white, 0.8);
+        }
+        &:last-child {
+          border-right-color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+.bd_main-tab-content{
+  .tab-panes {
+    display: none;
+    &.active {
+      display: block;
+    }
+  }
+}

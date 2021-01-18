@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+/* line 2, ../scss/loan-pipeline.scss */
+.borrower {
+  padding-left: 0px;
+}
+/* line 4, ../scss/loan-pipeline.scss */
+.borrower h5 > b {
+  font-weight: 600;
+}
+
+/* line 8, ../scss/loan-pipeline.scss */
+#icondesable > tr > th:nth-child(4) span.footable-sort-indicator,
+#icondesable > tr > th:nth-child(5) span.footable-sort-indicator,
+#icondesable > tr > th:nth-child(6) span.footable-sort-indicator,
+#icondesable > tr > th:last-child span.footable-sort-indicator {
+  display: none;
+}
+
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ * 	1. Color system
+ *	2. Options
+ *	3. Body
+ *	4. Typography
+ *	5. Breadcrumbs
+ *	6. Cards
+ *	7. Dropdowns
+ *	8. Buttons
+ *	9. Typography
+ *	10. Progress bars
+ *	11. Tables
+ *	12. Forms
+ *	14. Component
+ */
+/* line 17, ../scss/loan-pipeline.scss */
+#action-icon a:first-child {
+  border-color: #2e5788;
+}
+/* line 19, ../scss/loan-pipeline.scss */
+#action-icon a:first-child .text-view-item {
+  color: #2e5788;
+}
+/* line 23, ../scss/loan-pipeline.scss */
+#action-icon a:nth-child(2) {
+  border-color: #ffbc34;
+}
+/* line 25, ../scss/loan-pipeline.scss */
+#action-icon a:nth-child(2) .text-calendar {
+  color: #ffbc34;
+}
+/* line 30, ../scss/loan-pipeline.scss */
+#action-icon a:last-child {
+  border-color: #36bea6;
+}
+/* line 32, ../scss/loan-pipeline.scss */
+#action-icon a:last-child .text-document {
+  color: #36bea6;
+}
+
+/* line 40, ../scss/loan-pipeline.scss */
+#icon table tbody tr:nth-child(4n-7) td:before {
+  background-color: red;
+}

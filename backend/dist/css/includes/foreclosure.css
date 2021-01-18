@@ -1,0 +1,947 @@
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/* line 2, ../../scss/includes/foreclosure.scss */
+.skin-primary {
+  font-family: 'roboto', sans-serif !important;
+  color: #2e5788;
+}
+/* line 5, ../../scss/includes/foreclosure.scss */
+.skin-primary .container {
+  width: 100%;
+  max-width: unset;
+}
+/* line 9, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary {
+  background: #386fb0;
+  background: -moz-linear-gradient(left, #386fb0 0%, #22528b 100%);
+  background: -webkit-linear-gradient(left, #386fb0 0%, #22528b 100%);
+  background: linear-gradient(to right, #386fb0 0%, #22528b 100%);
+}
+/* line 14, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar {
+  background: transparent;
+}
+/* line 17, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar .navbar-brand .logo {
+  width: 120px;
+}
+/* line 22, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar .navbar-nav .nav-item {
+  margin: 0 5px;
+}
+/* line 26, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar .navbar-nav .nav-item.active a::after {
+  content: '';
+  position: absolute;
+  background: #f59522;
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+/* line 40, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar .navbar-nav .nav-item .nav-link {
+  padding: 15px 10px;
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+}
+/* line 44, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar .navbar-nav .nav-item .nav-link::after {
+  content: '';
+  position: absolute;
+  background: #f59522;
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0;
+  transition: all 0.3s ease;
+}
+/* line 57, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar .navbar-nav .nav-item .nav-link:hover::after {
+  width: 100%;
+}
+/* line 62, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar .navbar-nav .nav-item .nav-link.dropdown-toggle::after {
+  border: 0;
+}
+/* line 69, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar .navbar-toggler {
+  border: 0;
+  outline: none;
+  padding: 0;
+}
+/* line 73, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar .navbar-toggler .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+  background: rgba(255, 255, 255, 0.7);
+  height: 2px;
+  margin-top: 4px;
+  display: block;
+}
+/* line 82, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar .navbar-toggler:not(.collapsed) .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+/* line 86, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar .navbar-toggler:not(.collapsed) .middle-bar {
+  opacity: 0;
+}
+/* line 89, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar .navbar-toggler:not(.collapsed) .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+/* line 95, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar .navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+/* line 98, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar .navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+/* line 101, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar .navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+/* line 107, ../../scss/includes/foreclosure.scss */
+.skin-primary .header-primary .navbar .navbar-collapse.show {
+  height: 100vh;
+}
+/* line 113, ../../scss/includes/foreclosure.scss */
+.skin-primary .page-title {
+  background: #bec7d0;
+  padding: 1.2rem;
+}
+/* line 117, ../../scss/includes/foreclosure.scss */
+.skin-primary .page-wrapper {
+  padding: 1.2rem;
+}
+/* line 121, ../../scss/includes/foreclosure.scss */
+.skin-primary .page-wrapper .main-outer .inner-block .content-block {
+  background: #fff;
+  padding: 1.2rem;
+}
+/* line 131, ../../scss/includes/foreclosure.scss */
+.skin-primary .dataTables_wrapper .dataTables_paginate a.paginate_button {
+  margin: 0 2px !important;
+  border-radius: 4px;
+  border-color: #ddd;
+  background-color: #fff;
+  color: rgba(46, 87, 136, 0.51) !important;
+}
+/* line 137, ../../scss/includes/foreclosure.scss */
+.skin-primary .dataTables_wrapper .dataTables_paginate a.paginate_button:hover {
+  color: #2e5788 !important;
+}
+/* line 140, ../../scss/includes/foreclosure.scss */
+.skin-primary .dataTables_wrapper .dataTables_paginate a.paginate_button.current {
+  color: #2e5788 !important;
+}
+/* line 142, ../../scss/includes/foreclosure.scss */
+.skin-primary .dataTables_wrapper .dataTables_paginate a.paginate_button.current:hover {
+  background-color: transparent;
+  border-color: #ddd;
+}
+/* line 147, ../../scss/includes/foreclosure.scss */
+.skin-primary .dataTables_wrapper .dataTables_paginate a.paginate_button.disabled {
+  background-color: #ebebeb;
+  border-color: #ddd;
+  color: #2e5788 !important;
+}
+
+/* line 158, ../../scss/includes/foreclosure.scss */
+.header-search-block .bootstrap-select {
+  width: 100% !important;
+}
+/* line 160, ../../scss/includes/foreclosure.scss */
+.header-search-block .bootstrap-select .dropdown-toggle {
+  background: #fff;
+  border: 1px solid;
+  border-color: #ddd;
+  height: 38px;
+}
+/* line 165, ../../scss/includes/foreclosure.scss */
+.header-search-block .bootstrap-select .dropdown-toggle::after {
+  content: "\f140";
+  font: normal normal normal 20px/1 "Material Design Icons";
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border: none;
+  display: inline;
+  margin-left: 0px;
+  color: #888;
+}
+/* line 179, ../../scss/includes/foreclosure.scss */
+.header-search-block .input-group input {
+  height: 38px;
+  border-color: #ddd;
+}
+/* line 184, ../../scss/includes/foreclosure.scss */
+.header-search-block .input-group .input-group-append .btn {
+  border-radius: 4px;
+  border-color: #ddd;
+}
+/* line 187, ../../scss/includes/foreclosure.scss */
+.header-search-block .input-group .input-group-append .btn:hover {
+  background-color: transparent;
+}
+/* line 190, ../../scss/includes/foreclosure.scss */
+.header-search-block .input-group .input-group-append .btn i {
+  color: #888;
+}
+/* line 196, ../../scss/includes/foreclosure.scss */
+.header-search-block button, .header-search-block a {
+  height: 38px;
+}
+
+/* line 201, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block .owl-nav {
+  text-align: right;
+}
+/* line 203, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block .owl-nav button {
+  min-width: 15px;
+  font-size: 18px !important;
+  outline: none;
+}
+/* line 207, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block .owl-nav button.disabled {
+  color: rgba(0, 0, 0, 0.28) !important;
+}
+/* line 212, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block .items {
+  justify-content: space-between;
+  padding: 1rem 0.5rem;
+}
+/* line 215, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block .items .icon-block {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+/* line 219, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block .items .icon-block img {
+  width: 50px;
+}
+/* line 224, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block .items .content-block h2 {
+  font-size: 26px;
+}
+/* line 227, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block .items .content-block h3 {
+  font-size: 18px;
+  color: #2e5788;
+}
+/* line 231, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block .items .content-block h4 {
+  font-size: 14px;
+  color: #2e5788;
+}
+/* line 237, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block .hover-block {
+  transition: all 0.2s ease;
+  margin-bottom: 0;
+}
+/* line 240, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block .hover-block:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.07), 0 2px 4px 0 rgba(0, 0, 0, 0.05) !important;
+}
+/* line 241, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block .hover-block:hover .hb-cyan {
+  background-color: rgba(3, 168, 255, 0.1);
+}
+/* line 244, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block .hover-block:hover .hb-orange {
+  background-color: rgba(255, 132, 1, 0.1);
+}
+/* line 247, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block .hover-block:hover .hb-parrot-green {
+  background-color: rgba(19, 205, 53, 0.1);
+}
+/* line 250, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block .hover-block:hover .hb-red {
+  background-color: rgba(255, 6, 0, 0.1);
+}
+/* line 259, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block a.active .hover-block {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.07), 0 2px 4px 0 rgba(0, 0, 0, 0.05) !important;
+}
+/* line 263, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block a.active .hb-cyan {
+  background-color: rgba(3, 168, 255, 0.1);
+}
+/* line 266, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block a.active .hb-orange {
+  background-color: rgba(255, 132, 1, 0.1);
+}
+/* line 269, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block a.active .hb-parrot-green {
+  background-color: rgba(19, 205, 53, 0.1);
+}
+/* line 272, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block a.active .hb-red {
+  background-color: rgba(255, 6, 0, 0.1);
+}
+/* line 277, ../../scss/includes/foreclosure.scss */
+.foreclosure-slider-block .owl-stage-outer {
+  padding: 10px 0;
+}
+
+/* line 281, ../../scss/includes/foreclosure.scss */
+.outer-card-block {
+  background: #fff;
+}
+/* line 283, ../../scss/includes/foreclosure.scss */
+.outer-card-block .header-block {
+  padding: 1.2rem;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+/* line 289, ../../scss/includes/foreclosure.scss */
+.outer-card-block .content-block {
+  padding: 1.2rem;
+}
+/* line 292, ../../scss/includes/foreclosure.scss */
+.outer-card-block.history-block {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* line 300, ../../scss/includes/foreclosure.scss */
+.timeline-wizard li a {
+  padding: 0px;
+}
+/* line 302, ../../scss/includes/foreclosure.scss */
+.timeline-wizard li a .badge-item {
+  background: #f59522;
+  color: #fff;
+  padding: 2px 5px;
+  text-align: center;
+  line-height: 22px;
+  font-size: 13px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+/* line 314, ../../scss/includes/foreclosure.scss */
+.timeline-wizard li a .timeline-text {
+  position: absolute;
+  bottom: -35px;
+  left: 40%;
+}
+/* line 318, ../../scss/includes/foreclosure.scss */
+.timeline-wizard li a .timeline-text h6 {
+  font-size: 11px;
+  color: #2e5788;
+}
+/* line 325, ../../scss/includes/foreclosure.scss */
+.timeline-wizard li.active a {
+  background: #2e5788;
+  color: #fff;
+}
+/* line 328, ../../scss/includes/foreclosure.scss */
+.timeline-wizard li.active a::before {
+  border-left-color: #2e5788;
+  margin-left: -1px;
+}
+/* line 332, ../../scss/includes/foreclosure.scss */
+.timeline-wizard li.active a::after {
+  border-left-color: #2e5788;
+  margin-left: 0px;
+}
+/* line 339, ../../scss/includes/foreclosure.scss */
+.timeline-wizard li.disabled a {
+  background: #f1f1f1;
+}
+/* line 342, ../../scss/includes/foreclosure.scss */
+.timeline-wizard li.disabled a::after {
+  border-left: 25px solid #f1f1f1;
+}
+
+/* line 453, ../../scss/includes/foreclosure.scss */
+.timeline-log-block {
+  display: flex;
+}
+/* line 455, ../../scss/includes/foreclosure.scss */
+.timeline-log-block .left-block {
+  width: 350px;
+  border-right: 1px solid;
+  border-color: #ddd;
+}
+/* line 459, ../../scss/includes/foreclosure.scss */
+.timeline-log-block .left-block .timeline-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+/* line 463, ../../scss/includes/foreclosure.scss */
+.timeline-log-block .left-block .timeline-list li {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+/* line 467, ../../scss/includes/foreclosure.scss */
+.timeline-log-block .left-block .timeline-list li a {
+  padding: 2rem 1rem;
+  font-size: 15px;
+  min-height: 180px;
+}
+/* line 472, ../../scss/includes/foreclosure.scss */
+.timeline-log-block .left-block .timeline-list li .timeline-dot {
+  position: absolute;
+  font-size: 12px;
+  right: -5px;
+  top: 39px;
+}
+/* line 478, ../../scss/includes/foreclosure.scss */
+.timeline-log-block .left-block .timeline-list li::after {
+  content: '';
+  width: 1px;
+  background-color: #2e5788;
+  position: absolute;
+  height: 70%;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  margin-top: 32%;
+}
+/* line 492, ../../scss/includes/foreclosure.scss */
+.timeline-log-block .left-block .timeline-list li:last-child::after {
+  content: none;
+}
+/* line 499, ../../scss/includes/foreclosure.scss */
+.timeline-log-block .right-block {
+  background: #fff;
+  width: 100%;
+}
+/* line 503, ../../scss/includes/foreclosure.scss */
+.timeline-log-block .right-block .content-list li {
+  padding: 2.3rem 7rem 1.3rem 2.6rem;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  height: 180px;
+}
+/* line 508, ../../scss/includes/foreclosure.scss */
+.timeline-log-block .right-block .content-list li h6 {
+  font-size: 13px;
+}
+/* line 511, ../../scss/includes/foreclosure.scss */
+.timeline-log-block .right-block .content-list li h5 {
+  font-size: 14px;
+}
+/* line 514, ../../scss/includes/foreclosure.scss */
+.timeline-log-block .right-block .content-list li:last-child {
+  border: 0;
+}
+
+/* line 522, ../../scss/includes/foreclosure.scss */
+.profile-block .content-box {
+  padding: 0.5rem 2.4rem;
+}
+/* line 525, ../../scss/includes/foreclosure.scss */
+.profile-block .profile-head {
+  background: #6b7f98;
+  padding: 1rem;
+}
+/* line 528, ../../scss/includes/foreclosure.scss */
+.profile-block .profile-head h3 {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.73);
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+/* line 534, ../../scss/includes/foreclosure.scss */
+.profile-block .profile-head h4 {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0;
+  font-size: 17px;
+}
+/* line 541, ../../scss/includes/foreclosure.scss */
+.profile-block .profile-body {
+  padding: 1rem;
+}
+/* line 544, ../../scss/includes/foreclosure.scss */
+.profile-block .profile-body .edit-icon img {
+  width: 30px;
+}
+/* line 548, ../../scss/includes/foreclosure.scss */
+.profile-block .profile-body .header-block {
+  justify-content: space-between;
+}
+/* line 550, ../../scss/includes/foreclosure.scss */
+.profile-block .profile-body .header-block h4 {
+  color: #f59522;
+}
+/* line 554, ../../scss/includes/foreclosure.scss */
+.profile-block .profile-body .top-block {
+  justify-content: space-between;
+}
+/* line 556, ../../scss/includes/foreclosure.scss */
+.profile-block .profile-body .top-block h4 {
+  color: #2e5788;
+}
+/* line 558, ../../scss/includes/foreclosure.scss */
+.profile-block .profile-body .top-block h4 span {
+  color: #f59522;
+}
+/* line 564, ../../scss/includes/foreclosure.scss */
+.profile-block .profile-body .item-block h4 {
+  font-size: 14px;
+  font-weight: 500;
+}
+/* line 568, ../../scss/includes/foreclosure.scss */
+.profile-block .profile-body .item-block h5 {
+  width: 165px;
+  font-size: 14px;
+}
+/* line 574, ../../scss/includes/foreclosure.scss */
+.profile-block .profile-body ul.states-list {
+  padding-left: 0;
+}
+/* line 577, ../../scss/includes/foreclosure.scss */
+.profile-block .profile-body ul.states-list li a {
+  color: #f59522;
+  padding: 0 0.8rem;
+  font-size: 15px;
+  font-weight: 500;
+  border-right: 1px solid;
+  border-color: #f59522;
+}
+/* line 586, ../../scss/includes/foreclosure.scss */
+.profile-block .profile-body ul.states-list li:first-child a {
+  padding-left: 0;
+}
+/* line 591, ../../scss/includes/foreclosure.scss */
+.profile-block .profile-body ul.states-list li:last-child a {
+  border: 0;
+}
+/* line 599, ../../scss/includes/foreclosure.scss */
+.profile-block .border-lighter {
+  border-color: rgba(255, 255, 255, 0.48);
+}
+/* line 602, ../../scss/includes/foreclosure.scss */
+.profile-block .border-darker {
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+/* line 608, ../../scss/includes/foreclosure.scss */
+table.thead-bg th {
+  background-color: #2e5788;
+  color: #fff;
+}
+/* line 617, ../../scss/includes/foreclosure.scss */
+table.expanded-table tbody tr td.expanded_Block {
+  cursor: pointer;
+}
+/* line 622, ../../scss/includes/foreclosure.scss */
+table.expanded-table tbody tr td.expanded_Block .title-block span i::before {
+  content: "\f175";
+  display: inline-block;
+  -webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -o-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+  opacity: 1;
+  font-size: 17px;
+  margin: auto;
+}
+/* line 641, ../../scss/includes/foreclosure.scss */
+table.expanded-table tbody tr td.expanded_Block.collapsed .title-block span i::before {
+  content: "\f176";
+  display: inline-block;
+  -webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -o-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+  opacity: 0.5;
+  font-size: 17px;
+  margin: auto;
+}
+/* line 659, ../../scss/includes/foreclosure.scss */
+table.expanded-table tbody tr td.notes .notes-icon {
+  position: relative;
+}
+/* line 661, ../../scss/includes/foreclosure.scss */
+table.expanded-table tbody tr td.notes .notes-icon img {
+  width: 24px;
+}
+/* line 664, ../../scss/includes/foreclosure.scss */
+table.expanded-table tbody tr td.notes .notes-icon .notes-count {
+  position: absolute;
+  background: #f59522;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  line-height: 15px;
+  font-size: 10px;
+  border-radius: 50px;
+  top: -11px;
+  right: 5px;
+}
+/* line 686, ../../scss/includes/foreclosure.scss */
+table.v-align-table tbody tr td {
+  vertical-align: middle;
+}
+
+/* line 693, ../../scss/includes/foreclosure.scss */
+.ws-nowrap {
+  white-space: nowrap !important;
+}
+
+/* line 696, ../../scss/includes/foreclosure.scss */
+.align-item-center {
+  align-items: center;
+}
+
+/* line 699, ../../scss/includes/foreclosure.scss */
+.h-auto {
+  height: auto !important;
+}
+
+/* line 702, ../../scss/includes/foreclosure.scss */
+.color-primary {
+  color: #2e5788 !important;
+}
+
+/* line 706, ../../scss/includes/foreclosure.scss */
+.search-block .button-reset {
+  background: #8193a9;
+  border-color: #8193a9;
+  height: 35px;
+  font-size: 12px;
+  vertical-align: middle;
+  padding: 2px 7px;
+  width: auto;
+  min-width: 60px;
+}
+/* line 715, ../../scss/includes/foreclosure.scss */
+.search-block .button-reset:hover, .search-block .button-reset:focus, .search-block .button-reset:active {
+  background: #8193a9 !important;
+  border-color: #8193a9 !important;
+}
+
+/* line 721, ../../scss/includes/foreclosure.scss */
+.btn-thin {
+  padding: 4px 15px;
+  min-width: 60px;
+  text-align: center !important;
+  font-size: 13px;
+}
+
+/* line 727, ../../scss/includes/foreclosure.scss */
+.btn-info-new {
+  background: #2970d8;
+  border-color: #2970d8;
+  color: #fff !important;
+}
+
+/* line 732, ../../scss/includes/foreclosure.scss */
+.btn-success-new {
+  background: #21ae21;
+  border-color: #21ae21;
+  color: #fff !important;
+}
+
+/* line 737, ../../scss/includes/foreclosure.scss */
+.btn-orange-new {
+  background: #f9af12;
+  border-color: #f9af12;
+  color: #fff !important;
+}
+
+/* line 742, ../../scss/includes/foreclosure.scss */
+.btn-blue {
+  background: #397ac7;
+  border-color: #397ac7;
+  color: #fff !important;
+}
+
+/* line 747, ../../scss/includes/foreclosure.scss */
+.btn-green-jade {
+  background: #21c9a7;
+  border-color: #21c9a7;
+  color: #fff !important;
+}
+
+/* line 752, ../../scss/includes/foreclosure.scss */
+.btn-danger-new {
+  background: #de1919;
+  border-color: #de1919;
+  color: #fff !important;
+}
+
+/* line 757, ../../scss/includes/foreclosure.scss */
+.btn-gray-new {
+  background: #8193a9;
+  border-color: #8193a9;
+  color: #fff !important;
+}
+
+/* line 762, ../../scss/includes/foreclosure.scss */
+.btn-primary-new-outline {
+  background: transparent;
+  border-color: #2e5788;
+  color: #2e5788 !important;
+}
+/* line 766, ../../scss/includes/foreclosure.scss */
+.btn-primary-new-outline.active {
+  background-color: #2e5788;
+  color: #fff !important;
+}
+
+/* line 771, ../../scss/includes/foreclosure.scss */
+.btn-success-new-outline {
+  background: transparent;
+  border-color: #21ae21;
+  color: #21ae21 !important;
+}
+
+/* line 776, ../../scss/includes/foreclosure.scss */
+.btn-secondary-outline {
+  background: transparent;
+  border-color: #f59522;
+  color: #f59522 !important;
+}
+
+/* line 781, ../../scss/includes/foreclosure.scss */
+.btn-default-new {
+  background: transparent;
+  border-color: #ddd;
+  color: #8193a9 !important;
+  min-width: 60px;
+  text-align: center !important;
+  padding: 0.5rem 1rem;
+}
+/* line 788, ../../scss/includes/foreclosure.scss */
+.btn-default-new img {
+  width: 24px;
+}
+/* line 791, ../../scss/includes/foreclosure.scss */
+.btn-default-new.color-primary {
+  color: #2e5788 !important;
+}
+
+/* line 795, ../../scss/includes/foreclosure.scss */
+.btn-warning-new {
+  background: #ff8401;
+  border-color: #ff8401;
+  color: #fff !important;
+}
+
+/* line 801, ../../scss/includes/foreclosure.scss */
+.custom-bs-modal .modal-dialog {
+  width: 100%;
+  max-width: unset;
+  min-height: unset;
+  height: auto;
+  margin: 10% auto;
+}
+/* line 807, ../../scss/includes/foreclosure.scss */
+.custom-bs-modal .modal-dialog .modal-header {
+  background: #fff;
+  padding: 1rem;
+  border-bottom: 0;
+  display: flex;
+  align-items: center;
+  border-radius: inherit;
+}
+/* line 814, ../../scss/includes/foreclosure.scss */
+.custom-bs-modal .modal-dialog .modal-header .modal-title {
+  color: #2e5788;
+  font-size: 16px;
+}
+/* line 818, ../../scss/includes/foreclosure.scss */
+.custom-bs-modal .modal-dialog .modal-header .close {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 21px;
+  font-weight: normal;
+  border-radius: 50px;
+  border: 1px solid #cecece;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+}
+/* line 831, ../../scss/includes/foreclosure.scss */
+.custom-bs-modal .modal-dialog .modal-body .form-control {
+  border-color: #ddd;
+}
+/* line 835, ../../scss/includes/foreclosure.scss */
+.custom-bs-modal .modal-dialog .modal-content {
+  border-radius: 0.4rem;
+  border: 0;
+}
+
+@media (min-width: 1024px) {
+  /* line 843, ../../scss/includes/foreclosure.scss */
+  .skin-primary .container {
+    width: 90%;
+    max-width: none;
+  }
+}
+@media (min-width: 768px) {
+  /* line 851, ../../scss/includes/foreclosure.scss */
+  .custom-bs-modal .modal-dialog {
+    width: 50%;
+    max-width: unset;
+    min-height: unset;
+    height: auto;
+    margin: 10% auto;
+  }
+
+  /* line 859, ../../scss/includes/foreclosure.scss */
+  .btn-default-new {
+    max-width: 200px;
+    float: right;
+  }
+
+  /* line 863, ../../scss/includes/foreclosure.scss */
+  .br-hidden-xs {
+    border-right: 1px solid;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  /* line 872, ../../scss/includes/foreclosure.scss */
+  .timeline-log-block .left-block .timeline-list li::after {
+    height: 60%;
+    margin-top: 38%;
+  }
+
+  /* line 883, ../../scss/includes/foreclosure.scss */
+  .profile-block .profile-body .item-block h5 {
+    max-width: 100px;
+  }
+}
+@media (min-width: 541px) and (max-width: 767px) {
+  /* line 895, ../../scss/includes/foreclosure.scss */
+  .timeline-log-block .left-block .timeline-list li::after {
+    height: 60%;
+    margin-top: 46%;
+  }
+}
+@media (max-width: 540px) {
+  /* line 906, ../../scss/includes/foreclosure.scss */
+  .timeline-log-block .left-block {
+    width: 150px;
+  }
+  /* line 910, ../../scss/includes/foreclosure.scss */
+  .timeline-log-block .left-block .timeline-list li::after {
+    height: 50%;
+    margin-top: 110%;
+  }
+
+  /* line 920, ../../scss/includes/foreclosure.scss */
+  .profile-block .profile-body .item-block {
+    flex-direction: column;
+  }
+  /* line 923, ../../scss/includes/foreclosure.scss */
+  .profile-block .profile-body .item-block h4.ml-5 {
+    margin-left: 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 933, ../../scss/includes/foreclosure.scss */
+  .col-12.pl-4 {
+    padding-left: 10px !important;
+  }
+
+  /* line 937, ../../scss/includes/foreclosure.scss */
+  .bb-visible-xs {
+    border-bottom: 1px solid;
+  }
+
+  /* line 940, ../../scss/includes/foreclosure.scss */
+  .p-xs-2 {
+    padding: 10px;
+  }
+
+  /* line 944, ../../scss/includes/foreclosure.scss */
+  .header-search-block .bootstrap-select, .header-search-block .input-group {
+    margin-bottom: 15px;
+  }
+
+  /* line 949, ../../scss/includes/foreclosure.scss */
+  .skin-primary .topbar {
+    padding-right: 0;
+  }
+  /* line 953, ../../scss/includes/foreclosure.scss */
+  .skin-primary .navbar-nav.menu-nav {
+    margin-top: 50px;
+  }
+  /* line 959, ../../scss/includes/foreclosure.scss */
+  .skin-primary .navbar-nav.menu-nav .nav-item.active a.dropdown-toggle::after {
+    content: unset !important;
+  }
+  /* line 965, ../../scss/includes/foreclosure.scss */
+  .skin-primary .navbar-nav.menu-nav .nav-item .nav-link {
+    text-align: center;
+  }
+  /* line 968, ../../scss/includes/foreclosure.scss */
+  .skin-primary .navbar-nav.menu-nav .nav-item .nav-link:hover::after {
+    content: unset !important;
+  }
+  /* line 972, ../../scss/includes/foreclosure.scss */
+  .skin-primary .navbar-nav.menu-nav .nav-item .nav-link::after {
+    content: unset !important;
+  }
+  /* line 979, ../../scss/includes/foreclosure.scss */
+  .skin-primary .navbar {
+    padding: 0.5rem 0;
+  }
+  /* line 982, ../../scss/includes/foreclosure.scss */
+  .skin-primary .page-wrapper {
+    padding: .5rem 0;
+  }
+
+  /* line 989, ../../scss/includes/foreclosure.scss */
+  .timeline-wizard .timeline-block li a {
+    min-width: 245px;
+  }
+}
+@media (max-width: 1024px) {
+  /* line 1000, ../../scss/includes/foreclosure.scss */
+  .timeline-log-block .right-block .content-list li {
+    padding-right: 1.5rem;
+  }
+}
+@media (max-width: 1200px) {
+  /* line 1011, ../../scss/includes/foreclosure.scss */
+  .timeline-wizard .timeline-block li a {
+    min-width: 245px;
+  }
+}

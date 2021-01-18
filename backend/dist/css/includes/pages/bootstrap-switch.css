@@ -1,0 +1,170 @@
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*******************
+Bootstrap Switch
+******************/
+/* line 6, ../../../scss/includes/pages/bootstrap-switch.scss */
+.bootstrap-switch,
+.bootstrap-switch .bootstrap-switch-container {
+  border-radius: 2px;
+}
+
+/* line 11, ../../../scss/includes/pages/bootstrap-switch.scss */
+.bootstrap-switch .bootstrap-switch-handle-on {
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+/* line 16, ../../../scss/includes/pages/bootstrap-switch.scss */
+.bootstrap-switch .bootstrap-switch-handle-off {
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+/* line 21, ../../../scss/includes/pages/bootstrap-switch.scss */
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary,
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary {
+  color: #fff;
+  background: #2e5788;
+}
+
+/* line 27, ../../../scss/includes/pages/bootstrap-switch.scss */
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-info,
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-info {
+  color: #fff;
+  background: #1969cb;
+}
+
+/* line 33, ../../../scss/includes/pages/bootstrap-switch.scss */
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-success,
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-success {
+  color: #fff;
+  background: #30e356;
+}
+
+/* line 39, ../../../scss/includes/pages/bootstrap-switch.scss */
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-warning,
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-warning {
+  color: #fff;
+  background: #ff9c00;
+}
+
+/* line 45, ../../../scss/includes/pages/bootstrap-switch.scss */
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-danger,
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-danger {
+  color: #fff;
+  background: #f62d51;
+}
+
+/* line 51, ../../../scss/includes/pages/bootstrap-switch.scss */
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default,
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default {
+  color: #343a40;
+  background: #f8f9fa;
+}
+
+/* line 56, ../../../scss/includes/pages/bootstrap-switch.scss */
+.onoffswitch {
+  position: relative;
+  width: 90px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* line 61, ../../../scss/includes/pages/bootstrap-switch.scss */
+.onoffswitch-checkbox {
+  display: none;
+}
+
+/* line 64, ../../../scss/includes/pages/bootstrap-switch.scss */
+.onoffswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #30e356;
+  border-radius: 20px;
+}
+
+/* line 68, ../../../scss/includes/pages/bootstrap-switch.scss */
+.onoffswitch-inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+
+/* line 72, ../../../scss/includes/pages/bootstrap-switch.scss */
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 30px;
+  padding: 0;
+  line-height: 30px;
+  font-size: 14px;
+  color: white;
+  box-sizing: border-box;
+}
+
+/* line 77, ../../../scss/includes/pages/bootstrap-switch.scss */
+.onoffswitch-inner:before {
+  content: "ON";
+  padding-left: 27px;
+  background-color: #30e356;
+  color: #FFFFFF;
+}
+
+/* line 82, ../../../scss/includes/pages/bootstrap-switch.scss */
+.onoffswitch-inner:after {
+  content: "OFF";
+  padding-right: 24px;
+  background-color: #EEEEEE;
+  color: #999999;
+  text-align: right;
+}
+
+/* line 88, ../../../scss/includes/pages/bootstrap-switch.scss */
+.onoffswitch-switch {
+  display: block;
+  width: 23px;
+  margin: 6px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 56px;
+  border: 2px solid #30e356;
+  border-radius: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+
+/* line 96, ../../../scss/includes/pages/bootstrap-switch.scss */
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+
+/* line 99, ../../../scss/includes/pages/bootstrap-switch.scss */
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 0px;
+}

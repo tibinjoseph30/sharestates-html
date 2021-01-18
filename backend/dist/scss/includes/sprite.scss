@@ -1,0 +1,363 @@
+.icons {
+  display: inline-block;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  margin-right: 7px;
+  vertical-align: middle;
+
+    & > img {
+        object-fit: none;
+        object-position: 0 0;
+        width: 32px;
+        height: 32px;
+
+    &.bg-active_insti_investor {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -10px -10px;
+    }
+    &.bg-active_individual_investor {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -62px -10px;
+    }
+    &.bg-active_for_investor {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -10px -62px;
+    }
+    &.bg-borrowers_icon {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -62px -62px;
+    }
+    &.bg-warehouse_icon {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -114px -10px;
+    }
+    &.bg-vendor_icon {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -114px -62px;
+    }
+    &.bg-total_investor {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -10px -114px;
+    }
+    &.bg-investor_icon {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -62px -114px;
+    }
+    &.bg-investor_brokers_icon {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -114px -114px;
+    }
+    &.bg-active_investors {
+        width: 32px; height: 27px;
+        background: url('css_sprites.png') -478px -215px;
+    }
+    &.bg-calander {
+        width: 32px; height: 29px;
+        object-position: -478px -166px;
+    }
+    &.bg-icon_hand_3 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -166px -10px;
+    }
+    &.bg-new_icon_1 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -166px -62px;
+    }
+    &.bg-new_icon_2 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -166px -114px;
+    }
+    &.bg-new_icon_3 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -10px -166px;
+    }
+    &.bg-new_icon_4 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -62px -166px;
+    }
+    &.bg-new_icon_5 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -114px -166px;
+    }
+    &.bg-new_icon_6 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -166px -166px;
+    }
+    &.bg-new_icon_7 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -218px -10px;
+    }
+    &.bg-new_icon_8 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -218px -62px;
+    }
+    &.bg-icon_hand_1 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -218px -114px;
+    }
+    &.bg-icon_hand_2 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -218px -166px;
+    }
+    &.bg-borrowers1_icon {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -10px -218px;
+    }
+    &.bg-borrowers2_icon {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -62px -218px;
+    }
+    &.bg-inactive_investors {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -114px -218px;
+    }
+    &.bg-loans {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -166px -218px;
+    }
+    &.bg-actions_delete {
+        width: 32px; height: 32px;
+        object-position: -218px -218px;
+    }
+    &.bg-actions_download {
+        width: 32px; height: 32px;
+        object-position: -270px -10px;
+    }
+    &.bg-actions_log {
+        width: 32px; height: 32px;
+        object-position: -268px -62px;
+    }
+    &.bg-actions_ST {
+        width: 32px; height: 32px;
+        object-position: -270px -114px;
+    }
+    &.bg-actions_TS {
+        width: 32px; height: 32px;
+        object-position: -270px -166px;
+    }
+    &.bg-actions_view {
+        width: 32px; height: 32px;
+        object-position: -270px -218px;
+    }
+    &.bg-add_pipeline {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -10px -270px;
+    }
+    &.bg-addendum {
+        width: 32px; height: 32px;
+        object-position: -62px -270px;
+    }
+    &.bg-appraisal {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -114px -270px;
+    }
+    &.bg-appraisal_application {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -166px -270px;
+    }
+    &.bg-appraisal_invoice {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -218px -270px;
+    }
+    &.bg-approved_plans {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -270px -270px;
+    }
+    &.bg-bg_check {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -322px -10px;
+    }
+    &.bg-article {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -322px -62px;
+    }
+    &.bg-borrower_identity {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -322px -114px;
+    }
+    &.bg-borrower_record {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -322px -166px;
+    }
+    &.bg-bridge_loans {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -322px -218px;
+    }
+    &.bg-collapse {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -322px -270px;
+    }
+    &.bg-credit_card_authorization {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -10px -322px;
+    }
+    &.bg-credit_card_deposit {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -62px -322px;
+    }
+    &.bg-credit_report {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -114px -322px;
+    }
+    &.bg-executed_termsheet {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -166px -322px;
+    }
+    &.bg-filing_receipt {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -218px -322px;
+    }
+    &.bg-filter_doc_1 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -270px -322px;
+    }
+    &.bg-disclosure_sheet {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -322px -322px;
+    }
+    &.bg-expand {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -374px -10px;
+    }
+    &.bg-filter_doc_2 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -374px -62px;
+    }
+    &.bg-filter_doc_3 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -374px -114px;
+    }
+    &.bg-filter_doc_4 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -374px -166px;
+    }
+    &.bg-filter_doc_5 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -374px -218px;
+    }
+    &.bg-filter_doc_6 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -374px -270px;
+    }
+    &.bg-filter_doc_7 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -374px -322px;
+    }
+    &.bg-filter_doc_8 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -10px -374px;
+    }
+    &.bg-general_authorization {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -62px -374px;
+    }
+    &.bg-hazard_insurance {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -114px -374px;
+    }
+    &.bg-hazard_insurance1 {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -166px -374px;
+    }
+    &.bg-jumbo_bridge_loans {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -218px -374px;
+    }
+    &.bg-left_nav_loan_pipeline {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -270px -374px;
+    }
+    &.bg-lender_policy {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -322px -374px;
+    }
+    &.bg-midterm_loans {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -374px -374px;
+    }
+    &.bg-npl {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -426px -10px;
+    }
+    &.bg-owner_policy {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -426px -62px;
+    }
+    &.bg-portfolio_midterm {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -426px -114px;
+    }
+    &.bg-preliminary {
+        width: 32px; height: 32px;
+        // background: url('css_sprites.png') -426px -166px;
+        object-position: -426px -166px;
+    }
+    &.bg-proof_funds {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -426px -218px;
+    }
+    &.bg-purchase_contract {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -426px -270px;
+    }
+    &.bg-rehab_budget {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -426px -322px;
+    }
+    &.bg-seller_entity_docs {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -426px -374px;
+    }
+    &.bg-residential_long_term {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -10px -426px;
+    }
+    &.bg-settlement_insurance {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -62px -426px;
+    }
+    &.bg-share_line {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -114px -426px;
+    }
+    &.bg-survey {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -166px -426px;
+    }
+    &.bg-survey_invoice {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -218px -426px;
+    }
+    &.bg-termsheet {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -270px -426px;
+    }
+    &.bg-title_abstract {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -322px -426px;
+    }
+    &.bg-title_application {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -374px -426px;
+    }
+    &.bg-ach_form {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -426px -426px;
+    }
+    &.bg-total_loans {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -478px -10px;
+    }
+    &.bg-title_policy {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -478px -62px;
+    }
+    &.bg-title_report {
+        width: 32px; height: 32px;
+        background: url('css_sprites.png') -478px -114px;
+    }
+
+}
+}

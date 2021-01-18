@@ -1,0 +1,586 @@
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/* line 7, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-stage {
+  display: flex;
+  align-items: center;
+}
+/* line 14, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a .slide-item {
+  transition: all 0.3s ease;
+  border: 10px solid transparent;
+}
+/* line 18, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a .slide-item .outer-block {
+  padding: 1rem;
+  min-height: 152px;
+  background-color: #fff;
+}
+/* line 23, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a .slide-item .outer-block .icon-box {
+  min-width: 90px;
+}
+/* line 27, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a .slide-item .outer-block h2 {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+/* line 32, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a .slide-item .outer-block .devider {
+  width: 1px;
+  background-color: #ddd;
+  margin: 0 0.3rem;
+}
+/* line 38, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a .slide-item .outer-block.pending-task {
+  color: #2b6ae2;
+}
+/* line 42, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a .slide-item .outer-block.pending-task .icon-box img {
+  width: 50px;
+}
+/* line 48, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a .slide-item .outer-block.third-party-task {
+  color: #fbab18;
+}
+/* line 52, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a .slide-item .outer-block.third-party-task .icon-box img {
+  width: 55px;
+}
+/* line 58, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a .slide-item .outer-block.internal-task {
+  color: #f26621;
+}
+/* line 62, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a .slide-item .outer-block.internal-task .icon-box img {
+  width: 60px;
+}
+/* line 67, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a .slide-item .outer-block.internal-task .sub-tasks {
+  padding: 0.5rem;
+}
+/* line 70, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a .slide-item .outer-block.internal-task .sub-tasks.critical.active {
+  background-color: rgba(255, 32, 32, 0.1);
+}
+/* line 75, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a .slide-item .outer-block.internal-task .sub-tasks.non-critical.active {
+  background-color: rgba(242, 102, 33, 0.1);
+}
+/* line 86, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a.active .slide-item {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border: 10px solid #fff;
+}
+/* line 91, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a.active .pending-task {
+  background-color: rgba(43, 106, 226, 0.1);
+}
+/* line 95, ../../scss/includes/task-manager.scss */
+.task-manager .task_manager-slider .owl-stage-outer .owl-item a.active .third-party-task {
+  background-color: rgba(248, 171, 24, 0.1);
+}
+/* line 108, ../../scss/includes/task-manager.scss */
+.task-manager .task-manager-body {
+  border-radius: 6px;
+}
+/* line 112, ../../scss/includes/task-manager.scss */
+.task-manager .task-manager-body .section-outer-block .heading-panel {
+  padding: 1.25rem;
+  border-bottom: 1px solid #ddd;
+}
+/* line 116, ../../scss/includes/task-manager.scss */
+.task-manager .task-manager-body .section-outer-block .heading-panel h5 {
+  font-weight: 600;
+}
+/* line 121, ../../scss/includes/task-manager.scss */
+.task-manager .task-manager-body .section-outer-block .content-panel {
+  padding: 1.25rem;
+}
+/* line 124, ../../scss/includes/task-manager.scss */
+.task-manager .task-manager-body .section-outer-block .content-panel .upper-search-panel {
+  padding-bottom: 1rem;
+}
+/* line 128, ../../scss/includes/task-manager.scss */
+.task-manager .task-manager-body .section-outer-block .content-panel .lower-search-panel {
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+}
+/* line 138, ../../scss/includes/task-manager.scss */
+.task-manager .bootstrap-select button:focus {
+  outline: none !important;
+}
+/* line 143, ../../scss/includes/task-manager.scss */
+.task-manager .bootstrap-select button.bs-placeholder .filter-option {
+  color: #b1b1b1;
+}
+/* line 148, ../../scss/includes/task-manager.scss */
+.task-manager .bootstrap-select button::after {
+  color: #b1b1b1;
+}
+/* line 155, ../../scss/includes/task-manager.scss */
+.task-manager .bootstrap-select .filter-option span.badge {
+  color: #fff;
+  padding: 4px 8px;
+}
+/* line 164, ../../scss/includes/task-manager.scss */
+.task-manager .bootstrap-select .dropdown-menu li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* line 170, ../../scss/includes/task-manager.scss */
+.task-manager .bootstrap-select .dropdown-menu li a span.text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+/* line 179, ../../scss/includes/task-manager.scss */
+.task-manager .bootstrap-select .dropdown-menu li a span.badge {
+  color: #fff;
+  padding: 4px 8px;
+  min-width: 35px;
+}
+/* line 190, ../../scss/includes/task-manager.scss */
+.task-manager .no-data-panel {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  min-height: 150px;
+}
+/* line 196, ../../scss/includes/task-manager.scss */
+.task-manager .icon {
+  display: block;
+  position: relative;
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0 auto;
+}
+/* line 204, ../../scss/includes/task-manager.scss */
+.task-manager .icon:before,
+.task-manager .icon:after {
+  content: "";
+  position: absolute;
+}
+/* line 210, ../../scss/includes/task-manager.scss */
+.task-manager .dropp {
+  width: 100%;
+  position: relative;
+  border-radius: 0.25rem;
+}
+/* line 217, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-header {
+  border: 1px solid #bec6d0;
+  border-radius: 0.25rem;
+  background: transparent;
+  color: #2e5687;
+  -webkit-box-align: stretch;
+  -moz-box-align: stretch;
+  box-align: stretch;
+  -webkit-align-items: stretch;
+  -moz-align-items: stretch;
+  -ms-align-items: stretch;
+  -o-align-items: stretch;
+  align-items: stretch;
+  -ms-flex-align: stretch;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  box-direction: normal;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  box-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  -o-justify-content: flex-start;
+  justify-content: flex-start;
+  -ms-flex-pack: start;
+}
+/* line 260, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-header__title {
+  display: block;
+  padding: 8px 0.5em;
+  padding-left: 26px;
+  -webkit-box-flex: 8;
+  -moz-box-flex: 8;
+  box-flex: 8;
+  -webkit-flex: 8;
+  -moz-flex: 8;
+  -ms-flex: 8;
+  flex: 8;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+/* line 280, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-header__title.process {
+  padding-left: 0.5em;
+}
+/* line 283, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-header__title.process::before {
+  content: "";
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  padding: 8px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+/* line 298, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-header__title.process::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #2e5788;
+  border-radius: 50%;
+}
+/* line 315, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-header__btn {
+  display: block;
+  background: transparent;
+  color: #fff;
+  padding: 8px 0.5em;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 332, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-header__btn .icon {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+/* line 340, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-header__btn .icon:before,
+.task-manager .dropp-header__btn .icon:after {
+  top: 36%;
+  left: 29%;
+  width: 30%;
+  height: 10%;
+  background: #2e5687;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* line 354, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-header__btn .icon:after {
+  top: 55%;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 363, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-header__btn.js-open .icon {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+/* line 371, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-header__btn.js-open .icon:before,
+.task-manager .dropp-header__btn.js-open .icon:after {
+  background: #2e5687;
+}
+/* line 376, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-header__btn:focus {
+  outline: none;
+}
+/* line 380, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-body {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  max-height: 0;
+  background: #fff;
+  color: #2e5687;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+/* line 390, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-body.js-open {
+  max-height: 20em;
+  z-index: 2;
+}
+/* line 395, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-body label {
+  display: block;
+  font-size: 15px;
+  color: #2e5687;
+  text-decoration: none;
+  padding: 0.5em 0;
+  font-weight: 400;
+  cursor: pointer;
+}
+/* line 406, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-body {
+  display: block;
+}
+/* line 409, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-body label {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+/* line 414, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-body label::before {
+  content: "";
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  padding: 8px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+/* line 430, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-body input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+/* line 438, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-body input:checked + label::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 14px;
+  left: 3px;
+  width: 12px;
+  height: 12px;
+  background-color: #2e5788;
+  border-radius: 50%;
+}
+/* line 451, ../../scss/includes/task-manager.scss */
+.task-manager .dropp-body.js-open {
+  padding: 10px;
+}
+/* line 456, ../../scss/includes/task-manager.scss */
+.task-manager .btn-collapse {
+  background-color: #ccc;
+  width: 20px;
+  height: 20px;
+  color: #2e5788;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  cursor: pointer;
+}
+/* line 468, ../../scss/includes/task-manager.scss */
+.task-manager .btn-x-small {
+  padding: 2px 7px !important;
+  font-size: 12px;
+}
+/* line 473, ../../scss/includes/task-manager.scss */
+.task-manager .text-orange {
+  color: #f56700 !important;
+}
+/* line 477, ../../scss/includes/task-manager.scss */
+.task-manager .text-yellow {
+  color: #f8ae00 !important;
+}
+/* line 481, ../../scss/includes/task-manager.scss */
+.task-manager .badge-blue {
+  background-color: #2b6ae2;
+}
+/* line 485, ../../scss/includes/task-manager.scss */
+.task-manager .badge-orange {
+  background-color: #f56700;
+}
+/* line 489, ../../scss/includes/task-manager.scss */
+.task-manager .badge-red {
+  background-color: #ff2020;
+}
+/* line 493, ../../scss/includes/task-manager.scss */
+.task-manager .badge-yellow {
+  background-color: #fbab18;
+}
+/* line 497, ../../scss/includes/task-manager.scss */
+.task-manager .badge-cyan {
+  background-color: #71a8fe;
+}
+/* line 501, ../../scss/includes/task-manager.scss */
+.task-manager .badge-dark {
+  background-color: #000;
+}
+/* line 508, ../../scss/includes/task-manager.scss */
+.task-manager table.taskManager-table td.actions {
+  min-width: 280px;
+}
+/* line 516, ../../scss/includes/task-manager.scss */
+.task-manager table.critical-Internal-PendingTasks thead tr th {
+  border-bottom: 0;
+  vertical-align: middle;
+}
+/* line 521, ../../scss/includes/task-manager.scss */
+.task-manager table.critical-Internal-PendingTasks thead tr:first-child th {
+  border-bottom: 1px solid #6885a9;
+}
+/* line 530, ../../scss/includes/task-manager.scss */
+.task-manager table tr.collapsible-row {
+  background-color: #eee;
+}
+/* line 533, ../../scss/includes/task-manager.scss */
+.task-manager table tr.collapsible-row td {
+  border: 0;
+}
+/* line 543, ../../scss/includes/task-manager.scss */
+.task-manager .bootstrap-select.data-bottom .dropdown-menu.show {
+  transform: translate3d(0px, 35px, 0px) !important;
+}
+/* line 548, ../../scss/includes/task-manager.scss */
+.task-manager .bootstrap-select.data-bottom .dropdown-menu ul.dropdown-menu {
+  transform: unset !important;
+}
+
+/* line 557, ../../scss/includes/task-manager.scss */
+.tm-blue {
+  color: #2b6ae2;
+}
+
+/* line 561, ../../scss/includes/task-manager.scss */
+.tm-yellow {
+  color: #fbab18;
+}
+
+/* line 565, ../../scss/includes/task-manager.scss */
+.tm-red {
+  color: #f26621;
+}
+
+/* line 569, ../../scss/includes/task-manager.scss */
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+/* line 572, ../../scss/includes/task-manager.scss */
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+/* line 576, ../../scss/includes/task-manager.scss */
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+/* line 580, ../../scss/includes/task-manager.scss */
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+/* line 584, ../../scss/includes/task-manager.scss */
+.custom-comment-box {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  position: relative;
+}
+/* line 590, ../../scss/includes/task-manager.scss */
+.custom-comment-box textarea {
+  width: 100%;
+  border: none;
+  color: #2e5788;
+}
+/* line 595, ../../scss/includes/task-manager.scss */
+.custom-comment-box textarea:disabled {
+  background-color: #fff;
+}
+/* line 600, ../../scss/includes/task-manager.scss */
+.custom-comment-box .edit-note-outer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* line 607, ../../scss/includes/task-manager.scss */
+.btn-note {
+  background: #e2e2e2;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 618, ../../scss/includes/task-manager.scss */
+.btn-scarlet_red {
+  background-color: #f26621 !important;
+  border-color: #f26621 !important;
+  color: #fff;
+}
+
+/* line 624, ../../scss/includes/task-manager.scss */
+.btn-yellow {
+  background-color: #fbab18 !important;
+  border-color: #fbab18 !important;
+  color: #fff;
+}

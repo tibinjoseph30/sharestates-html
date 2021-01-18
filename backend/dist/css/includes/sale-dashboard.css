@@ -1,0 +1,82 @@
+/*
+Error: Undefined mixin 'border-radius'.
+        on line 453 of E:/sharestates/htdocs/sharestates/admin_template/backend/dist/scss/includes/sale-dashboard.scss, in `border-radius'
+        from line 453 of E:/sharestates/htdocs/sharestates/admin_template/backend/dist/scss/includes/sale-dashboard.scss
+
+448:         }
+449:     }
+450:     .card {
+451:         border: 1px solid;
+452:         border-color: $borderColor;
+453:         @include border-radius(4px);
+454:         .card-body {
+455:             padding: 1.25rem;
+456:         }
+457:         .card-header{
+458:             padding: 0;
+
+Backtrace:
+E:/sharestates/htdocs/sharestates/admin_template/backend/dist/scss/includes/sale-dashboard.scss:453:in `border-radius'
+E:/sharestates/htdocs/sharestates/admin_template/backend/dist/scss/includes/sale-dashboard.scss:453
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'border-radius'.\A         on line 453 of E:/sharestates/htdocs/sharestates/admin_template/backend/dist/scss/includes/sale-dashboard.scss, in `border-radius'\A         from line 453 of E:/sharestates/htdocs/sharestates/admin_template/backend/dist/scss/includes/sale-dashboard.scss\A \A 448:         }\A 449:     }\A 450:     .card {\A 451:         border: 1px solid;\A 452:         border-color: $borderColor;\A 453:         @include border-radius(4px);\A 454:         .card-body {\A 455:             padding: 1.25rem;\A 456:         }\A 457:         .card-header{\A 458:             padding: 0;"; }

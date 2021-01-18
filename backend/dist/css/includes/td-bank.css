@@ -1,0 +1,372 @@
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/* line 4, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .owl-stage-outer {
+  padding-top: 10px;
+}
+/* line 7, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .owl-nav {
+  position: absolute;
+  bottom: -7px;
+  right: 0;
+}
+/* line 11, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .owl-nav button {
+  min-width: 15px;
+  font-size: 18px !important;
+  outline: none;
+}
+/* line 15, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .owl-nav button.disabled {
+  color: rgba(0, 0, 0, 0.28);
+}
+/* line 20, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .items {
+  display: flex;
+  padding: 12px;
+}
+/* line 25, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .items .icon-block img.img1 {
+  width: 55px;
+}
+/* line 28, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .items .icon-block img.img2 {
+  width: 34px;
+}
+/* line 31, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .items .icon-block img.img3 {
+  width: 47px;
+}
+/* line 34, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .items .icon-block img.img4 {
+  width: 38px;
+}
+/* line 39, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .items .content-block {
+  width: 100%;
+  padding-left: 25px;
+}
+/* line 42, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .items .content-block .content-head {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  border-color: #ddd;
+  align-items: center;
+}
+/* line 48, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .items .content-block .content-head h5 {
+  font-size: 14px;
+}
+/* line 51, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .items .content-block .content-head h3 {
+  font-size: 20px;
+}
+/* line 55, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .items .content-block .content-body {
+  margin-top: 10px;
+}
+/* line 57, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .items .content-block .content-body h6 {
+  font-size: 13px;
+}
+/* line 60, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .items .content-block .content-body h2 {
+  font-size: 21px;
+}
+/* line 66, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .hover-block {
+  transition: all 0.2s;
+}
+/* line 68, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .hover-block:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.07), 0 2px 4px 0 rgba(0, 0, 0, 0.05) !important;
+}
+/* line 69, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .hover-block:hover .hover-col-brown {
+  background-color: rgba(144, 95, 68, 0.1);
+}
+/* line 72, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .hover-block:hover .hover-col-green {
+  background-color: rgba(19, 207, 55, 0.1);
+}
+/* line 75, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .hover-block:hover .hover-col-rose {
+  background-color: rgba(208, 63, 203, 0.1);
+}
+/* line 78, ../../scss/includes/td-bank.scss */
+.td-bank-slider-block .hover-block:hover .hover-col-yellow {
+  background-color: rgba(255, 165, 0, 0.1);
+}
+
+/* line 87, ../../scss/includes/td-bank.scss */
+.custom-drptab {
+  -webkit-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+/* line 92, ../../scss/includes/td-bank.scss */
+.custom-drptab .custom-nav-tab {
+  background: #fff;
+  padding: 0 15px;
+  border-radius: 6px 6px 0 0;
+}
+/* line 98, ../../scss/includes/td-bank.scss */
+.custom-drptab .custom-nav-tab li a.nav-link {
+  border-bottom: 2px solid transparent;
+  font-family: 'roboto', sans-serif !important;
+  color: #bec6d0;
+  padding: 18px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 0;
+  border: 0;
+}
+/* line 107, ../../scss/includes/td-bank.scss */
+.custom-drptab .custom-nav-tab li a.nav-link:hover {
+  color: #2e5788;
+}
+/* line 110, ../../scss/includes/td-bank.scss */
+.custom-drptab .custom-nav-tab li a.nav-link.active {
+  border-bottom: 2px solid;
+  border-color: #2e5788;
+  border-top: 0 !important;
+  color: #2e5788;
+}
+/* line 120, ../../scss/includes/td-bank.scss */
+.custom-drptab .tab-content {
+  padding: 15px;
+  border-radius: 0 0 6px 6px;
+}
+/* line 124, ../../scss/includes/td-bank.scss */
+.custom-drptab .search-box {
+  min-width: 200px;
+}
+
+/* line 129, ../../scss/includes/td-bank.scss */
+table.tdbank-pending-transaction {
+  width: 1380px;
+}
+@media (min-width: 1840px) {
+  /* line 129, ../../scss/includes/td-bank.scss */
+  table.tdbank-pending-transaction {
+    width: 100%;
+  }
+}
+/* line 137, ../../scss/includes/td-bank.scss */
+table.tdbank-pending-transaction thead tr th:first-child {
+  border-right: 1px solid rgba(255, 255, 255, 0);
+}
+/* line 145, ../../scss/includes/td-bank.scss */
+table.tdbank-pending-transaction tbody tr td {
+  width: calc(100% / 8);
+}
+/* line 147, ../../scss/includes/td-bank.scss */
+table.tdbank-pending-transaction tbody tr td:first-child {
+  width: 55px;
+  max-width: 55px;
+  border-right: 1px solid rgba(255, 255, 255, 0);
+}
+/* line 152, ../../scss/includes/td-bank.scss */
+table.tdbank-pending-transaction tbody tr td:nth-child(2) {
+  width: 200px;
+}
+
+/* line 164, ../../scss/includes/td-bank.scss */
+table.thead-bg-gray thead tr th {
+  background: #cdd4dd !important;
+  color: #2e5788 !important;
+}
+/* line 172, ../../scss/includes/td-bank.scss */
+table.thead-bg-gray tbody tr td {
+  background: #f6f6f6 !important;
+}
+
+/* line 181, ../../scss/includes/td-bank.scss */
+.custom-search-area button.dropdown-toggle {
+  border-bottom-left-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+}
+/* line 190, ../../scss/includes/td-bank.scss */
+.custom-search-area .bootstrap-select .dropdown-menu .inner li {
+  width: 100%;
+}
+
+/* line 199, ../../scss/includes/td-bank.scss */
+.search-block .clndr input {
+  height: 35px;
+  min-height: auto !important;
+}
+/* line 203, ../../scss/includes/td-bank.scss */
+.search-block .clndr::after {
+  line-height: 35px !important;
+}
+
+/* line 208, ../../scss/includes/td-bank.scss */
+.log-content-block {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+/* line 212, ../../scss/includes/td-bank.scss */
+.log-content-block .content-box {
+  align-items: baseline;
+  height: 100%;
+  overflow: auto;
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 20px;
+}
+/* line 218, ../../scss/includes/td-bank.scss */
+.log-content-block .content-box .list-item,
+.log-content-block .content-box .list-item-inner {
+  min-width: 30px;
+  font-size: 9px;
+}
+/* line 228, ../../scss/includes/td-bank.scss */
+.log-content-block .log-content-scroll-block {
+  max-height: 500px;
+}
+/* line 233, ../../scss/includes/td-bank.scss */
+.log-content-block .log-content-scroll-block .col-md-6:last-child .content-box, .log-content-block .log-content-scroll-block .col-md-6:nth-last-child(2) .content-box {
+  border: none;
+}
+
+/* line 242, ../../scss/includes/td-bank.scss */
+.no-box-shadow {
+  box-shadow: none !important;
+}
+
+/* line 245, ../../scss/includes/td-bank.scss */
+.d-align-baseline {
+  align-items: baseline !important;
+}
+
+/* line 248, ../../scss/includes/td-bank.scss */
+.w-auto {
+  width: auto !important;
+}
+
+/* line 251, ../../scss/includes/td-bank.scss */
+.w-100 {
+  width: 100% !important;
+}
+
+/* line 254, ../../scss/includes/td-bank.scss */
+.btrr-0 {
+  border-top-right-radius: 0 !important;
+}
+
+/* line 257, ../../scss/includes/td-bank.scss */
+.bbrr-0 {
+  border-bottom-right-radius: 0 !important;
+}
+
+/* line 260, ../../scss/includes/td-bank.scss */
+.btlr-0 {
+  border-top-left-radius: 0 !important;
+}
+
+/* line 263, ../../scss/includes/td-bank.scss */
+.bblr-0 {
+  border-bottom-left-radius: 0 !important;
+}
+
+/* line 266, ../../scss/includes/td-bank.scss */
+.p-5-15 {
+  padding: 5px 10px !important;
+}
+
+/* line 269, ../../scss/includes/td-bank.scss */
+.txt-col-brown {
+  color: #905f44;
+}
+
+/* line 272, ../../scss/includes/td-bank.scss */
+.txt-col-green {
+  color: #13cf37 !important;
+}
+
+/* line 275, ../../scss/includes/td-bank.scss */
+.txt-col-parrot-green {
+  color: #49c94f;
+}
+
+/* line 278, ../../scss/includes/td-bank.scss */
+.txt-col-rose {
+  color: #d03fcb;
+}
+
+/* line 281, ../../scss/includes/td-bank.scss */
+.txt-col-yellow {
+  color: #ffa500;
+}
+
+/* line 284, ../../scss/includes/td-bank.scss */
+.txt-col-blue {
+  color: #2970d8 !important;
+}
+
+/* line 287, ../../scss/includes/td-bank.scss */
+.txt-col-cyan {
+  color: #01a8ff;
+}
+
+/* line 290, ../../scss/includes/td-bank.scss */
+.txt-col-orange {
+  color: #ff8401;
+}
+
+/* line 293, ../../scss/includes/td-bank.scss */
+.txt-col-red {
+  color: #ff0600;
+}
+
+@media (max-width: 767px) {
+  /* line 299, ../../scss/includes/td-bank.scss */
+  .search-block {
+    display: block !important;
+  }
+  /* line 301, ../../scss/includes/td-bank.scss */
+  .search-block .custom-search-area {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+  /* line 304, ../../scss/includes/td-bank.scss */
+  .search-block .custom-search-area .input-group {
+    height: 100% !important;
+  }
+  /* line 306, ../../scss/includes/td-bank.scss */
+  .search-block .custom-search-area .input-group .bootstrap-select {
+    margin-top: 10px;
+  }
+  /* line 309, ../../scss/includes/td-bank.scss */
+  .search-block .custom-search-area .input-group input {
+    border-right: 1px solid !important;
+  }
+  /* line 315, ../../scss/includes/td-bank.scss */
+  .search-block .clndr input {
+    margin-bottom: 10px;
+  }
+}

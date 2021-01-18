@@ -1,0 +1,396 @@
+@import "variable";
+
+.bootstrap-select{
+  button{
+    &.bs-placeholder{
+      .filter-option{
+        color: $gray;
+      }
+    }
+  }
+}
+
+.custom_accordian {
+  .card {
+    border: 1px solid;
+    border-color: $border-default-color;
+    border-radius: 6px;
+
+    .card-header {
+      padding: 0 15px;
+
+      a {
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex: 1;
+        color: $primary-color;
+        position: relative;
+
+        &.collapsed {
+          &::after {
+            transform: rotate(0deg);
+          }
+        }
+
+        &::after {
+          content: "\f107";
+          font: normal normal normal 14px/1 FontAwesome;
+          position: absolute;
+          right: 0;
+          font-size: 18px;
+          transform: rotate(-180deg);
+          @include transition(all 0.3s ease);
+        }
+      }
+    }
+
+    .card-body {
+      padding: 15px;
+      border-top: 1px solid;
+      border-color: $border-default-color;
+    }
+  }
+}
+
+.ss-custom-checkbox {
+  position: relative;
+
+  [type="checkbox"]:checked,
+  [type="checkbox"]:not(:checked),
+  [type="radio"]:checked,
+  [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+
+    & + label {
+      position: relative;
+      padding-left: 28px;
+      cursor: pointer;
+      line-height: 20px;
+      display: inline-block;
+      color: $primary;
+      min-height: 18px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 20px;
+        height: 20px;
+        border: 1px solid;
+        border-color: $primary-color;
+        border-radius: 3px;
+        // @include transition(all 0.3s ease);
+      }
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 3px;
+        left: 7px;
+        width: 6px;
+        height: 12px;
+        border: solid #fff;
+        border-width: 0 2px 2px 0;
+        @include transform(rotate(45deg) scale(0));
+      }
+    }
+  }
+
+  [type="checkbox"]:checked,
+  [type="radio"]:checked {
+    & + label {
+      &::before {
+        border: 10px solid $primary;
+      }
+
+      &::after {
+        opacity: 1;
+        @include transform(rotate(45deg) scale(1));
+      }
+    }
+  }
+
+  [type="checkbox"]:not(:checked),
+  [type="radio"]:not(:checked) {
+    & + label {
+      &::after {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      }
+    }
+  }
+
+  &.checkbox-sm {
+    [type="checkbox"]:checked,
+    [type="checkbox"]:not(:checked),
+    [type="radio"]:checked,
+    [type="radio"]:not(:checked) {
+      & + label {
+        line-height: 17px;
+        padding-left: 24px;
+        &::before {
+          width: 17px;
+          height: 17px;
+        }
+        &::after {
+          top: 2px;
+          left: 6px;
+          width: 6px;
+          height: 10px;
+        }
+      }
+    }
+    [type="checkbox"]:checked,
+    [type="radio"]:checked {
+      & + label {
+        &::before {
+          border: 8px solid $primary;
+          background-color: $primary;
+        }
+      }
+    }
+  }
+
+  &.gray {
+    [type="checkbox"]:checked,
+    [type="checkbox"]:not(:checked) {
+      & + label {
+        line-height: 15px;
+        &::before {
+          border-color: $gray-color;
+        }
+        &::after {
+
+        }
+      }
+    }
+  }
+
+  &.gray-border {
+    [type="checkbox"]:not(:checked) {
+      & + label {
+        &::before {
+          border-color: #ccc;
+        }
+      }
+    }
+  }
+
+  &.checkbox-white {
+    [type="checkbox"]:not(:checked) {
+      & + label {
+        &::before {
+          border-color: $gray-color;
+        }
+      }
+    }
+
+    [type="checkbox"]:checked {
+      & + label {
+        &::before {
+          border: 10px solid #fff;
+        }
+
+        &::after {
+          border-color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+.ss-custom-radio {
+  [type="radio"]:checked,
+  [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+
+    & + label {
+      position: relative;
+      padding-left: 25px;
+      cursor: pointer;
+      line-height: 20px;
+      display: inline-block;
+      color: $primary;
+      min-height: 18px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 18px;
+        height: 18px;
+        border: 1px solid;
+        border-color: $primary-color;
+        border-radius: 50px;
+        @include transition(all 0.3s ease);
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 3px;
+        top: 3px;
+        width: 12px;
+        height: 12px;
+        background-color: $primary-color;
+        border-radius: 50px;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+      }
+    }
+  }
+
+  [type="radio"]:checked {
+    & + label {
+      &::after {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+    }
+  }
+
+  [type="radio"]:not(:checked) {
+    & + label {
+      &::after {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      }
+    }
+  }
+}
+
+input {
+  &.form-control {
+    border-color: $border_clr  !important;
+    &:focus {
+      outline: none !important;
+      box-shadow: none !important;
+      border-color: $border_clr !important;
+    }
+  }
+}
+
+.no-before {
+  &::before {
+    content: none !important;
+  }
+}
+
+table {
+  &.table-sorting {
+    thead {
+      th {
+        span {
+          width: auto !important;
+          padding-right: 20px;
+        }
+
+        &.sorting_asc,
+        &.sorting_desc,
+        &.sorting {
+          span {
+            &::before,
+            &::after {
+              position: absolute;
+              top: 0px;
+              right: 0px;
+              margin-left: 0px;
+              font-family: fontawesome;
+              cursor: pointer;
+            }
+          }
+        }
+
+        &.sorting_asc {
+          span {
+            &::before {
+              content: "\f0de";
+              color: #8ca0b9 !important;
+            }
+
+            &::after {
+              content: "\f0dd";
+              color: #4a709c !important;
+            }
+          }
+        }
+
+        &.sorting_desc {
+          span {
+            &::before {
+              content: "\f0dd";
+              color: #8ca0b9 !important;
+            }
+
+            &::after {
+              content: "\f0de";
+              color: #4a709c !important;
+            }
+          }
+        }
+
+        &.sorting {
+          span {
+            &::before {
+              content: "\f0dd";
+              color: #8ca0b9 !important;
+            }
+
+            &::after {
+              content: "\f0de";
+              color: #8ca0b9 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.mn-w-200 {
+  min-width: 200px;
+}
+.mn-w-300 {
+  min-width: 300px;
+}
+
+.text-lg{
+  font-size: 20px;
+}
+.text-md{
+  font-size: 18px;
+}
+.text-sm{
+  font-size: 16px;
+}
+
+.pseudo-hidden {
+  &::after,
+  &::before {
+    visibility: hidden;
+  }
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #bbb !important;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #bbb !important;
+}
+
+::placeholder {
+  color: #bbb !important;
+}

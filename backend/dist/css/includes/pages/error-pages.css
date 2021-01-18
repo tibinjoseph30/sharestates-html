@@ -1,0 +1,55 @@
+/*
+
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*******************
+Error Page
+******************/
+/* line 13, ../../../scss/includes/pages/error-pages.scss */
+.error-box {
+  height: 100%;
+  position: fixed;
+  background: url(../../../../assets/images/background/error-bg.jpg) no-repeat center center #fff;
+  width: 100%;
+}
+/* line 19, ../../../scss/includes/pages/error-pages.scss */
+.error-box .footer {
+  width: 100%;
+  left: 0px;
+  right: 0px;
+}
+
+/* line 25, ../../../scss/includes/pages/error-pages.scss */
+.error-body {
+  padding-top: 5%;
+}
+/* line 27, ../../../scss/includes/pages/error-pages.scss */
+.error-body h1 {
+  font-size: 210px;
+  font-weight: 900;
+  text-shadow: 4px 4px 0 #fff, 6px 6px 0 #343a40;
+  line-height: 210px;
+}

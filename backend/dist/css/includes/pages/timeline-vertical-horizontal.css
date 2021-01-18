@@ -1,0 +1,224 @@
+/*
+
+
+File: scss
+*/
+/*
+  External colors
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+/*******************
+Timeline page
+******************/
+/* line 18, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline {
+  position: relative;
+  padding: 20px 0 20px;
+  list-style: none;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 26, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 3px;
+  margin-left: -1.5px;
+  background-color: #e9ecef;
+}
+
+/* line 37, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline > li {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* line 42, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+/* line 48, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline > li:after {
+  clear: both;
+}
+
+/* line 52, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+/* line 58, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline > li:after {
+  clear: both;
+}
+
+/* line 62, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline > li > .timeline-panel {
+  float: left;
+  position: relative;
+  width: 46%;
+  padding: 20px;
+  border: 1px solid #e9ecef;
+  border-radius: 0.25rem;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* line 73, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline > li > .timeline-panel:before {
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  top: 26px;
+  right: -8px;
+  border-top: 8px solid transparent;
+  border-right: 0 solid #e9ecef;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #e9ecef;
+}
+
+/* line 85, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline > li > .timeline-panel:after {
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  top: 27px;
+  right: -7px;
+  border-top: 7px solid transparent;
+  border-right: 0 solid #fff;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid #fff;
+}
+
+/* line 97, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline > li > .timeline-badge {
+  z-index: 10;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: -25px;
+  border-radius: 50% 50% 50% 50%;
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 50px;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* line 113, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+
+/* line 117, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  right: auto;
+  left: -8px;
+  border-right-width: 8px;
+  border-left-width: 0;
+}
+
+/* line 124, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  right: auto;
+  left: -7px;
+  border-right-width: 7px;
+  border-left-width: 0;
+}
+
+/* line 131, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline-badge.primary {
+  background-color: #2e5788;
+}
+
+/* line 135, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline-badge.success {
+  background-color: #30e356;
+}
+
+/* line 139, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline-badge.warning {
+  background-color: #ff9c00;
+}
+
+/* line 143, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline-badge.danger {
+  background-color: #f62d51;
+}
+
+/* line 147, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline-badge.info {
+  background-color: #1969cb;
+}
+
+/* line 151, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline-title {
+  margin-top: 0;
+  color: inherit;
+  font-weight: 400;
+}
+
+/* line 157, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+}
+
+/* line 162, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+
+/*******************
+Horizontal Timeline page
+******************/
+/* line 174, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.cd-horizontal-timeline .events a {
+  padding-bottom: 6px;
+  color: #009efb;
+}
+
+/* line 179, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.cd-horizontal-timeline .filling-line,
+.cd-horizontal-timeline .events a.selected::after {
+  background: #009efb;
+}
+
+/* line 184, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.cd-horizontal-timeline .events a.selected::after {
+  border-color: #009efb;
+}
+
+/* line 188, ../../../scss/includes/pages/timeline-vertical-horizontal.scss */
+.cd-horizontal-timeline .m-t-40 {
+  margin-top: 40px !important;
+}

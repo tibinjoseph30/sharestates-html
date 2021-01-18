@@ -1,0 +1,53 @@
+// Green colors
+.share-blue {
+    /*Theme Colors*/
+    $themecolor: #009efb;
+    $themecolor-dark: #028ee1;
+    $topbar: #386fb0;
+    // Topbar
+    
+    .topbar {
+        background: $topbar;
+        background: rgb(56,111,176); /* Old browsers */
+        background: -moz-linear-gradient(left, rgba(56,111,176,1) 0%, rgba(34,82,139,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(56,111,176,1) 0%,rgba(34,82,139,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(56,111,176,1) 0%,rgba(34,82,139,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#386fb0', endColorstr='#22528b',GradientType=1 ); /* IE6-9 */
+        
+    }
+    .topbar{
+        .top-navbar .navbar-header .navbar-brand .dark-logo {
+            display: none;
+        }
+        .top-navbar .navbar-header .navbar-brand .light-logo {
+            display: inline-block;
+            color: rgba(255, 255, 255, 0.8);
+        }
+    }
+    //Sidebar
+    .sidebar-nav {
+        ul li a {
+            &.active,
+            &:hover {
+                color: $themecolor;
+                i {
+                    color: $themecolor;
+                }
+            }
+        }
+        > ul > li {
+            &.selected > a {
+                color: $themecolor;
+                border-left: 3px solid $themecolor;
+                i {
+                    color: $themecolor;
+                }
+            }
+        }
+    }
+    
+    //Bread-crumb
+    .page-titles .breadcrumb .breadcrumb-item.active{
+        color: $themecolor;
+    }
+}

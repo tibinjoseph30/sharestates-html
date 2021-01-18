@@ -1,0 +1,415 @@
+.color-white {
+  color: #fff;
+}
+.brt:after {
+  content: "";
+  border-right: 1px solid #384756;
+  position: relative;
+  left: 8px;
+}
+.brd-right {
+  border-left: 1px solid #dedede;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+.borrower-list {
+  .gray {
+    color: #bec6d0 !important;
+  }
+  .bg-darkgray {
+    background: #5c656d !important;
+  }
+  .orange {
+    color: #f59522 !important;
+  }
+  .bg-orange {
+    background: #f59522 !important;
+  }
+  .lightblue {
+    color: #00deff !important;
+  }
+  .bg-lightblue {
+    background: #00deff !important;
+  }
+  .new-color-blue {
+    color: #2e5788;
+  }
+  .head-font {
+    font-size: 16px;
+  }
+  .badge-gary {
+    background: #eaeaea;
+    color: #55769e;
+  }
+  .borrowers-gray {
+    color: #55769e;
+  }
+  .card {
+    .card-body {
+      .drptab {
+        .add-borrower {
+          position: absolute;
+          right: 1.25rem;
+          top: 0.8125rem;
+        }
+      }
+    }
+  }
+  .borrower-wrapper {
+    .table-wrapper {
+      .search-area {
+        .search-box {
+          width: 20%;
+          @media screen and (max-width: 992px) {
+            width: 30%;
+          }
+          .btn {
+            border-color: #c7ced6 !important;
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+          }
+        }
+        .button-reset {
+          background: #8193a9;
+          border-color: #8193a9;
+          height: calc(1.5rem + 8px);
+          padding: 0px 17px;
+          font-size: 12px;
+          vertical-align: middle;
+        }
+        .btn-group {
+          @media screen and (max-width: 767px) {
+            width: 28% !important;
+          }
+        }
+      }
+      .table-width {
+        white-space: nowrap;
+        .bg {
+          background: #55769e !important;
+        }
+        tbody {
+          tr {
+            td {
+              .status {
+                font-size: 15px;
+                font-weight: 500;
+              }
+              .action {
+                a {
+                  border-radius: 3px;
+                  display: inline-block;
+                  padding: 0;
+                  width: 35px;
+                  text-align: center;
+                  i {
+                    font-size: 20px;
+                    line-height: 28px;
+                  }
+                  .text-inverse {
+                    color: #2e5788;
+                  }
+                  .text-danger {
+                    color: #ff2020;
+                  }
+                }
+                .edit {
+                  border: 1px solid #2e5788;
+                }
+                .exit {
+                  border: 1px solid #ff2020;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .small-cards {
+    .volume {
+      font-size: 15px !important;
+    }
+  }
+}
+
+// These comments are in single line
+// They will not appear in the CSS output,
+// this for page borrower-list-2
+
+.borrower-list-2 {
+  .input-group{
+    .input-group-text {
+      background: #f6f6f6;
+    }
+  } 
+  .btn-outline-gray {
+    background: transparent;
+    border: 1px solid #d0d7e0;
+  }
+  .btn.btn-outline-primary {
+    border-color: #dee2e6 !important;
+    color: #bfc2c5 !important;
+  }
+  .tab-borrower-Info {
+    ::-webkit-input-placeholder {
+      color: #2e5788;
+    }
+    ::-moz-placeholder {
+      color: #2e5788;
+    }
+    :-ms-input-placeholder {
+      color: #2e5788;
+    }
+    :-moz-placeholder {
+      color: #2e5788;
+    }
+    .filter-option {
+      display: inline-block;
+      overflow: hidden;
+      width: 100%;
+      text-align: left;
+      color: #2e5788;
+    }
+    .dropdown-toggle {
+      &:after {
+        color: #2e5788 !important;
+      }
+    }
+    .p-t-20 {
+      .icheckbox_minimal-blue {
+        width: 23px;
+        height: 20px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin: 0px;
+        border-color: #d8d8d8;
+      }
+      .checked {
+        background: #2e5788 !important;
+        border-color: #2e5788;
+        &::after {
+          color: #fff;
+          font: normal normal normal 15px/1 FontAwesome;
+          position: absolute;
+          left: 1px;
+          top: 1px;
+        }
+      }
+    }
+    .control-label {
+      color: #2e5687;
+      opacity: 0.6;
+    }
+    .font-13 {
+      color: #b2c1d3 !important;
+    }
+    .logo-blue-borrower{
+      position: absolute;
+      top: -16px;
+      left: 147px;
+      width: 92px;
+      height: 40px;
+    }
+    .table-bordered {
+      .icheckbox_minimal-blue {
+        width: 23px;
+        height: 20px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin: 0px;
+        border-color: #d8d8d8;
+      }
+      .checked {
+        background: #2e5788 !important;
+        border-color: #2e5788;
+        &::after {
+          color: #fff;
+          font: normal normal normal 15px/1 FontAwesome;
+          position: absolute;
+          left: 1px;
+          top: 1px;
+        }
+      }
+      thead {
+        tr {
+          th {
+            &:first-child {
+              border-left: 0px solid #dee2e6;
+            }
+            &:last-child {
+              border-right: 0px solid #dee2e6;
+            }
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            &:first-child {
+              border-left: 0px solid #dee2e6;
+            }
+            &:last-child {
+              border-right: 0px solid #dee2e6;
+            }
+          }
+        }
+      }
+    }
+  }
+  .background-check {
+    .text-green {
+      color: #42b51b;
+    }
+    .text-white {
+      user-select: none;
+    }
+    .fa-trash-alt {
+      font-size: 25px;
+    }
+    .status-wrapper {
+      .icheckbox_minimal-blue {
+        width: 23px;
+        height: 20px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin: 0px;
+      }
+      .checked {
+        background: #2e5788 !important;
+        &::after {
+          color: #fff;
+          font: normal normal normal 15px/1 FontAwesome;
+          position: absolute;
+          left: 1px;
+          top: 1px;
+        }
+      }
+      .cleared-box {
+        color: #42b51b;
+        .icheckbox_minimal-blue {
+          width: 20px;
+          height: 20px;
+          border: 1px solid #42b51b;
+        }
+        .checked {
+          background: #42b51b !important;
+        }
+      }
+      .pending-box {
+        color: #fe9301;
+        .icheckbox_minimal-blue {
+          width: 20px;
+          height: 20px;
+          border: 1px solid #fe9301;
+        }
+        .checked {
+          background: #fe9301 !important;
+        }
+      }
+    }
+  }
+  .borrower-entities{
+    .entity{
+      background: #4a6a93 !important;
+      border-color:#4a6a93 !important;
+    }
+    .btn-members{
+      background: #f9fafb !important;
+      color: #8193a9 !important ;
+    }
+    .search-area {
+      .search-box {
+        @media screen and (max-width: 992px) {
+          width: 30%;
+        }
+        .btn {
+          border-color: #c7ced6 !important;
+          border-top-left-radius: 0px;
+          border-bottom-left-radius: 0px;
+        }
+      }
+      .button-reset {
+        background: #8193a9;
+        border-color: #8193a9;
+        height: calc(1.5rem + 8px);
+        padding: 0px 17px;
+        font-size: 12px;
+        vertical-align: middle;
+      }
+      .ti-import{
+        color:#8193a9;
+      }
+      .btn-group {
+        @media screen and (max-width: 767px) {
+          width: 28% !important;
+        }
+      }
+    }
+    .table{
+      thead{
+        tr{
+          th{
+            &:nth-child(2){
+              width: auto !important;
+            }
+          }
+        }
+      }
+
+    }
+  }
+  @media(max-width:767px){
+    .w-50{
+      width: 100% !important;
+    }
+  }
+  .ti-import{
+    color: #8193a9;
+  }
+}
+.color-blue-light{
+  color: #2e5788 !important;
+}
+.button-reset-borrower{
+    background: #8193a9;
+    border-color: #8193a9;
+    height: calc(1.5rem + 8px);
+    padding: 0px 17px;
+    font-size: 12px;
+    vertical-align: middle;
+  }
+.padding-table{
+  padding-left: 5px !important;
+}
+.font-weight{
+  font-weight: 500;
+}
+.white-space{
+  white-space: pre;
+}
+.btn-gray{
+  background: #8193a9;
+  border-color: #8193a9;
+}
+.btn-Gray{
+  background: $gray6;
+  border-color: $gray6;
+  color: #fff;
+}
+.new-green{
+  background:#cbebd2;
+}

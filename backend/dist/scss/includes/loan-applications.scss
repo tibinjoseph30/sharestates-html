@@ -1,0 +1,25 @@
+.opacity-6 {
+    opacity: 0.6;
+}
+
+.border-primary {
+    border-color: $primary-color !important;
+}
+
+.form-space-lg {
+    .form-group {
+        min-height: 70px;
+
+        .form-group {
+            min-height: auto;
+        }
+    }
+}
+
+.lined-field {
+    input {
+        border: 0;
+        border-bottom: 1px solid !important;
+        border-radius: 0;
+    }
+}
