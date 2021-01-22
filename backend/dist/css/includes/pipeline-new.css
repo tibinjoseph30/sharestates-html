@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'border-radius'.
-        on line 262 of E:/sharestates/htdocs/sharestates/admin_template/backend/dist/scss/includes/pipeline-new.scss, in `border-radius'
-        from line 262 of E:/sharestates/htdocs/sharestates/admin_template/backend/dist/scss/includes/pipeline-new.scss
+        on line 262 of E:/sharestates/htdocs/sharestates2/admin_template/backend/dist/scss/includes/pipeline-new.scss, in `border-radius'
+        from line 262 of E:/sharestates/htdocs/sharestates2/admin_template/backend/dist/scss/includes/pipeline-new.scss
 
 257: }
 258: .bullets {
@@ -16,8 +16,8 @@ Error: Undefined mixin 'border-radius'.
 267:   background-color: #f59422;
 
 Backtrace:
-E:/sharestates/htdocs/sharestates/admin_template/backend/dist/scss/includes/pipeline-new.scss:262:in `border-radius'
-E:/sharestates/htdocs/sharestates/admin_template/backend/dist/scss/includes/pipeline-new.scss:262
+E:/sharestates/htdocs/sharestates2/admin_template/backend/dist/scss/includes/pipeline-new.scss:262:in `border-radius'
+E:/sharestates/htdocs/sharestates2/admin_template/backend/dist/scss/includes/pipeline-new.scss:262
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
@@ -68,4 +68,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'border-radius'.\A         on line 262 of E:/sharestates/htdocs/sharestates/admin_template/backend/dist/scss/includes/pipeline-new.scss, in `border-radius'\A         from line 262 of E:/sharestates/htdocs/sharestates/admin_template/backend/dist/scss/includes/pipeline-new.scss\A \A 257: }\A 258: .bullets {\A 259:   width: 4px;\A 260:   height: 4px;\A 261:   background-color: $primary-color;\A 262:   @include border-radius(50%);\A 263:   display: inline-block;\A 264: }\A 265: \A 266: .badge-wrapper {\A 267:   background-color: #f59422;"; }
+  content: "Error: Undefined mixin 'border-radius'.\A         on line 262 of E:/sharestates/htdocs/sharestates2/admin_template/backend/dist/scss/includes/pipeline-new.scss, in `border-radius'\A         from line 262 of E:/sharestates/htdocs/sharestates2/admin_template/backend/dist/scss/includes/pipeline-new.scss\A \A 257: }\A 258: .bullets {\A 259:   width: 4px;\A 260:   height: 4px;\A 261:   background-color: $primary-color;\A 262:   @include border-radius(50%);\A 263:   display: inline-block;\A 264: }\A 265: \A 266: .badge-wrapper {\A 267:   background-color: #f59422;"; }

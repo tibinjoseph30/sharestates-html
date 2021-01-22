@@ -4,6 +4,14 @@
 .bg-gray {
   background-color: $gray-light;
 }
+.bg-gray-light {
+  background-color: lighten($gray6, 43%);
+}
+.border-right {
+  &.border-right-dark {
+    border-color: darken($border-default-color, 2%) !important;
+  }
+}
 .badge {
   &.badge-pill {
     &.badge-outline-red {
@@ -271,9 +279,25 @@
       }
     }
   }
+  &.auto-width {
+    .tooltip-inner {
+      max-width: unset;
+      width: auto;
+    }
+  }
 }
 
 table {
+  &.cellpading-5 {
+    th, td {
+      padding: 5px;
+    }
+  }
+  &.cellpading-10 {
+    th, td {
+      padding: 10px;
+    }
+  }
   &.boxed-table {
     width: 100%;
     td,

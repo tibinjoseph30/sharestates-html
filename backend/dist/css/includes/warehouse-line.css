@@ -25,57 +25,67 @@
   background-color: #ecf0f3;
 }
 
-/* line 9, ../../scss/includes/warehouse-line.scss */
+/* line 7, ../../scss/includes/warehouse-line.scss */
+.bg-gray-light {
+  background-color: #edf1f5;
+}
+
+/* line 11, ../../scss/includes/warehouse-line.scss */
+.border-right.border-right-dark {
+  border-color: #d8d8d8 !important;
+}
+
+/* line 17, ../../scss/includes/warehouse-line.scss */
 .badge.badge-pill.badge-outline-red {
   border-color: #ff4040;
   color: #ff4040;
   border: 1px solid;
 }
-/* line 14, ../../scss/includes/warehouse-line.scss */
+/* line 22, ../../scss/includes/warehouse-line.scss */
 .badge.badge-pill.badge-outline-green {
   border-color: #2d9506;
   color: #2d9506;
   border: 1px solid;
 }
-/* line 19, ../../scss/includes/warehouse-line.scss */
+/* line 27, ../../scss/includes/warehouse-line.scss */
 .badge.badge-pill.badge-switch {
   min-width: 40px;
 }
 
-/* line 27, ../../scss/includes/warehouse-line.scss */
+/* line 35, ../../scss/includes/warehouse-line.scss */
 .whl-body .owl-carousel.wh-generate-distribution-slider .box-header {
   background-color: rgba(46, 87, 136, 0.1);
   color: #2e5788;
 }
-/* line 33, ../../scss/includes/warehouse-line.scss */
+/* line 41, ../../scss/includes/warehouse-line.scss */
 .whl-body .owl-carousel.wh-generated-distribution-slider .box-header {
   background-color: rgba(45, 149, 6, 0.1);
   color: #2d9506;
 }
-/* line 41, ../../scss/includes/warehouse-line.scss */
+/* line 49, ../../scss/includes/warehouse-line.scss */
 .whl-body .owl-carousel.wh-generate-distribution-slider .slide-item.box-item, .whl-body .owl-carousel.wh-generated-distribution-slider .slide-item.box-item {
   border: 1px solid #bec6d0;
 }
-/* line 43, ../../scss/includes/warehouse-line.scss */
+/* line 51, ../../scss/includes/warehouse-line.scss */
 .whl-body .owl-carousel.wh-generate-distribution-slider .slide-item.box-item .box-header, .whl-body .owl-carousel.wh-generated-distribution-slider .slide-item.box-item .box-header {
   padding: 0.5rem;
   text-align: center;
   font-weight: 600;
 }
-/* line 51, ../../scss/includes/warehouse-line.scss */
+/* line 59, ../../scss/includes/warehouse-line.scss */
 .whl-body .owl-carousel.wh-generate-distribution-slider .owl-nav button, .whl-body .owl-carousel.wh-generated-distribution-slider .owl-nav button {
   font-size: 22px;
   outline: none;
 }
-/* line 54, ../../scss/includes/warehouse-line.scss */
+/* line 62, ../../scss/includes/warehouse-line.scss */
 .whl-body .owl-carousel.wh-generate-distribution-slider .owl-nav button.owl-next, .whl-body .owl-carousel.wh-generated-distribution-slider .owl-nav button.owl-next {
   float: right;
 }
-/* line 57, ../../scss/includes/warehouse-line.scss */
+/* line 65, ../../scss/includes/warehouse-line.scss */
 .whl-body .owl-carousel.wh-generate-distribution-slider .owl-nav button.disabled, .whl-body .owl-carousel.wh-generated-distribution-slider .owl-nav button.disabled {
   opacity: 0.5;
 }
-/* line 64, ../../scss/includes/warehouse-line.scss */
+/* line 72, ../../scss/includes/warehouse-line.scss */
 .whl-body .text-icon {
   border: 1px solid;
   width: 15px;
@@ -88,52 +98,52 @@
   font-size: 11px;
   font-weight: normal;
 }
-/* line 75, ../../scss/includes/warehouse-line.scss */
+/* line 83, ../../scss/includes/warehouse-line.scss */
 .whl-body .text-icon.green {
   border-color: #2d9506;
   color: #2d9506;
   background-color: rgba(45, 149, 6, 0.1);
 }
-/* line 79, ../../scss/includes/warehouse-line.scss */
+/* line 87, ../../scss/includes/warehouse-line.scss */
 .whl-body .text-icon.green.fill {
   background-color: #2d9506;
   color: #fff;
 }
-/* line 84, ../../scss/includes/warehouse-line.scss */
+/* line 92, ../../scss/includes/warehouse-line.scss */
 .whl-body .text-icon.orange {
   border-color: #f59522;
   color: #f59522;
   background-color: rgba(245, 149, 34, 0.1);
 }
 @media (min-width: 1280px) {
-  /* line 90, ../../scss/includes/warehouse-line.scss */
+  /* line 98, ../../scss/includes/warehouse-line.scss */
   .whl-body .tab-panel-top {
     display: flex;
     align-items: center;
   }
 }
-/* line 95, ../../scss/includes/warehouse-line.scss */
+/* line 103, ../../scss/includes/warehouse-line.scss */
 .whl-body .tab-panel-top .text-group-inline {
   display: flex;
   margin-top: 1rem;
 }
 @media (min-width: 1280px) {
-  /* line 95, ../../scss/includes/warehouse-line.scss */
+  /* line 103, ../../scss/includes/warehouse-line.scss */
   .whl-body .tab-panel-top .text-group-inline {
     margin-top: 0;
   }
 }
-/* line 101, ../../scss/includes/warehouse-line.scss */
+/* line 109, ../../scss/includes/warehouse-line.scss */
 .whl-body .tab-panel-top .text-group-inline li {
   position: relative;
 }
 @media (max-width: 991px) {
-  /* line 103, ../../scss/includes/warehouse-line.scss */
+  /* line 111, ../../scss/includes/warehouse-line.scss */
   .whl-body .tab-panel-top .text-group-inline li::after {
     content: none !important;
   }
 }
-/* line 109, ../../scss/includes/warehouse-line.scss */
+/* line 117, ../../scss/includes/warehouse-line.scss */
 .whl-body .tab-panel-top .text-group-inline li:not(:last-child)::after {
   content: "";
   width: 1px;
@@ -142,34 +152,34 @@
   display: inline-flex;
   margin: 0 10px;
 }
-/* line 121, ../../scss/includes/warehouse-line.scss */
+/* line 129, ../../scss/includes/warehouse-line.scss */
 .whl-body .distribution-block {
   padding: 1rem;
 }
-/* line 129, ../../scss/includes/warehouse-line.scss */
+/* line 137, ../../scss/includes/warehouse-line.scss */
 .whl-body table.whl-table td .ss-custom-checkbox label,
 .whl-body table.whl-table th .ss-custom-checkbox label {
   margin-bottom: 0;
 }
-/* line 137, ../../scss/includes/warehouse-line.scss */
+/* line 145, ../../scss/includes/warehouse-line.scss */
 .whl-body table.whl-table td.action-buttons a.btn-link {
   text-decoration: none;
   padding: 0;
 }
-/* line 140, ../../scss/includes/warehouse-line.scss */
+/* line 148, ../../scss/includes/warehouse-line.scss */
 .whl-body table.whl-table td.action-buttons a.btn-link i {
   font-size: 17px;
 }
 
-/* line 152, ../../scss/includes/warehouse-line.scss */
+/* line 160, ../../scss/includes/warehouse-line.scss */
 .nav-pills.custom-btn-tabs {
   border: none;
 }
-/* line 155, ../../scss/includes/warehouse-line.scss */
+/* line 163, ../../scss/includes/warehouse-line.scss */
 .nav-pills.custom-btn-tabs .nav-item:not(:first-child) {
   margin-left: 0.75rem;
 }
-/* line 158, ../../scss/includes/warehouse-line.scss */
+/* line 166, ../../scss/includes/warehouse-line.scss */
 .nav-pills.custom-btn-tabs .nav-item .nav-link {
   background-color: rgba(46, 87, 136, 0.2);
   color: #2e5788;
@@ -179,7 +189,7 @@
   -ms-border-radius: 6px;
   border-radius: 6px;
 }
-/* line 163, ../../scss/includes/warehouse-line.scss */
+/* line 171, ../../scss/includes/warehouse-line.scss */
 .nav-pills.custom-btn-tabs .nav-item .nav-link.active {
   background: #2e5788;
   color: #fff;
@@ -189,11 +199,11 @@
   background: linear-gradient(to right, #386fb0 0%, #2e5788 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#386fb0', endColorstr='#22528b', GradientType=1);
 }
-/* line 189, ../../scss/includes/warehouse-line.scss */
+/* line 197, ../../scss/includes/warehouse-line.scss */
 .nav-pills.secondary-outline-tag-pills li {
   margin: 0.125rem 0.25rem 0.125rem 0;
 }
-/* line 191, ../../scss/includes/warehouse-line.scss */
+/* line 199, ../../scss/includes/warehouse-line.scss */
 .nav-pills.secondary-outline-tag-pills li a {
   border: 1px solid;
   -webkit-border-radius: 6px;
@@ -211,120 +221,133 @@
   font-size: 13px;
   padding: 0.4rem;
 }
-/* line 204, ../../scss/includes/warehouse-line.scss */
+/* line 212, ../../scss/includes/warehouse-line.scss */
 .nav-pills.secondary-outline-tag-pills li a.selected {
   background-color: #57c832;
   border-color: #57c832;
   color: #fff;
 }
-/* line 209, ../../scss/includes/warehouse-line.scss */
+/* line 217, ../../scss/includes/warehouse-line.scss */
 .nav-pills.secondary-outline-tag-pills li a.orange {
   background-color: #f59522;
   border-color: #f59522;
   color: #fff;
 }
-/* line 214, ../../scss/includes/warehouse-line.scss */
+/* line 222, ../../scss/includes/warehouse-line.scss */
 .nav-pills.secondary-outline-tag-pills li a.purple {
   background-color: #280b7d;
   border-color: #280b7d;
   color: #fff;
 }
-/* line 219, ../../scss/includes/warehouse-line.scss */
+/* line 227, ../../scss/includes/warehouse-line.scss */
 .nav-pills.secondary-outline-tag-pills li a.light-grey {
   background-color: #8291a7;
   border-color: #8291a7;
   color: #fff;
 }
 
-/* line 231, ../../scss/includes/warehouse-line.scss */
+/* line 239, ../../scss/includes/warehouse-line.scss */
 .tooltip.green .tooltip-inner {
   border-color: #08af29;
   color: #08af29;
 }
-/* line 236, ../../scss/includes/warehouse-line.scss */
+/* line 244, ../../scss/includes/warehouse-line.scss */
 .tooltip.green .arrow::before {
   border-color: #08af29 !important;
 }
-/* line 242, ../../scss/includes/warehouse-line.scss */
+/* line 250, ../../scss/includes/warehouse-line.scss */
 .tooltip.orange .tooltip-inner {
   border-color: #f59522;
   color: #f59522;
 }
-/* line 247, ../../scss/includes/warehouse-line.scss */
+/* line 255, ../../scss/includes/warehouse-line.scss */
 .tooltip.orange .arrow::before {
   border-color: #f59522 !important;
 }
-/* line 253, ../../scss/includes/warehouse-line.scss */
+/* line 261, ../../scss/includes/warehouse-line.scss */
 .tooltip.boxed .tooltip-inner {
   max-width: unset;
   padding: 0;
 }
-/* line 258, ../../scss/includes/warehouse-line.scss */
+/* line 266, ../../scss/includes/warehouse-line.scss */
 .tooltip.boxed .tooltip-inner table.boxed-table th,
 .tooltip.boxed .tooltip-inner table.boxed-table td {
   font-size: 11px !important;
 }
-/* line 264, ../../scss/includes/warehouse-line.scss */
+/* line 272, ../../scss/includes/warehouse-line.scss */
 .tooltip.boxed .tooltip-inner table.boxed-table tr.grand-total td {
   font-size: 13px !important;
   font-weight: 500 !important;
 }
+/* line 283, ../../scss/includes/warehouse-line.scss */
+.tooltip.auto-width .tooltip-inner {
+  max-width: unset;
+  width: auto;
+}
 
-/* line 277, ../../scss/includes/warehouse-line.scss */
+/* line 292, ../../scss/includes/warehouse-line.scss */
+table.cellpading-5 th, table.cellpading-5 td {
+  padding: 5px;
+}
+/* line 297, ../../scss/includes/warehouse-line.scss */
+table.cellpading-10 th, table.cellpading-10 td {
+  padding: 10px;
+}
+/* line 301, ../../scss/includes/warehouse-line.scss */
 table.boxed-table {
   width: 100%;
 }
-/* line 279, ../../scss/includes/warehouse-line.scss */
+/* line 303, ../../scss/includes/warehouse-line.scss */
 table.boxed-table td,
 table.boxed-table th {
   font-size: 13px !important;
   padding: 0.25rem;
   border: 1px solid #dee2e6;
 }
-/* line 284, ../../scss/includes/warehouse-line.scss */
+/* line 308, ../../scss/includes/warehouse-line.scss */
 table.boxed-table td:first-child,
 table.boxed-table th:first-child {
   border-left: 0;
 }
-/* line 287, ../../scss/includes/warehouse-line.scss */
+/* line 311, ../../scss/includes/warehouse-line.scss */
 table.boxed-table td:last-child,
 table.boxed-table th:last-child {
   border-right: 0;
 }
-/* line 291, ../../scss/includes/warehouse-line.scss */
+/* line 315, ../../scss/includes/warehouse-line.scss */
 table.boxed-table th {
   border-top: 0;
 }
-/* line 295, ../../scss/includes/warehouse-line.scss */
+/* line 319, ../../scss/includes/warehouse-line.scss */
 table.boxed-table td span {
   line-height: 13px;
 }
-/* line 302, ../../scss/includes/warehouse-line.scss */
+/* line 326, ../../scss/includes/warehouse-line.scss */
 table.boxed-table tbody tr:last-child td {
   border-bottom: 0;
 }
-/* line 307, ../../scss/includes/warehouse-line.scss */
+/* line 331, ../../scss/includes/warehouse-line.scss */
 table.boxed-table tbody tr.grand-total td {
   font-weight: 600 !important;
   font-size: 14px !important;
 }
-/* line 313, ../../scss/includes/warehouse-line.scss */
+/* line 337, ../../scss/includes/warehouse-line.scss */
 table.boxed-table tbody tr td:not(:first-child) {
   font-weight: 500;
 }
-/* line 323, ../../scss/includes/warehouse-line.scss */
+/* line 347, ../../scss/includes/warehouse-line.scss */
 table.whl-distribution-table tr:first-child td {
   border-top: 0;
 }
-/* line 328, ../../scss/includes/warehouse-line.scss */
+/* line 352, ../../scss/includes/warehouse-line.scss */
 table.whl-distribution-table th {
   border-bottom: 0;
 }
-/* line 331, ../../scss/includes/warehouse-line.scss */
+/* line 355, ../../scss/includes/warehouse-line.scss */
 table.whl-distribution-table td {
   background-color: #f7f7f7;
 }
-/* line 334, ../../scss/includes/warehouse-line.scss */
+/* line 358, ../../scss/includes/warehouse-line.scss */
 table.whl-distribution-table td.operator .operators-block {
   position: absolute;
   top: 0;
@@ -339,31 +362,31 @@ table.whl-distribution-table td.operator .operators-block {
   z-index: 1;
   user-select: none;
 }
-/* line 347, ../../scss/includes/warehouse-line.scss */
+/* line 371, ../../scss/includes/warehouse-line.scss */
 table.whl-distribution-table td.operator .operators-block span {
   font-size: 18px;
   font-weight: 500;
 }
-/* line 356, ../../scss/includes/warehouse-line.scss */
+/* line 380, ../../scss/includes/warehouse-line.scss */
 table.whl-distribution-table td.operator,
 table.whl-distribution-table th.operator {
   padding-right: 2rem;
 }
-/* line 358, ../../scss/includes/warehouse-line.scss */
+/* line 382, ../../scss/includes/warehouse-line.scss */
 table.whl-distribution-table td.operator + td, table.whl-distribution-table td.operator + th,
 table.whl-distribution-table th.operator + td,
 table.whl-distribution-table th.operator + th {
   padding-left: 2rem;
 }
 
-/* line 370, ../../scss/includes/warehouse-line.scss */
+/* line 394, ../../scss/includes/warehouse-line.scss */
 .search-block button.btn.grey {
   background: #8291a7;
   border-color: #8291a7;
   color: #fff;
 }
 
-/* line 382, ../../scss/includes/warehouse-line.scss */
+/* line 406, ../../scss/includes/warehouse-line.scss */
 body.ss-blue ul.wysihtml5-toolbar {
   background-color: #f7f7f7;
   color: #a2a2a2;
@@ -373,37 +396,37 @@ body.ss-blue ul.wysihtml5-toolbar {
   -ms-border-radius: 0;
   border-radius: 0;
 }
-/* line 388, ../../scss/includes/warehouse-line.scss */
+/* line 412, ../../scss/includes/warehouse-line.scss */
 body.ss-blue ul.wysihtml5-toolbar a.btn {
   padding: 0.75rem;
 }
-/* line 390, ../../scss/includes/warehouse-line.scss */
+/* line 414, ../../scss/includes/warehouse-line.scss */
 body.ss-blue ul.wysihtml5-toolbar a.btn:hover {
   color: #6f6f6f;
 }
-/* line 393, ../../scss/includes/warehouse-line.scss */
+/* line 417, ../../scss/includes/warehouse-line.scss */
 body.ss-blue ul.wysihtml5-toolbar a.btn.wysihtml5-command-active {
   color: #2e5788;
 }
 @media (min-width: 1600px) {
-  /* line 388, ../../scss/includes/warehouse-line.scss */
+  /* line 412, ../../scss/includes/warehouse-line.scss */
   body.ss-blue ul.wysihtml5-toolbar a.btn {
     padding: 0.75rem 1rem;
   }
 }
-/* line 404, ../../scss/includes/warehouse-line.scss */
+/* line 428, ../../scss/includes/warehouse-line.scss */
 body.ss-blue ul.list-group.boxed .list-group-item {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   border-radius: 0;
 }
-/* line 408, ../../scss/includes/warehouse-line.scss */
+/* line 432, ../../scss/includes/warehouse-line.scss */
 body.ss-blue ul.list-group.contained {
   border: 1px solid;
   border-color: #bbbbbb;
 }
-/* line 411, ../../scss/includes/warehouse-line.scss */
+/* line 435, ../../scss/includes/warehouse-line.scss */
 body.ss-blue ul.list-group.contained .list-group-item {
   border-left: 0;
   border-right: 0;
@@ -411,11 +434,11 @@ body.ss-blue ul.list-group.contained .list-group-item {
   border-top: 0;
   z-index: 1;
 }
-/* line 417, ../../scss/includes/warehouse-line.scss */
+/* line 441, ../../scss/includes/warehouse-line.scss */
 body.ss-blue ul.list-group.contained .list-group-item:not(:first-child) {
   border-top: 1px solid #dee2e6;
 }
-/* line 424, ../../scss/includes/warehouse-line.scss */
+/* line 448, ../../scss/includes/warehouse-line.scss */
 body.ss-blue .wysihtml5-sandbox {
   border-color: #bbbbbb !important;
   border-top-width: 0 !important;
@@ -425,22 +448,22 @@ body.ss-blue .wysihtml5-sandbox {
   border-radius: 0 !important;
   min-height: 200px;
 }
-/* line 430, ../../scss/includes/warehouse-line.scss */
+/* line 454, ../../scss/includes/warehouse-line.scss */
 body.ss-blue .card-board {
   padding: 1rem;
   border: 1px solid #bbbbbb;
 }
-/* line 436, ../../scss/includes/warehouse-line.scss */
+/* line 460, ../../scss/includes/warehouse-line.scss */
 body.ss-blue table.plain td {
   border: 0;
   padding: 0.25rem;
   font-size: 14px !important;
 }
-/* line 440, ../../scss/includes/warehouse-line.scss */
+/* line 464, ../../scss/includes/warehouse-line.scss */
 body.ss-blue table.plain td .icon-block {
   width: 50px;
 }
-/* line 442, ../../scss/includes/warehouse-line.scss */
+/* line 466, ../../scss/includes/warehouse-line.scss */
 body.ss-blue table.plain td .icon-block img {
   width: 30px;
 }

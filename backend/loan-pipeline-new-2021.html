@@ -1790,15 +1790,293 @@
                                                     <div class="card-body">
                                                         <h6 class="fw-500 mb-lg-3 mb-4">Please select Compensating Factors for the highlighted Exceptions</h6>
                                                         <div class="row mt-4">
-                                                            <div class="col-lg-8">
-                                                                
+                                                            <div class="col-xl-8 col-lg-9 mx-auto">
+                    <div class="">
+                        <table class="table table-bordered thead-bg-dark-grey">
+                            <thead>
+                                <tr>
+                                    <th>Exceptions</th>
+                                    <th>Compensating Factors</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="exceptions selected">
+                                        <div class="d-flex align-items-center">
+                                            <div class="d-flex align-items-center">
+                                                Low FICO <span class="ti-info-alt text-gray ml-2"></span>
+                                            </div>
+                                            <div class="d-flex figure-exception ml-auto">
+                                                <img src="../assets/images/loan-pipeline/svg/check-bg-green.svg" width="20" alt="">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <select class="selectpicker textpicker show-tick-success" title="--Select Compensating Factors--" multiple data-selected-text-format="count > 2">
+                                            <option data-content="<span class='contained'>High FICO</span>">High FICO</option>
+                                            <option data-content="<span class='contained'>Excess Liquidity</span>">Excess Liquidity</option>
+                                            <option data-content="<span class='contained'>Extensive Track Record</span>">Extensive Track Record</option>
+                                            <option data-content="<span class='contained'>Low Leverage</span>">Low Leverage</option>
+                                            <option data-content="<span class='contained'>Interest Reserves</span>" selected>Interest Reserves</option>
+                                            <option data-content="<span class='contained'>High Interest Rate</span>">High Interest Rate</option>
+                                            <option data-content="<span class='contained'>High DSCR</span>">High DSCR</option>
+                                            <option data-content="<span class='contained'>Investor Preapproved</span>" selected>Investor Preapproved</option>
+                                            <option data-content="<span class='contained'>Platform Approved</span>">Platform Approved</option>
+                                        </select> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="exceptions">
+                                        <div class="d-flex align-items-center">
+                                            <div class="d-flex align-items-center">
+                                                Low Liquidity <span class="ti-info-alt text-gray ml-2"></span>
+                                            </div>
+                                            <div class="d-flex figure-exception ml-auto">
+                                                <img src="../assets/images/loan-pipeline/svg/check-bg-green.svg" width="20" alt="">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <select class="selectpicker textpicker show-tick-success" title="--Select Compensating Factors--" multiple data-selected-text-format="count > 2">
+                                            <option data-content="<span class='contained'>High FICO</span>">High FICO</option>
+                                            <option data-content="<span class='contained'>Excess Liquidity</span>">Excess Liquidity</option>
+                                            <option data-content="<span class='contained'>Extensive Track Record</span>">Extensive Track Record</option>
+                                            <option data-content="<span class='contained'>Low Leverage</span>">Low Leverage</option>
+                                            <option data-content="<span class='contained'>Interest Reserves</span>">Interest Reserves</option>
+                                            <option data-content="<span class='contained'>High Interest Rate</span>">High Interest Rate</option>
+                                            <option data-content="<span class='contained'>High DSCR</span>">High DSCR</option>
+                                            <option data-content="<span class='contained'>Investor Preapproved</span>">Investor Preapproved</option>
+                                            <option data-content="<span class='contained'>Platform Approved</span>">Platform Approved</option>
+                                        </select> 
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                                                             </div>
+                                                        </div>
+                                                        <hr/>
+                                                        <div class="d-flex justify-content-end mt-4">
+                                                            <button type="button" class="btn btn-outline-primary mr-2">Next</button>
+                                                            <button type="button" class="btn btn-Orange">Save &amp; Submit</button>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane" id="uwFundingConditions" role="tabpanel">
                                                     <div class="card-body">
-                                                        Funding Conditions here..
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+        <div class="access-collpase funding_approve" id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                <a class="btn btn-link p-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h4 class="card-title d-flex align-items-center mb-0">
+                        Collect at Closing Docs<span class="ml-2"><img src="../assets/images/loan-pipeline/svg/circle-check-green.svg" width="22" alt=""></span>
+                    </h4>
+                </a>
+                </div>
+            
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    lorem ipsum..
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                <a class="btn btn-link p-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h4 class="card-title d-flex align-items-center mb-0">
+                        Loan Docs Required<span class="ml-2"><img src="../assets/images/loan-pipeline/svg/circle-ellips-orange.svg" width="22" alt=""></span>
+                    </h4>
+                </a>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    lorem ipsum..
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                <a class="btn btn-link p-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <h4 class="card-title mb-0">
+                        Wiring Details
+                    </h4>
+                </a>
+                </div>
+                <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <div class="card bg-gray-light">
+                        <div class="row m-0">
+                            <div class="col-lg-3 p-3 border-right border-right-dark">
+                            <h6>Borrower Entity:</h6>
+                            <h5 class="mb-0 fw-500">Paterson Fund 1 LLC</h5>
+                            </div>
+                            <div class="col-lg-3 p-3 border-right border-right-dark">
+                            <h6>Settlement Agent:</h6>
+                            <h5 class="mb-0 fw-500">ABC, LLC</h5>
+                            </div>
+                            <div class="col-lg-3 p-3 border-right border-right-dark">
+                            <h6>Guarantor(s):</h6>
+                            <h5 class="mb-0 fw-500">Matthew Florio</h5>
+                            </div>
+                            <div class="col-lg-3 p-3">
+                            <h6>Closing Date:</h6>
+                            <h5 class="mb-0 fw-500">12/05/2020</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-lg-flex align-items-center">
+                        <div class="d-flex">
+                        <h1 class="display-5 fw-500 mb-0">Amount to be Wired: <span class="fw-600 ml-1">$5,35,806.50</span></h1>
+                        <span class="ml-3" style="margin-top:12px;"><img src="../assets/images/loan-pipeline/wired-percentage.png" alt=""></span>
+                        </div>
+                        <button class="btn btn-primary ml-auto mt-lg-0 mt-2">
+                            <img src="../assets/images/loan-pipeline/svg/calculator-white.svg" alt="" width="20">
+                        </button>
+                    </div>
+                    <hr/>
+                    <div class="d-lg-flex justify-content-between mt-5">
+                    <div class="card card-default flex-grow-1">
+                        <div class="card-body border-0">
+                            <div class="d-flex align-items-center justify-content-center flex-xl-row flex-column text-xl-left text-center h-100">
+                                <div>
+                                    <h6 class="font-13 mb-3">Total<br/>Loan Amount:</h6>
+                                    <h6 class="mb-0 fw-600">$34,29,000.00</h6>
+                                </div>
+                                <div>
+                                    <h3 class="mb-0 text-gray fw-500 mx-xl-4 mx-2">-</h3>
+                                </div>
+                                <div>
+                                    <h6 class="font-13 mb-3">Rehab Funds<br/>Withhead at Closing:</h6>
+                                    <h6 class="mb-0 text-orange fw-600">$26,42,000.00</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center m-b-20">
+                        <h3 class="mb-0 text-gray fw-500 mx-xl-4 mx-2">=</h3>
+                    </div>
+                    <div class="card card-default flex-grow-1">
+                        <div class="card-body border-0">
+                            <div class="d-flex align-items-center justify-content-center flex-xl-row flex-column text-xl-left text-center h-100">
+                                <div>
+                                    <h6 class="font-13 mb-3">Refinance Loan<br/>Disb. at Closing:</h6>
+                                    <h6 class="mb-0 fw-600">$7,87,000.00</h6>
+                                </div>
+                                <div>
+                                    <h3 class="mb-0 text-gray fw-500 mx-xl-4 mx-2">-</h3>
+                                </div>
+                                <div>
+                                    <h6 class="font-13 mb-3">Interest<br/>Reserve:</h6>
+                                    <h6 class="mb-0 text-orange fw-600">$1,00,000.00</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center m-b-20">
+                        <h3 class="mb-0 text-gray fw-500 mx-xl-4 mx-2">-</h3>
+                    </div>
+                    <div class="card card-default flex-grow-1">
+                        <div class="card-body border-0">
+                            <div class="d-flex align-items-center justify-content-center flex-xl-row flex-column text-xl-left text-center h-100">
+                                <div>
+                                    <h6 class="font-13 mb-3">Broker Origination<br/>Fees:</h6>
+                                    <h6 class="mb-0 text-orange fw-600">$34,290.00<br/><small>(1.00%)</small></h6>
+                                </div>
+                                <div>
+                                    <h3 class="mb-0 text-gray fw-500 mx-xl-4 mx-2">+</h3>
+                                </div>
+                                <div>
+                                    <h6 class="font-13 mb-3">Loan Fees:</h6>
+                                    <h6 class="mb-0 text-orange fw-600">$1,16,903.50 <span class="ti-info-alt text-primary font-12 ml-1 tooltip-auto-width" data-toggle="tooltip" data-html="true" title="" data-original-title="<table class='table-striped cellpading-10'><tbody>
+                                        <tr>
+                                            <td>Sharestates Origination Fee:</td>
+                                            <td align='right' class='fw-500'>3.00%<span class='ml-1'>($1,02,870.00)</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Loan Flood Certification Fee:</td>
+                                            <td align='right' class='fw-500'>$11.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Credit Report Fee:</td>
+                                            <td align='right' class='fw-500'>$13.50</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Assignment Fee:</td>
+                                            <td align='right' class='fw-500'>$150.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>UW Fee:</td>
+                                            <td align='right' class='fw-500'>$350.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Appraisal Fee:</td>
+                                            <td align='right' class='fw-500'>$8,000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Per Diem Interest:<br/><small>(Based on Cloing Date of 12/10/2020)</small></td>
+                                            <td align='right' class='fw-500'>$5,509.00</td>
+                                        </tr>
+                                    </tbody></table>"></span></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center m-b-20">
+                        <h3 class="mb-0 text-gray fw-500 mx-xl-4 mx-2">=</h3>
+                    </div>
+                    <div class="card card-default flex-grow-1 bg-gray-light">
+                        <div class="card-body border-0">
+                            <div class="d-flex align-items-center justify-content-center flex-xl-row flex-column text-xl-left text-center h-100">
+                                <div>
+                                    <h6 class="font-13 mb-3">Net Wire Amount:</h6>
+                                    <h4 class="mb-0 fw-600">$5,35,806.50</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div class="d-flex justify-content-end">
+                    <h6 class="mb-0 font-11">Added by<span class="fw-500 mx-1">John Doe</span>on<span class="fw-500 ml-1">12/01/2020</span></h6>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-3">
+                        <div class="form-group">
+                            <label for="" class="control-label">Amount Wired On:</label>
+                            <div class="input-group mn-w-200">
+                                <input type="text" class="form-control mydatepicker" placeholder="--Select Date--">
+                                <div class="input-group-append">
+                                    <span class="input-group-text text-primary"><i class="fa fa-calendar"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="form-group">
+                            <label for="" class="control-labe">Fed Ref. #:</label>
+                            <input type="text" class="form-control" value="12345"/>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="form-group">
+                            <label for="" class="control-labe">Recipient's Bank Account #:</label>
+                            <input type="text" class="form-control" value="******2896"/>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+            </div>
+                                                            </div>
+                                                        </div>
+                                                        <hr/>
+                                                        <div class="d-flex justify-content-end mt-4">
+                                                            <button type="button" class="btn btn-outline-primary mr-2">Next</button>
+                                                            <button type="button" class="btn btn-Orange">Save</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane" id="uwFees" role="tabpanel">
@@ -2413,34 +2691,22 @@
         $(document).ready(function () {
 
             // tooltip color changes
-            function changeTooltipColorTo(color) {
-                $('.tooltip-inner').css({
-                    "color": color,
-                    "max-width": "299px",
-                    "text-align": " left",
-                    "border-color": color,
-                    "box-shadow": "0 2px 4px 0 rgba(0,0,0,0.10)"
-                });
-                $('<style type="text/css">.tooltip.bs-tooltip-auto[x-placement^=left] .arrow::before, .tooltip.tooltip.bs-tooltip-top .arrow::before {border-top-color: ' +
-                    color + '; border-top-color: ' + color + '}</style>').appendTo($('head'));
-            }
-
-            function changeTooltiptextColorTo(textcolor) {
-                $('.tooltip-inner').css({
-                    "color": '#2e5788'
-                });
-            }
-
-            $('[data-toggle="tooltip"]').tooltip();
-
-            $('.tooltip-primary').hover(function () {
-                changeTooltipColorTo('#e7e7e7')
+        function tooltipCustomClass(className) {
+            $('.tooltip').addClass(className);
+        }
+        
+        $(document).ready(function(){
+            $('.tooltip-green').hover(function() {
+                tooltipCustomClass('green');
             });
-
-            $('.tooltip-primary').hover(function () {
-                changeTooltiptextColorTo('#2e5788')
+            $('.tooltip-orange').hover(function() {
+                tooltipCustomClass('orange');
             });
-            // tooltip color changes
+            $('.tooltip-auto-width').hover(function() {
+                tooltipCustomClass('auto-width');
+            });
+        });
+        // tooltip color changes
 
         });
 
